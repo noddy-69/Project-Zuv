@@ -15,6 +15,46 @@ const Nav = ({ className = "" }) => {
           src="/project-zuv.svg"
         />
       </div>
+
+      <div class={styles.phone}>
+          <button class={styles.phoneselect}>Home
+          </button>
+            <button class={styles.phoneselect}>Contents
+            <img
+              className={styles.systemactionarrowDropDownIcon}
+              alt=""
+              src="/24systemactionarrow-drop-down.svg"
+            />
+            </button>
+              <div class={styles.phonecontent}>
+                  <a href="/">Origin</a>
+                  <a href="/oldest-site-in-kashmir">Oldest Site</a>
+                  <a href="/kashmir-the-name">History of Name</a>
+                  <a href="/food-history">History</a>
+                  <a href="/kashmiri-pandit-cuisine">Kashmiri Pandit Cuisine</a>
+              </div>
+
+        </div>
+
+{/* <div class={styles.listphone}>
+                  <a href="#">
+                  <button class={styles.listphoneselect}>Food
+                  <img
+                    className={styles.systemactionarrowDropDownIcon}
+                    alt=""
+                    src="/24systemactionarrow-drop-down.svg"
+                  />
+                  </button>
+                    <div class={styles.listphonecontent}>
+                        <a href="#">History&Origin</a>
+                        <a href="#">Food</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    History&Origin
+                  </a>
+                </div> */}
+
+
       <div className={styles.pageContent}>
         <div className={styles.dropdownMenu}>
         <button class={styles.select}>Home
@@ -106,6 +146,8 @@ const Nav = ({ className = "" }) => {
       <div className={styles.donationButton}>
         <a className={styles.donateNow}>Donate Now</a>
       </div>
+
+      
     </header>
   );
 };

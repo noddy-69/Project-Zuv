@@ -226,17 +226,173 @@
   color: var(--white);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 750px) {
-  .nav {
-    padding-left: var(--padding-12xl);
-    padding-right: var(--padding-11xl);
+
+
+
+
+
+
+
+
+.phone {
+  position: relative;
+  display: none;
+  height: 100%;
+  align-items: center; /* Center content vertically */
+  justify-content: center;
+  gap: 10px;
+  margin-right: var(--margin-5xs);
+}
+
+.phoneselect {
+  background-color: #5d3b2f;
+  color: white;
+  padding: 10;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: Inter;
+  font-weight: 700;
+  max-height: 100%; /* Ensure content does not exceed the height of the outer div */ /* Add scroll if content overflows */
+  box-sizing: border-box;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.phoneselect:hover {
+  background-color: #ffbb5c;
+  color: rgb(0, 0, 0);
+}
+
+.phonecontent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 5px;
+  width: 450px;
+}
+
+.phonecontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.phonecontent a:hover {
+  background-color: #f1f1f1;
+}
+
+.phone:hover .phonecontent {
+  height: 150px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+.listphone {
+  position: relative;
+  display: none;
+  height: 100%;
+  align-items: center; /* Center content vertically */
+  justify-content: center;
+}
+
+.listphoneselect {
+  background-color: #5d3b2f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 700;
+  max-height: 100%; /* Ensure content does not exceed the height of the outer div */ /* Add scroll if content overflows */
+  box-sizing: border-box;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.listphoneselect:hover {
+  background-color: #ffbb5c;
+  color: rgb(0, 0, 0);
+}
+
+.listphonecontent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 5px;
+  width: 450px;
+}
+
+.listphonecontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.listphonecontent a:hover {
+  background-color: #f1f1f1;
+}
+
+.listphone:hover .listphonecontent {
+  height: 150px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+  
+@media screen and (max-width: 1200px) {
+  .dropdownMenu {
+    padding-left: var(--padding-4xs-2);
+    padding-right: var(--padding-4xs-2);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 1200px) {
   .dropdownMenu {
-    gap: var(--gap-base);
+    display: None;
+    gap: var(--gap-xl);
   }
+  .projectZuvIcon{
+    height:15px;
+  }
+  .donationButton{
+    height: 30px;
+    width: 100px;
+    font-size: 12px;
+    padding: 10px;
+  }
+  .donateNow{
+    size: 0.1em;
+    line-height: 10px;
+    width: fit-content;
+  }
+  .phone,.phoneselect{
+    display: flex;
+  }
+  .nav {
+    justify-content:  center;
+    padding: 10px;
+    gap: 0;
+  }
+
 }
 
 

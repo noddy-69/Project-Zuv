@@ -99,4 +99,6 @@ body {
   --br-xs: 12px;
   --br-5xl: 24px;
   --br-base: 16px;
+
+  --margin-5xs: 2px;
 }
