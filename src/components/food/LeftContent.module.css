@@ -1,0 +1,140 @@
+.titleHere {
+  margin: 0;
+  width: 282px;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.titleHereWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.contentRectIcon,
+.inManyCultures {
+  align-self: stretch;
+  position: relative;
+}
+.inManyCultures {
+  line-height: 24px;
+}
+.contentRectIcon {
+  height: 506px;
+  border-radius: var(--br-5xl);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.riceCulture {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.inThePurana,
+.someItemsMentioned {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.inThePuranaThereArentConParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs);
+  gap: var(--gap-5xl);
+}
+.inLaterEras,
+.sinceKashmirWas {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.inFoodsMentioned,
+.meatHasAlso {
+  margin: 0;
+}
+.inFoodsMentionedContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.fruitsMention {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs);
+  gap: var(--gap-base);
+}
+.someCommonWaazwan,
+.theIslamicEra {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.theIslamicEraInKashmirIntParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs);
+  gap: var(--gap-base);
+}
+.theBattaKashmiri {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.contentParagraph,
+.leftContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contentParagraph {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.leftContent {
+  width: 1000px;
+  gap: var(--gap-23xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-37xl);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .titleHere {
+    font-size: var(--font-size-26xl);
+    line-height: 64px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .leftContent {
+    gap: var(--gap-2xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .titleHere {
+    font-size: var(--font-size-15xl);
+    line-height: 48px;
+  }
+}

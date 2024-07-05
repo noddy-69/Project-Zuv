@@ -1,0 +1,83 @@
+.emailIcon {
+  width: 440px;
+  position: relative;
+  border-radius: var(--br-base);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.sheerChai {
+  margin: 0;
+  width: 248px;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.noonChaiOr {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+}
+.dishItems,
+.inputFieldrqmlabq {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.inputFieldrqmlabq {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  gap: var(--gap-xs);
+  min-width: 333px;
+}
+.dishItems {
+  align-self: stretch;
+  background-color: var(--white);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-41xl) var(--padding-201xl);
+  gap: var(--gap-29xl);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .emailIcon {
+    flex: 1;
+  }
+  .dishItems {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .sheerChai {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .dishItems {
+    gap: var(--gap-5xl);
+    padding-left: var(--padding-91xl);
+    padding-right: var(--padding-91xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sheerChai {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .dishItems {
+    padding: var(--padding-20xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,121 @@
+.legendsFromOther {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.blankLine,
+.hiuenTsangIn,
+.inTheLater,
+.muslimChroniclersHave {
+  margin: 0;
+}
+.inTheLaterContainer {
+  width: 460px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 460px;
+  max-width: 100%;
+}
+.frameChild {
+  height: 320px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 325px;
+}
+.inTheLaterErasWhenTraveleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+}
+.despiteTheVariances,
+.isItThe {
+  margin: 0;
+}
+.despiteTheVariancesContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.cultureParagraph {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-base);
+}
+.cultureContent,
+.cultureContentWrapper,
+.cultureParagraph {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.cultureContent {
+  width: 1040px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+}
+.cultureContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-101xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-37xl);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .legendsFromOther {
+    font-size: var(--font-size-26xl);
+    line-height: 64px;
+  }
+  .inTheLaterContainer {
+    flex: 1;
+  }
+  .inTheLaterErasWhenTraveleParent {
+    flex-wrap: wrap;
+    gap: var(--gap-21xl);
+  }
+  .cultureContentWrapper {
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .inTheLaterContainer {
+    min-width: 100%;
+  }
+  .inTheLaterErasWhenTraveleParent {
+    gap: var(--gap-xl);
+  }
+  .cultureContent {
+    gap: var(--gap-2xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .legendsFromOther {
+    font-size: var(--font-size-15xl);
+    line-height: 48px;
+  }
+  .cultureContentWrapper {
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}

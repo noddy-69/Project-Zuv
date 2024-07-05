@@ -1,0 +1,92 @@
+.kanngucch {
+  margin: 0;
+  width: 276px;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.blankLine,
+.blankLine1,
+.inKashmiriCooking,
+.popularlyKnownAs,
+.storiesHaveCome {
+  margin: 0;
+}
+.popularlyKnownAsContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+}
+.kanngucchParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 333px;
+  max-width: 100%;
+}
+.frameChild {
+  width: 440px;
+  position: relative;
+  border-radius: var(--br-base);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  background-color: var(--offset-1);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-41xl) var(--padding-201xl);
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .frameChild {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .kanngucch {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: var(--gap-5xl);
+    padding: var(--padding-20xl) var(--padding-91xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .kanngucch {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .frameParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

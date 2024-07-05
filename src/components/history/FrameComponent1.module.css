@@ -1,0 +1,161 @@
+.frameChild {
+  width: 1440px;
+  height: 885px;
+  position: relative;
+  background-color: var(--offset-1);
+  display: none;
+  max-width: 100%;
+}
+.scientificObservancesAbout {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.observationTitle {
+  width: 1020px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.anotherInterestingGeological,
+.blankLine,
+.blankLine1,
+.blankLine2,
+.geologistsAgreeThat,
+.theseKarewasAre {
+  margin: 0;
+}
+.here1 {
+  text-decoration: underline;
+}
+.here {
+  color: inherit;
+}
+.isAnInformative {
+  color: var(--black);
+}
+.hereIsAnInformativeVideoA {
+  margin: 0;
+  color: var(--primary-color);
+}
+.geologistsAgreeThatContainer {
+  align-self: stretch;
+  height: 456px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  z-index: 1;
+}
+.geologistsAgreeThatTheVallWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+  min-width: 400px;
+  max-width: 100%;
+}
+.geologyContentChild {
+  width: 345px;
+  position: relative;
+  border-radius: var(--br-base);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+.geologyContent {
+  width: 1010px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-30xl);
+  max-width: 100%;
+  font-size: var(--font-size-base);
+}
+.originOfKashmirInner,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--offset-1);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-81xl) var(--padding-xl);
+  gap: var(--gap-17xl);
+}
+.originOfKashmirInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-101xl);
+  text-align: left;
+  font-size: var(--font-size-37xl);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .scientificObservancesAbout {
+    font-size: var(--font-size-26xl);
+    line-height: 64px;
+  }
+  .geologyContentChild {
+    flex: 1;
+  }
+  .geologyContent {
+    flex-wrap: wrap;
+  }
+  .rectangleParent {
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+  .originOfKashmirInner {
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .geologistsAgreeThatTheVallWrapper {
+    min-width: 100%;
+  }
+  .geologyContent {
+    gap: var(--gap-5xl);
+  }
+  .rectangleParent {
+    gap: var(--gap-lg);
+  }
+  .originOfKashmirInner {
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .scientificObservancesAbout {
+    font-size: var(--font-size-15xl);
+    line-height: 48px;
+  }
+  .rectangleParent {
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}

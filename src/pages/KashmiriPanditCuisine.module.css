@@ -1,0 +1,406 @@
+.kashmiriPanditCuisine1 {
+  margin: 0;
+  width: 724px;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.cuisineTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 22px 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.dumAloo {
+  margin: 0;
+  width: 217px;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.dumAlooIs {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+}
+.dumAlooParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 333px;
+  max-width: 100%;
+}
+.pgpgpgIcon {
+  width: 440px;
+  position: relative;
+  border-radius: var(--br-base);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.icon {
+  align-self: stretch;
+  background-color: var(--offset-1);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-41xl) var(--padding-201xl);
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.kahwah {
+  width: 192px;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.blankLine,
+.blankLine1,
+.blankLine2,
+.kahwah,
+.theKashmiriKahwah,
+.theWordKahwah,
+.traditionallyKahwahIs,
+.whileItsExact {
+  margin: 0;
+}
+.theKashmiriKahwahContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+}
+.kahwahParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 333px;
+  max-width: 100%;
+}
+.icon1 {
+  width: 440px;
+  position: relative;
+  border-radius: var(--br-base);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.message {
+  align-self: stretch;
+  background-color: var(--offset-1);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-41xl) var(--padding-201xl);
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.yakhni {
+  width: 283px;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.blankLine3,
+.yakhni,
+.yakhniCameTo {
+  margin: 0;
+}
+.alYakhni,
+.and,
+.nadruYakhni,
+.span {
+  font-family: var(--font-inter);
+}
+.yakhnisCanBeMeatBasedSuch {
+  margin: 0;
+}
+.yakhniCameToContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+}
+.divCsseoey {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 333px;
+  max-width: 100%;
+}
+.divCssqlraIcon {
+  width: 440px;
+  position: relative;
+  border-radius: var(--br-base);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.set {
+  align-self: stretch;
+  background-color: var(--offset-1);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-41xl) var(--padding-201xl);
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.katlam {
+  width: 283px;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.blankLine4,
+.katlam,
+.katlamIsOne {
+  margin: 0;
+}
+.kahwah1 {
+  font-family: var(--font-inter);
+}
+.itIsAFlakyRoundPattyLik {
+  margin: 0;
+}
+.katlamIsOneContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+}
+.katlamParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 333px;
+  max-width: 100%;
+}
+.dishItemsChild {
+  width: 440px;
+  position: relative;
+  border-radius: var(--br-base);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.dishItems {
+  background-color: var(--offset-1);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-41xl) var(--padding-201xl);
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+}
+.cuisineTitleParent,
+.dishItems,
+.divCsslnsa {
+  align-self: stretch;
+  max-width: 100%;
+}
+.divCsslnsa {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+}
+.cuisineTitleParent {
+  gap: var(--gap-41xl);
+  text-align: center;
+  font-size: var(--font-size-37xl);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+.content,
+.cuisineTitleParent,
+.kashmiriPanditCuisine {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  padding: 0 0 var(--padding-101xl);
+  box-sizing: border-box;
+  gap: 120px;
+  max-width: 100%;
+}
+.kashmiriPanditCuisine {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .pgpgpgIcon {
+    flex: 1;
+  }
+  .icon {
+    flex-wrap: wrap;
+  }
+  .icon1 {
+    flex: 1;
+  }
+  .message {
+    flex-wrap: wrap;
+  }
+  .divCssqlraIcon {
+    flex: 1;
+  }
+  .set {
+    flex-wrap: wrap;
+  }
+  .dishItemsChild {
+    flex: 1;
+  }
+  .dishItems {
+    flex-wrap: wrap;
+  }
+  .content {
+    padding-bottom: 33px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .kashmiriPanditCuisine1 {
+    font-size: var(--font-size-26xl);
+    line-height: 64px;
+  }
+  .dumAloo,
+  .kahwah,
+  .katlam,
+  .yakhni {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .content {
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .icon {
+    padding-left: var(--padding-91xl);
+    padding-right: var(--padding-91xl);
+  }
+  .dishItems,
+  .icon,
+  .message,
+  .set {
+    gap: var(--gap-5xl);
+    box-sizing: border-box;
+  }
+  .message {
+    padding: var(--padding-20xl) var(--padding-91xl);
+  }
+  .dishItems,
+  .set {
+    padding-left: var(--padding-91xl);
+    padding-right: var(--padding-91xl);
+  }
+  .cuisineTitleParent {
+    gap: var(--gap-11xl);
+  }
+  .content {
+    gap: var(--gap-41xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .kashmiriPanditCuisine1 {
+    font-size: var(--font-size-15xl);
+    line-height: 48px;
+  }
+  .dumAloo {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .icon {
+    padding: var(--padding-20xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .kahwah {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .message {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .yakhni {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .set {
+    padding: var(--padding-20xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .katlam {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .dishItems {
+    padding: var(--padding-20xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .content {
+    gap: var(--gap-11xl);
+  }
+}

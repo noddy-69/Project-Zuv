@@ -1,0 +1,314 @@
+.contentBackground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  align-items: center; /* Center content vertically */
+  justify-content: center;
+  background-color: var(--primary-color);
+}
+.projectZuvIcon {
+  align-self: stretch;
+  height: 30px;
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.projectZuvWrapper {
+  width: 163.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-4xs-2);
+  box-sizing: border-box;
+}
+.home {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 49px;
+}
+.homeButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.exhibition {
+  text-decoration: none;
+  position: relative;
+  font-weight: 300;
+  color: inherit;
+  display: inline-block;
+  min-width: 93px;
+}
+.menuLabels {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.systemactionarrowDropDownIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.menuOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.menuOptionsFormselect {
+  font-family: var(--font-inter);
+  font-weight: 700;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  background-color: #5d3b2f;
+}
+.food {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 47px;
+}
+.foodWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.systemactionarrowDropDownIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.menuOptions1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.culture {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 74px;
+}
+.cultureWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.systemactionarrowDropDownIcon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.menuOptions2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.about {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 58px;
+}
+.aboutWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.systemactionarrowDropDownIcon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.menuOptions3 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.dropdownMenu,
+.menuOptions3,
+.pageContent {
+  display: flex;
+  align-items: flex-start;
+}
+.dropdownMenu {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.pageContent {
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.donateNow {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 700;
+  color: inherit;
+  white-space: nowrap;
+}
+.donationButton,
+.nav {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.donationButton {
+  width: 156px;
+  border-radius: var(--br-xs);
+  background-color: var(--secondary-color);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  white-space: nowrap;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--black);
+  font-family: var(--font-open-sans);
+}
+.nav {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-41xl) var(--padding-base)
+    var(--padding-43xl);
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .nav {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dropdownMenu {
+    gap: var(--gap-base);
+  }
+}
+
+
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+}
+
+.select {
+  background-color: #5d3b2f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 700;
+  max-height: 100%; /* Ensure content does not exceed the height of the outer div */ /* Add scroll if content overflows */
+  box-sizing: border-box;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.select:hover {
+  background-color: #ffbb5c;
+  color: rgb(0, 0, 0);
+}
+
+.content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 5px;
+  width: 450px;
+}
+
+.content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .content {
+  height: 200px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.dropheading{
+  margin: 10px;
+  font-weight: 300;
+  font-family: Inter;
+  color: black;
+}
+
+.dropdish{
+  max-width: 250px;
+  max-height: 1750px;
+  display: flex;
+  align-items: flex-end;
+  margin: 20px;
+}

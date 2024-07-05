@@ -1,0 +1,165 @@
+.projectZuvIcon {
+  width: 163.8px;
+  height: 30px;
+  position: relative;
+}
+.oneImpressio {
+  position: relative;
+  line-height: 16px;
+}
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.oneImpressio1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: var(--font-open-sans);
+}
+.oneImpressio2,
+.oneImpressio3,
+.oneImpressio4 {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+}
+.oneImpressio2 {
+  align-self: stretch;
+}
+.oneImpressio3,
+.oneImpressio4 {
+  display: inline-block;
+}
+.oneImpressio3 {
+  text-decoration: none;
+  width: 105px;
+  color: inherit;
+}
+.oneImpressio4 {
+  width: 103px;
+}
+.impressioContainer {
+  width: 150px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.oneImpressio5 {
+  position: relative;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 106px;
+}
+.socialIconsChild {
+  height: 19.7px;
+  width: 19.7px;
+  position: relative;
+  min-height: 20px;
+}
+.groupIcon,
+.socialIconsItem {
+  height: 18.9px;
+  width: 25px;
+  position: relative;
+}
+.groupIcon {
+  height: 19.6px;
+  width: 19.7px;
+  min-height: 20px;
+}
+.primetwitterIcon {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.socialIcons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.socialContainer {
+  width: 150px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  font-family: var(--font-open-sans);
+}
+.oneImpressio6 {
+  position: relative;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.contactDividersIcon,
+.contactDividersIcon1,
+.contactDividersIcon2,
+.contactDividersIcon3 {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  object-fit: cover;
+  min-height: 80px;
+}
+.contactBackgrounds,
+.contactContainer,
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.contactContainer,
+.footer {
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: var(--font-size-base);
+  font-family: var(--font-open-sans);
+}
+.footer {
+  width: 1440px;
+  background-color: var(--primary-color);
+  overflow-x: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-29xl) var(--padding-41xl) var(--padding-32xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .footer {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactBackgrounds {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,175 @@
+.whereDidIt {
+  margin: 0;
+  width: 742px;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.otherEtymologiesInclude,
+.theMostCommon {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.commonTale {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.taleRectIcon {
+  align-self: stretch;
+  height: 506px;
+  position: relative;
+  border-radius: var(--br-5xl);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.commonTaleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.theChineseTraveler,
+.thomasWalterNamed {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.scholarTale {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.greeksWhoAre,
+.overTheYears,
+.referencesMohiniQasbaContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.greekInfluence,
+.scholarTaleParent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.contacts,
+.greekInfluence,
+.scholarTaleParent,
+.whereDidItComeFromParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.contacts {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.whereDidItComeFromParent {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-23xl);
+  max-width: 100%;
+}
+.innerContentInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs) 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.innerContent,
+.innerContentInner,
+.innerContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.innerContent {
+  width: 1020px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-101xl);
+}
+.innerContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-101xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-37xl);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+.kashmirTheName {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .innerContentWrapper {
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .whereDidIt {
+    font-size: var(--font-size-26xl);
+    line-height: 64px;
+  }
+  .innerContent {
+    gap: var(--gap-41xl);
+  }
+  .innerContentWrapper {
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .commonTaleParent,
+  .contacts {
+    gap: var(--gap-base);
+  }
+  .whereDidItComeFromParent {
+    gap: var(--gap-2xl);
+  }
+  .innerContent {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .whereDidIt {
+    font-size: var(--font-size-15xl);
+    line-height: 48px;
+  }
+  .innerContentWrapper {
+    padding-bottom: 33px;
+    box-sizing: border-box;
+  }
+}

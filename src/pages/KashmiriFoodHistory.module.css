@@ -1,0 +1,40 @@
+.leftContentWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 138px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.kashmiriFoodHistory {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .leftContentWrapper {
+    padding-bottom: 90px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .leftContentWrapper {
+    padding-bottom: 58px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .leftContentWrapper {
+    padding-bottom: 38px;
+    box-sizing: border-box;
+  }
+}
