@@ -1,0 +1,179 @@
+.traditionalPerformingArts {
+  margin: 0;
+  align-self: stretch;
+  height: 160px;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.sufiyanaMousiqui,
+.thisClassicalMusic {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.thisClassicalMusic {
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.musicItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.aPopularForm,
+.chakri {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.aPopularForm {
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.olivialopez {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.rouf,
+.thisIsA {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.thisIsA {
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.bookmark {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.bhandPather,
+.thisIsA1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.thisIsA1 {
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.indoorPlants {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.musicList,
+.savedBy {
+  flex: 1;
+  max-width: 100%;
+  min-width: 299px;
+}
+.musicList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-13xl);
+}
+.savedBy {
+  height: 616px;
+  position: relative;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  object-fit: cover;
+}
+.musicStyles {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.traditionalPerformingArtsOfParent {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+  max-width: 100%;
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-81xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-37xl);
+  color: var(--black);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1050px) {
+  .traditionalPerformingArts {
+    font-size: var(--font-size-26xl);
+    line-height: 64px;
+  }
+  .musicStyles {
+    gap: var(--gap-21xl);
+  }
+  .content {
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .musicStyles {
+    gap: var(--gap-xl);
+  }
+  .traditionalPerformingArtsOfParent {
+    gap: var(--gap-2xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .traditionalPerformingArts {
+    font-size: var(--font-size-15xl);
+    line-height: 48px;
+  }
+  .bhandPather,
+  .chakri,
+  .rouf,
+  .sufiyanaMousiqui {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+  .musicList {
+    gap: var(--gap-base);
+  }
+  .content {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}

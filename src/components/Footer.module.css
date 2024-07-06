@@ -137,7 +137,7 @@
   font-family: var(--font-open-sans);
 }
 .footer {
-  width: 1440px;
+  width: 100%;
   background-color: var(--primary-color);
   overflow-x: auto;
   flex-direction: row;
@@ -150,6 +150,7 @@
   font-size: var(--font-size-sm);
   color: var(--white);
   font-family: var(--font-inter);
+  flex-wrap: wrap;
 }
 @media screen and (max-width: 1050px) {
   .footer {
@@ -161,5 +162,37 @@
 @media screen and (max-width: 450px) {
   .contactBackgrounds {
     flex-wrap: wrap;
+  }
+  .socialIcons {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+  }
+
+  .contactBackgrounds{
+    display: flex;
+    flex-direction: row;
+  }
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .contactDividersIcon,
+  .contactDividersIcon1,
+  .contactDividersIcon2,
+  .contactDividersIcon3 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    object-fit: cover;
+    min-height: 50px;
   }
 }

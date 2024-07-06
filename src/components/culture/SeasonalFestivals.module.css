@@ -1,0 +1,66 @@
+.frameChild {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.seasonalFestivalColumnsInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.gaadBatta {
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  min-width: 110px;
+}
+.seasonalFestivalColumns {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.frameItem {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.khechriAmavasya {
+  flex: 1;
+  position: relative;
+  line-height: 32px;
+}
+.frameParent,
+.seasonalFestivals {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.seasonalFestivals {
+  flex-direction: column;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .gaadBatta,
+  .khechriAmavasya {
+    font-size: var(--font-size-base);
+    line-height: 26px;
+  }
+}

@@ -16,24 +16,40 @@ const Nav = ({ className = "" }) => {
         />
       </div>
 
-      <div class={styles.phone}>
-          <button class={styles.phoneselect}>Home
-          </button>
-            <button class={styles.phoneselect}>Contents
-            <img
-              className={styles.systemactionarrowDropDownIcon}
-              alt=""
-              src="/24systemactionarrow-drop-down.svg"
-            />
-            </button>
-              <div class={styles.phonecontent}>
-                  <a href="/">Origin</a>
-                  <a href="/oldest-site-in-kashmir">Oldest Site</a>
-                  <a href="/kashmir-the-name">History of Name</a>
-                  <a href="/food-history">History</a>
-                  <a href="/kashmiri-pandit-cuisine">Kashmiri Pandit Cuisine</a>
-              </div>
-
+      <div className={styles.phone}>
+      <ul className={styles.menu1}>
+            <li><a href="/">Home</a></li>
+            <li className={styles.dropdown1}>
+                <a href="#">Contents
+                </a>
+                <ul className={styles.dropdownmenu1}>
+                    <li><a href="/event"> Exhibition</a></li>
+                    <li className={styles.dropdown1}>
+                        <a href="#"> History&Origin</a>
+                        <ul className={styles.dropdownmenu1}>
+                        <li><a href="/origin">Origin</a></li>
+                        <li><a href="/oldest-site-in-kashmir">Oldest Site</a></li>
+                        <li><a href="/kashmir-the-name">History of Name</a></li>
+                        </ul>
+                    </li>
+                    <li className={styles.dropdown1}>
+                        <a href="#"> Food</a>
+                        <ul className={styles.dropdownmenu1}>
+                        <li><a href="/food-history">History</a></li>
+                        <li><a href="/kashmiri-pandit-cuisine">Kashmiri Pandit Cuisine</a></li>
+                        </ul>
+                    </li>
+                    <li className={styles.dropdown1}>
+                        <a href="#"> Culture</a>
+                        <ul className={styles.dropdownmenu1}>
+                        <li><a href="/festival">Festivals</a></li>
+                        <li><a href="/music">Music</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/about-us"> About</a></li>
+                </ul>
+            </li>
+        </ul>
         </div>
 
 {/* <div class={styles.listphone}>
@@ -57,23 +73,14 @@ const Nav = ({ className = "" }) => {
 
       <div className={styles.pageContent}>
         <div className={styles.dropdownMenu}>
-        <button class={styles.select}>Home
+        <button class={styles.select}>
+          <a href="/">Home</a>
         </button>
 
-          <div class={styles.dropdown}>
-            <button class={styles.select}>Exhibition
-            <img
-              className={styles.systemactionarrowDropDownIcon}
-              alt=""
-              src="/24systemactionarrow-drop-down.svg"
-            />
-            </button>
-              <div class={styles.content}>
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
-              </div>
-          </div>
+        <button class={styles.select}>
+          <a href="/event">Exhibition</a>
+        </button>
+          
 
           <div class={styles.dropdown}>
             <button class={styles.select}>History&Origin
@@ -85,7 +92,7 @@ const Nav = ({ className = "" }) => {
             </button>
               <div class={styles.content}>
               <h4 class={styles.dropheading}>History & Origin</h4>
-                  <a href="/">Origin</a>
+                  <a href="/origin">Origin</a>
                   <a href="/oldest-site-in-kashmir">Oldest Site</a>
                   <a href="/kashmir-the-name">History of Name</a>
               </div>
@@ -119,27 +126,18 @@ const Nav = ({ className = "" }) => {
               src="/24systemactionarrow-drop-down.svg"
             />
             </button>
-              <div class={styles.content}>
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
+            <div class={styles.content}>
+              <h4 class={styles.dropheading}>Culture</h4>
+                  <a href="/festival">Festivals</a>
+                  <a href="/music">Music</a>
               </div>
           </div>
 
-          <div class={styles.dropdown}>
-            <button class={styles.select}>About
-            <img
-              className={styles.systemactionarrowDropDownIcon}
-              alt=""
-              src="/24systemactionarrow-drop-down.svg"
-            />
-            </button>
-              <div class={styles.content}>
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
-              </div>
-          </div>
+          <button class={styles.select}>
+            <a href="/about-us">About</a>
+          </button>
+
+          
 
         </div>
       </div>

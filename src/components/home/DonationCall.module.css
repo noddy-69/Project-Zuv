@@ -1,0 +1,16 @@
+.donationCall {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-101xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+@media screen and (max-width: 450px) {
+  .donationCall {
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}

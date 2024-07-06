@@ -1,0 +1,134 @@
+.frameChild,
+.whatTopicsWill {
+  position: relative;
+  max-width: 100%;
+}
+.frameChild {
+  height: 1606px;
+  width: 1440px;
+  background-color: var(--color-papayawhip);
+  display: none;
+}
+.whatTopicsWill {
+  margin: 0;
+  width: 544px;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.costListParent,
+.topicOneNamesParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-9xl);
+}
+.topicOneNamesParent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.costListParent {
+  display: grid;
+  justify-content: flex-start;
+  grid-template-columns: repeat(3, minmax(240px, 1fr));
+}
+.april,
+.inThisEraOfDigitalAdvance {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inThisEraOfDigitalAdvance {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.april {
+  width: 1020px;
+  align-items: center;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.eventInner,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--color-papayawhip);
+  justify-content: center;
+  padding: var(--padding-101xl) var(--padding-xl);
+}
+.eventInner {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-101xl);
+  text-align: center;
+  font-size: var(--font-size-37xl);
+  color: var(--black);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1200px) {
+  .rectangleParent {
+    padding-top: var(--padding-59xl);
+  }
+  .eventInner,
+  .rectangleParent {
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .whatTopicsWill {
+    font-size: var(--font-size-26xl);
+    line-height: 64px;
+  }
+  .costListParent {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(240px, 416px));
+  }
+  .april {
+    gap: var(--gap-11xl);
+  }
+  .rectangleParent {
+    padding-top: var(--padding-32xl);
+  }
+  .eventInner,
+  .rectangleParent {
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .costListParent {
+    grid-template-columns: minmax(240px, 1fr);
+  }
+  .inThisEraOfDigitalAdvance {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatTopicsWill {
+    font-size: var(--font-size-15xl);
+    line-height: 48px;
+  }
+  .rectangleParent {
+    padding-top: var(--padding-14xl);
+  }
+  .eventInner,
+  .rectangleParent {
+    padding-bottom: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}

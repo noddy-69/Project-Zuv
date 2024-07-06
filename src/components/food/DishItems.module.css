@@ -48,7 +48,7 @@
   flex-direction: row;
   justify-content: center;
   padding: var(--padding-41xl) var(--padding-201xl);
-  gap: var(--gap-29xl);
+  gap: 40px;
   text-align: left;
   font-size: var(--font-size-17xl);
   color: var(--black);

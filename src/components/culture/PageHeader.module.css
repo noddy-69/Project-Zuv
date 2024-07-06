@@ -1,0 +1,123 @@
+.imgHolderIcon {
+  object-fit: cover;
+}
+.img,
+.imgHolderIcon,
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.overlay {
+  background-color: var(--color-darkslategray);
+  z-index: 1;
+}
+.img {
+  margin: 0 !important;
+}
+.exploringTheAncient,
+.originOfKashmir {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+}
+.originOfKashmir {
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.exploringTheAncient {
+  font-size: var(--font-size-5xl);
+  line-height: 36px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+}
+.header,
+.headerTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.headerTitle {
+  width: 900px;
+  margin: 0 !important;
+  padding-left: 140px;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  z-index: 2;
+}
+.header {
+  height: 500px;
+  width: 100%;
+  justify-content: flex-end;
+  padding: var(--padding-146xl) 0 var(--padding-41xl);
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+.aboutZuv {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 800;
+  font-family: inherit;
+}
+.aboutZuvWrapper,
+.pageHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.aboutZuvWrapper {
+  width: 284px;
+  flex-direction: column;
+  padding: var(--padding-294xl) 0 0;
+  margin-left: -1298px;
+}
+.pageHeader {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-101xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-37xl);
+  color: var(--white);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1050px) {
+  .aboutZuv,
+  .originOfKashmir {
+    font-size: var(--font-size-26xl);
+    line-height: 64px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .pageHeader {
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+  .headerTitle {
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .originOfKashmir {
+    font-size: var(--font-size-3xl);
+    line-height: 48px;
+  }
+  .exploringTheAncient {
+    font-size: var(--font-size-sm);
+    line-height: 29px;
+  }
+  .aboutZuv {
+    font-size: var(--font-size-15xl);
+    line-height: 48px;
+  }
+}

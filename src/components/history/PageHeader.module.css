@@ -44,13 +44,12 @@
 .titleContainer {
   width: 900px;
   margin: 0 !important;
-  position: absolute;
-  top: 272px;
-  left: 140px;
+  padding: 20px;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-base);
   z-index: 2;
+  margin-right: 50px;
 }
 .header,
 .pageHeader {
@@ -79,6 +78,15 @@
     font-size: var(--font-size-26xl);
     line-height: 64px;
   }
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    left: 20px;
+  }
+  .exploringTheAncient {
+    display: flex;
+    flex-direction: row;
+  }
 }
 @media screen and (max-width: 750px) {
   .pageHeader {
@@ -88,11 +96,11 @@
 }
 @media screen and (max-width: 450px) {
   .originOfKashmir {
-    font-size: var(--font-size-15xl);
+    font-size: var(--font-size-3xl);
     line-height: 48px;
   }
   .exploringTheAncient {
-    font-size: var(--font-size-lgi);
+    font-size: var(--font-size-sm);
     line-height: 29px;
   }
 }

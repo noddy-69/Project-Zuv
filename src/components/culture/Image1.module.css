@@ -1,0 +1,32 @@
+.imageIcon {
+  width: 172px;
+  height: 172px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.ghulamHassanSofi {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.image,
+.oval {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.image {
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .ghulamHassanSofi {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+}

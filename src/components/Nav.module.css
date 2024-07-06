@@ -8,7 +8,7 @@
   bottom: 0;
   left: 0;
   align-items: center; /* Center content vertically */
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: var(--primary-color);
 }
 .projectZuvIcon {
@@ -21,10 +21,11 @@
   z-index: 1;
 }
 .projectZuvWrapper {
+  margin-top: 30px;
   width: 163.8px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-end;
   padding: 0 0 var(--padding-4xs-2);
   box-sizing: border-box;
@@ -212,7 +213,7 @@
 }
 .nav {
   align-self: stretch;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   padding: var(--padding-base) var(--padding-41xl) var(--padding-base)
     var(--padding-43xl);
@@ -244,119 +245,6 @@
   margin-right: var(--margin-5xs);
 }
 
-.phoneselect {
-  background-color: #5d3b2f;
-  color: white;
-  padding: 10;
-  border: none;
-  cursor: pointer;
-  font-size: 15px;
-  font-family: Inter;
-  font-weight: 700;
-  max-height: 100%; /* Ensure content does not exceed the height of the outer div */ /* Add scroll if content overflows */
-  box-sizing: border-box;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.phoneselect:hover {
-  background-color: #ffbb5c;
-  color: rgb(0, 0, 0);
-}
-
-.phonecontent {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  border-radius: 5px;
-  width: 450px;
-}
-
-.phonecontent a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.phonecontent a:hover {
-  background-color: #f1f1f1;
-}
-
-.phone:hover .phonecontent {
-  height: 150px;
-  width: 50px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-
-
-
-
-
-
-
-.listphone {
-  position: relative;
-  display: none;
-  height: 100%;
-  align-items: center; /* Center content vertically */
-  justify-content: center;
-}
-
-.listphoneselect {
-  background-color: #5d3b2f;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  font-family: Inter;
-  font-weight: 700;
-  max-height: 100%; /* Ensure content does not exceed the height of the outer div */ /* Add scroll if content overflows */
-  box-sizing: border-box;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.listphoneselect:hover {
-  background-color: #ffbb5c;
-  color: rgb(0, 0, 0);
-}
-
-.listphonecontent {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  border-radius: 5px;
-  width: 450px;
-}
-
-.listphonecontent a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.listphonecontent a:hover {
-  background-color: #f1f1f1;
-}
-
-.listphone:hover .listphonecontent {
-  height: 150px;
-  width: 50px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
   
 @media screen and (max-width: 1200px) {
   .dropdownMenu {
@@ -372,12 +260,14 @@
   }
   .projectZuvIcon{
     height:15px;
+    justify-content: flex-start;
   }
   .donationButton{
     height: 30px;
     width: 100px;
     font-size: 12px;
     padding: 10px;
+    justify-content: flex-end;
   }
   .donateNow{
     size: 0.1em;
@@ -386,10 +276,10 @@
   }
   .phone,.phoneselect{
     display: flex;
+    margin-right: 10px;
   }
   .nav {
-    justify-content:  center;
-    padding: 10px;
+    padding: 20px;
     gap: 0;
   }
 
@@ -417,6 +307,11 @@
   max-height: 100%; /* Ensure content does not exceed the height of the outer div */ /* Add scroll if content overflows */
   box-sizing: border-box;
   transition: background-color 0.3s, color 0.3s;
+}
+
+.select a{
+  color: white;
+  text-decoration: none;
 }
 
 .select:hover {
@@ -467,4 +362,99 @@
   display: flex;
   align-items: flex-end;
   margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.menu1 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 700;
+}
+
+.menu1 > li {
+  position: relative;
+}
+
+.menu1 > li > a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  display: block;/* Add rounded corners */
+}
+
+.menu1 > li > a:hover {
+  background-color: #ffb74d; /* Background color change on hover */
+}
+
+/* Dropdown menu styles */
+.dropdownmenu1 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+}
+
+.dropdown1:hover > .dropdownmenu1 {
+  display: block;
+}
+
+.dropdownmenu1 > li {
+  position: relative;
+}
+
+.dropdownmenu1 > li > a {
+  color: #5d2b16;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  white-space: nowrap;
+  border-radius: 8px; /* Add rounded corners */
+}
+
+.dropdownmenu1 > li > a:hover {
+  background-color: #ffb74d; /* Background color change on hover */
+}
+
+/* Nested dropdown menu styles */
+.dropdownmenu1 .dropdownmenu1 {
+  top: 0;
+  left: 100%;
+  margin-left: 1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.menuicon1 {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Add rounded corners to the top-level dropdown menu */
+.menu1 > li > .dropdownmenu1 {
+  border-radius: 8px;
 }

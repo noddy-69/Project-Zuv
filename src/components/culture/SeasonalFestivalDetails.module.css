@@ -1,0 +1,212 @@
+.seasonalFestivals {
+  margin: 0;
+  width: 569px;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.seasonalFestivalDetailsTitl {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vyathaTruvah {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.blankLine,
+.vitastaTheRiver,
+.vyathVitasta {
+  margin: 0;
+}
+.vyathVitastaContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 22px;
+  font-family: var(--font-inter);
+}
+.seasonalFestivalDetailItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.sonthNavreh {
+  margin: 0;
+  width: 683px;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.blankLine1,
+.blankLine2,
+.blankLine3,
+.blankLine4,
+.blankLine5,
+.itIsImportant,
+.navrehIsThe,
+.sonthIsThe,
+.theCustomOf,
+.theThaalIs,
+.thisDayMarks {
+  margin: 0;
+}
+.sonthIsTheContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 22px;
+  font-family: var(--font-inter);
+}
+.seasonalFestivalDetailItems1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.herath {
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.herath,
+.herathIsOne,
+.p {
+  margin: 0;
+}
+.faithInThe {
+  font-weight: 300;
+  font-family: var(--font-inter);
+}
+.noteText,
+.p1,
+.thereIsAnotherBeliefOfWhe {
+  margin: 0;
+}
+.herathIsOneContainer {
+  align-self: stretch;
+  height: 396px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  font-family: var(--font-inter);
+}
+.seasonalFestivalDetailItems2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.seasonalFestivalDetailsCont,
+.seasonalFestivalDetailsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.seasonalFestivalDetailsList {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-41xl);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+}
+.seasonalFestivalDetailsCont {
+  width: 1000px;
+  align-items: flex-end;
+  gap: var(--gap-61xl);
+}
+.seasonalFestivalDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-82xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-37xl);
+  color: var(--black);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1200px) {
+  .seasonalFestivalDetails {
+    padding-bottom: var(--padding-47xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .seasonalFestivals {
+    font-size: var(--font-size-26xl);
+    line-height: 64px;
+  }
+  .herath,
+  .sonthNavreh,
+  .vyathaTruvah {
+    font-size: var(--font-size-10xl);
+    line-height: 34px;
+  }
+  .seasonalFestivalDetailsList {
+    gap: var(--gap-11xl);
+  }
+  .seasonalFestivalDetailsCont {
+    gap: var(--gap-21xl);
+  }
+  .seasonalFestivalDetails {
+    padding-bottom: var(--padding-24xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .seasonalFestivalDetailsCont {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .seasonalFestivals {
+    font-size: var(--font-size-15xl);
+    line-height: 48px;
+  }
+  .herath,
+  .sonthNavreh,
+  .vyathaTruvah {
+    font-size: var(--font-size-3xl);
+    line-height: 25px;
+  }
+  .seasonalFestivalDetails {
+    padding-bottom: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+}

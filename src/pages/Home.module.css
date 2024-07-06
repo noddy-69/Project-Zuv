@@ -1,0 +1,301 @@
+.mainHeading {
+  width: 0;
+  height: 60px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1989px;
+  right: 432px;
+  line-height: 60px;
+  font-weight: 500;
+  display: inline-block;
+}
+.frameChild {
+  height: 701px;
+  width: 1440px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.heroImage {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180.64deg, rgba(76, 38, 25, 0), #4c2619);
+  z-index: 1;
+}
+.letsPreserveThe {
+  color: var(--white);
+}
+.essenceOfKashmir {
+  color: var(--secondary-color);
+}
+.itsCultureHeritage,
+.letsPreserveTheEssenceOfK {
+  margin: 0;
+}
+.letsPreserveTheContainer {
+  margin: 0;
+  width: 1155px;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.homeInner,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-41xl) var(--padding-xl);
+  position: relative;
+  background-image: url(/public/rectangle-187791@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 701px;
+  z-index: 2;
+}
+.homeInner {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-101xl);
+  text-align: center;
+  font-size: var(--font-size-37xl);
+  color: var(--white);
+  font-family: var(--font-open-sans);
+}
+.measuringOurImpact {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.m {
+  width: 138px;
+  position: relative;
+  line-height: 100px;
+  display: inline-block;
+}
+.childrenFedYearly {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 28px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  text-align: left;
+}
+.metricValues {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.k {
+  width: 193px;
+  position: relative;
+  line-height: 100px;
+  display: inline-block;
+}
+.sponsoreYearly {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 28px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  text-align: left;
+}
+.metricValues1 {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  width: 138px;
+  position: relative;
+  line-height: 100px;
+  display: inline-block;
+}
+.countriesSupported {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 28px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  text-align: left;
+}
+.metricItems,
+.metricValues2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.metricItems {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.impactContent,
+.impactMetrics {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.impactMetrics {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 71px;
+  box-sizing: border-box;
+  font-size: var(--font-size-45xl);
+}
+.impactContent {
+  width: 1102px;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.home,
+.impactContent,
+.impactContentWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.impactContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-101xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-37xl);
+  color: var(--black);
+  font-family: var(--font-open-sans);
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-mona-sans);
+}
+@media screen and (max-width: 1200px) {
+  .impactMetrics {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .homeInner {
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+  .metricItems {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .mainHeading {
+    font-size: var(--font-size-19xl);
+    line-height: 48px;
+  }
+  .letsPreserveTheContainer,
+  .measuringOurImpact {
+    font-size: var(--font-size-26xl);
+    line-height: 64px;
+  }
+  .div,
+  .k,
+  .m {
+    font-size: var(--font-size-32xl);
+    line-height: 80px;
+  }
+  .impactContent {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .mainHeading {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .letsPreserveTheContainer {
+    font-size: var(--font-size-15xl);
+    line-height: 48px;
+  }
+  .homeInner {
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+  .measuringOurImpact {
+    font-size: var(--font-size-15xl);
+    line-height: 48px;
+  }
+  .m {
+    font-size: var(--font-size-19xl);
+    line-height: 60px;
+  }
+  .childrenFedYearly {
+    font-size: var(--font-size-lgi);
+    line-height: 22px;
+  }
+  .k {
+    font-size: var(--font-size-19xl);
+    line-height: 60px;
+  }
+  .sponsoreYearly {
+    font-size: var(--font-size-lgi);
+    line-height: 22px;
+  }
+  .div {
+    font-size: var(--font-size-19xl);
+    line-height: 60px;
+  }
+  .countriesSupported {
+    font-size: var(--font-size-lgi);
+    line-height: 22px;
+  }
+  .impactContentWrapper {
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,46 @@
+.frameChild {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border-radius: var(--br-581xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.rahulPandita {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 16px;
+  font-weight: 500;
+}
+.authorJournalist,
+.topic3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.topic3 {
+  color: var(--black-2);
+}
+.frameParent,
+.rahulPanditaParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.rahulPanditaParent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent {
+  width: 322px;
+  align-items: center;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--black);
+  font-family: var(--font-inter);
+}

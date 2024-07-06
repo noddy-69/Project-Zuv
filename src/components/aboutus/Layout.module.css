@@ -1,0 +1,50 @@
+.aboutZuv {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 800;
+  font-family: inherit;
+}
+.aboutZuvWrapper,
+.header,
+.layout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aboutZuvWrapper {
+  width: 284px;
+  flex-direction: column;
+  padding: var(--padding-294xl) 0 0;
+  box-sizing: border-box;
+  margin-left: -1298px;
+}
+.header,
+.layout {
+  align-self: stretch;
+  flex-direction: row;
+  max-width: 100%;
+}
+.layout {
+  flex-direction: column;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-37xl);
+  color: var(--white);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1000px) {
+  .aboutZuv {
+    font-size: var(--font-size-26xl);
+    line-height: 64px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutZuv {
+    font-size: var(--font-size-15xl);
+    line-height: 48px;
+  }
+}

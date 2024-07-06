@@ -1,0 +1,356 @@
+.socialFestivalDetailsContenChild {
+  width: 1440px;
+  height: 3037px;
+  position: relative;
+  background-color: var(--offset-1);
+  display: none;
+  max-width: 100%;
+}
+.socialFestivals {
+  margin: 0;
+  width: 472px;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.socialFestivalDetailsTitle {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.gdaBatt {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.blankLine,
+.blankLine1,
+.blankLine2,
+.blankLine3,
+.kashmiriPanditsBelieve,
+.onceTheFood,
+.theKitchenIs,
+.thisFestivalIs,
+.traditionallyTheScrapes {
+  margin: 0;
+}
+.kashmiriPanditsBelieveContainer {
+  align-self: stretch;
+  height: 396px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 22px;
+  font-family: var(--font-inter);
+  display: inline-block;
+}
+.socialFestivalDetailItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.khechriAmavasyaKhechmaavas {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.asPerThe,
+.blankLine10,
+.blankLine4,
+.blankLine5,
+.blankLine6,
+.blankLine7,
+.blankLine8,
+.blankLine9,
+.kchechmaavasIsCelebrated,
+.khechriMavasOr,
+.onThisNight,
+.theMostInteresting,
+.theOffering,
+.theTraditionIs,
+.theYakshaIs {
+  margin: 0;
+}
+.khechriMavasOrContainer {
+  align-self: stretch;
+  height: 660px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 22px;
+  font-family: var(--font-inter);
+  display: inline-block;
+}
+.socialFestivalDetailItems1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.pann {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.blankLine11,
+.blankLine12,
+.everyKashmiriLoves,
+.roth,
+.thisFestivalIs1 {
+  margin: 0;
+  line-height: 22px;
+}
+.roth {
+  font-size: var(--font-size-9xl);
+  line-height: 48px;
+  font-family: var(--font-open-sans);
+}
+.cleaningOfThe {
+  line-height: 36px;
+}
+.thatWillBe {
+  line-height: 22px;
+}
+.cleaningOfTheKitchenAndUt {
+  margin: 0;
+}
+.aKalashOr {
+  line-height: 22px;
+}
+.aKalashOrSmallBrassPot {
+  margin: 0;
+}
+.blankLine14 {
+  line-height: 22px;
+}
+.blankLine13 {
+  margin: 0;
+}
+.onceTheKalash {
+  line-height: 22px;
+}
+.onceTheKalashIsReadyEach {
+  margin: 0;
+}
+.blankLine16 {
+  line-height: 22px;
+}
+.blankLine15 {
+  margin: 0;
+}
+.raytaManzRayta {
+  line-height: 22px;
+}
+.raytaManzRaytaBhdrpadaAl {
+  margin: 0;
+}
+.blankLine18 {
+  line-height: 22px;
+}
+.blankLine17 {
+  margin: 0;
+}
+.theStoryOf {
+  line-height: 22px;
+}
+.theStoryOfTheBeebGarazMa {
+  margin: 0;
+}
+.everyKashmiriLovesContainer {
+  align-self: stretch;
+  height: 787px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.socialFestivalDetailItems2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.goraTrai {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.blankLine19,
+.goraTraiOrGauri,
+.inKashmiriThis {
+  margin: 0;
+}
+.goraTraiOrGauriContainer {
+  align-self: stretch;
+  height: 176px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 22px;
+  font-family: var(--font-inter);
+  display: flex;
+  align-items: center;
+}
+.socialFestivalDetailItems3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.zangtry {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.blankLine20,
+.celebrationOfThis,
+.onThisDay {
+  margin: 0;
+}
+.celebrationOfThisContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 22px;
+  font-family: var(--font-inter);
+}
+.socialFestivalDetailItems4,
+.socialFestivalDetailsList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialFestivalDetailItems4 {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+.socialFestivalDetailsList {
+  width: 1000px;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+}
+.socialFestivalDetails,
+.socialFestivalDetailsConten {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.socialFestivalDetailsConten {
+  flex: 1;
+  background-color: var(--offset-1);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-61xl) var(--padding-xl) var(--padding-79xl);
+  gap: var(--gap-61xl);
+}
+.socialFestivalDetails {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-101xl);
+  text-align: center;
+  font-size: var(--font-size-37xl);
+  color: var(--black);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1200px) {
+  .socialFestivalDetailsConten {
+    padding-top: var(--padding-15xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+  .socialFestivalDetails {
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .socialFestivals {
+    font-size: var(--font-size-26xl);
+    line-height: 64px;
+  }
+  .gdaBatt,
+  .goraTrai,
+  .khechriAmavasyaKhechmaavas,
+  .pann,
+  .zangtry {
+    font-size: var(--font-size-10xl);
+    line-height: 34px;
+  }
+  .socialFestivalDetailsList {
+    gap: var(--gap-11xl);
+  }
+  .socialFestivalDetailsConten {
+    gap: var(--gap-21xl);
+  }
+  .socialFestivalDetails {
+    padding-bottom: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .socialFestivalDetailsConten {
+    gap: var(--gap-xl);
+    padding-top: var(--padding-3xl);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .socialFestivals {
+    font-size: var(--font-size-15xl);
+    line-height: 48px;
+  }
+  .gdaBatt,
+  .goraTrai,
+  .khechriAmavasyaKhechmaavas,
+  .pann,
+  .zangtry {
+    font-size: var(--font-size-3xl);
+    line-height: 25px;
+  }
+  .socialFestivalDetails {
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}

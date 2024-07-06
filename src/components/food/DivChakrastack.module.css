@@ -48,7 +48,7 @@
   justify-content: center;
   padding: var(--padding-41xl) var(--padding-201xl);
   box-sizing: border-box;
-  gap: var(--gap-29xl);
+  gap: 40px;
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-17xl);

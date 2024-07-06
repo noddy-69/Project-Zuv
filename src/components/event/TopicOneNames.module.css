@@ -1,0 +1,57 @@
+.innerTopicOneNames {
+  height: 220px;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.innerTopicOneNames,
+.kashmiriPandits,
+.whatIWant {
+  align-self: stretch;
+  position: relative;
+}
+.kashmiriPandits {
+  line-height: 28px;
+  font-weight: 600;
+}
+.whatIWant {
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-family: var(--font-inter);
+}
+.reputation,
+.topicOneNames {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reputation {
+  align-self: stretch;
+  gap: var(--gap-xs);
+}
+.topicOneNames {
+  flex: 1;
+  padding: 0 0 var(--padding-47xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 304px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 750px) {
+  .topicOneNames {
+    padding-bottom: var(--padding-24xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .kashmiriPandits {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+}

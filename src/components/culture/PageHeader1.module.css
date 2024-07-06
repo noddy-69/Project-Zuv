@@ -1,0 +1,105 @@
+.imgHolderIcon {
+  object-fit: cover;
+}
+.img,
+.imgHolderIcon,
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.overlay {
+  background-color: var(--color-darkslategray);
+  z-index: 1;
+}
+.img {
+  margin: 0 !important;
+}
+.andRituals,
+.kashmiriFestivals {
+  margin: 0;
+}
+.originOfKashmirContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.exploringTheAncient {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 36px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+}
+.header,
+.originOfKashmirParent,
+.pageHeader {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.originOfKashmirParent {
+  width: 900px;
+  margin: 0 !important;
+  padding-left: 140px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  z-index: 2;
+}
+.header,
+.pageHeader {
+  box-sizing: border-box;
+}
+.header {
+  height: 500px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-146xl) 0 var(--padding-41xl);
+  position: relative;
+  z-index: 2;
+}
+.pageHeader {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-101xl);
+  text-align: left;
+  font-size: var(--font-size-37xl);
+  color: var(--white);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1050px) {
+  .originOfKashmirContainer {
+    font-size: var(--font-size-26xl);
+    line-height: 64px;
+  }
+  .originOfKashmirParent {
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .pageHeader {
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .originOfKashmirContainer {
+    font-size: var(--font-size-3xl);
+    line-height: 48px;
+  }
+  .exploringTheAncient {
+    font-size: var(--font-size-sm);
+    line-height: 29px;
+  }
+}
