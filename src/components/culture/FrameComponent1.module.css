@@ -5,6 +5,8 @@
   background-color: var(--offset-1);
   display: none;
   max-width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .image9Icon,
 .kashmiriInstruments {
@@ -22,10 +24,12 @@
   display: inline-block;
 }
 .image9Icon {
-  height: 288px;
-  flex: 1;
+  height: 458px;
+  border-radius: var(--br-xs);
+  max-width: 100%;
   overflow: hidden;
-  object-fit: contain;
+  flex-shrink: 0;
+  object-fit: cover;
 }
 .cameraButtonIcon {
   right: 0;
@@ -66,8 +70,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-66xl) var(--padding-21xl) var(--padding-66xl)
-    var(--padding-22xl);
+  
   box-sizing: border-box;
   position: relative;
   max-width: 100%;
@@ -273,7 +276,7 @@
 .instrumentGallery,
 .rectangleParent {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   max-width: 100%;
 }
 .instrumentGallery {
@@ -286,17 +289,21 @@
   gap: 56px 80px;
   z-index: 1;
   font-size: var(--font-size-xl);
+  justify-content: center;
+  
+  
 }
 .aboutUsInner,
 .rectangleParent {
-  align-items: flex-start;
+  align-items: center;
   box-sizing: border-box;
+  justify-content: center;
 }
 .rectangleParent {
   flex: 1;
   background-color: var(--offset-1);
   flex-direction: column;
-  padding: var(--padding-81xl) var(--padding-201xl) var(--padding-87xl);
+  padding:  var(--padding-201xl) var(--padding-87xl);
   gap: var(--gap-23xl);
 }
 .aboutUsInner {

@@ -43,7 +43,7 @@ const Content = ({ className = "" }) => {
             />
           </div>
         </div>
-        <FrameComponent5 group="/group1.svg" />
+        <FrameComponent5 group="/group.svg" />
         <div className={styles.goalDetails}>
           <div className={styles.goalDescription}>
             <h1 className={styles.ourGoal}>Our Goal</h1>

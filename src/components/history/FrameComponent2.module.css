@@ -108,6 +108,9 @@
   .cultureContent {
     gap: var(--gap-2xl);
   }
+  .frameChild {
+    height: 300px;
+  }
 }
 @media screen and (max-width: 450px) {
   .legendsFromOther {
@@ -117,5 +120,8 @@
   .cultureContentWrapper {
     padding-bottom: var(--padding-32xl);
     box-sizing: border-box;
+  }
+  .frameChild {
+    height: 200px;
   }
 }

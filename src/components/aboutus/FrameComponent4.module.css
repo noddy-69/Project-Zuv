@@ -127,6 +127,11 @@
     line-height: 64px;
   }
 }
+@media screen and (max-width: 950px) {
+  .founderPhotoIcon {
+    width: 350px;
+  }
+}
 @media screen and (max-width: 725px) {
   .founderImage,
   .ourFounderParent {

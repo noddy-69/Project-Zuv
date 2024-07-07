@@ -22,7 +22,7 @@
 }
 .projectZuvWrapper {
   margin-top: 30px;
-  width: 163.8px;
+  width: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -214,7 +214,6 @@
 .nav {
   align-self: stretch;
   align-items: center;
-  justify-content: space-between;
   padding: var(--padding-base) var(--padding-41xl) var(--padding-base)
     var(--padding-43xl);
   position: sticky;
@@ -226,23 +225,41 @@
   font-size: var(--font-size-base);
   color: var(--white);
   font-family: var(--font-inter);
+  justify-content: space-between;
 }
 
 
 
 
-
-
+.donationButton1{
+  display: none;
+  position: absolute;
+  left: 130px;
+  bottom: 20px;
+}
+.donateNow1{
+  size: 0.1em;
+  line-height: 10px;
+  width: fit-content;
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  white-space: nowrap;
+}
 
 
 .phone {
   position: relative;
   display: none;
   height: 100%;
-  align-items: center; /* Center content vertically */
-  justify-content: center;
+  align-items: flex-end; /* Center content vertically */
+  justify-content: flex-end;
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
   gap: 10px;
-  margin-right: var(--margin-5xs);
 }
 
   
@@ -253,7 +270,7 @@
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1350px) {
   .dropdownMenu {
     display: None;
     gap: var(--gap-xl);
@@ -263,11 +280,26 @@
     justify-content: flex-start;
   }
   .donationButton{
+    display: none;
+  }
+  .donationButton1{
+    display: flex;
     height: 30px;
     width: 100px;
     font-size: 12px;
     padding: 10px;
-    justify-content: flex-end;
+    justify-content: center;
+    border-radius: var(--br-xs);
+    background-color: var(--secondary-color);
+    overflow: hidden;
+    flex-shrink: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+    z-index: 1;
+    text-align: center;
+    color: var(--black);
+    font-family: var(--font-open-sans);
   }
   .donateNow{
     size: 0.1em;
@@ -276,13 +308,42 @@
   }
   .phone,.phoneselect{
     display: flex;
-    margin-right: 10px;
+    justify-content: flex-end;
   }
   .nav {
     padding: 20px;
     gap: 0;
   }
 
+}
+@media screen and (max-width: 450px) {
+  .donationButton1{
+    display: flex;
+    height: 25px;
+    width: 80px;
+    font-size: 10px;
+    justify-content: center;
+    border-radius: var(--br-xs);
+    background-color: var(--secondary-color);
+    overflow: hidden;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: flex-start;
+    white-space: nowrap;
+    z-index: 1;
+    text-align: center;
+    color: var(--black);
+    font-family: var(--font-open-sans);
+    position: absolute;
+    left: 115px;
+    bottom: 25px;
+  }
+  .donateNow1{
+    size: 0.1em;
+    line-height: 10px;
+    width: fit-content;
+    padding-top: 1px;
+  }
 }
 
 
@@ -375,13 +436,19 @@
 
 
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 .menu1 {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   font-size: 14px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-weight: 700;
 }
 
@@ -391,9 +458,10 @@
 
 .menu1 > li > a {
   color: white;
-  padding: 5px;
+  padding: 10px 20px;
   text-decoration: none;
-  display: block;/* Add rounded corners */
+  display: block;
+  border-radius: 8px; /* Add rounded corners */
 }
 
 .menu1 > li > a:hover {
@@ -411,7 +479,7 @@
   margin: 0;
   padding: 0;
   top: 100%;
-  left: 0;
+  right: 0; /* Position top-level dropdown on the right side */
   z-index: 1000;
 }
 
@@ -439,10 +507,10 @@
 /* Nested dropdown menu styles */
 .dropdownmenu1 .dropdownmenu1 {
   top: 0;
-  left: 100%;
-  margin-left: 1px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 8px;
+  right: 100%; /* Position nested dropdown on the left side */
+  margin-right: 1px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 0;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
@@ -458,3 +526,4 @@
 .menu1 > li > .dropdownmenu1 {
   border-radius: 8px;
 }
+

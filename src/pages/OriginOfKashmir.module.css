@@ -97,10 +97,16 @@
     padding-bottom: var(--padding-59xl);
     box-sizing: border-box;
   }
+  .contentDividerIcon {
+    height: 300px;
+  }
 }
 @media screen and (max-width: 450px) {
   .theHinduLegend {
     font-size: var(--font-size-15xl);
     line-height: 48px;
+  }
+  .contentDividerIcon {
+    height: 200px;
   }
 }

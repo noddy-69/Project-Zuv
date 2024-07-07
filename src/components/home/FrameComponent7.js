@@ -23,7 +23,7 @@ const FrameComponent7 = ({ className = "" }) => {
             <StoryCardContent />
             <div className={styles.rectangleParent}>
               <img
-                className={styles.frameChild}
+                className={styles.storyCardContent}
                 alt=""
                 src="/rectangle-187785@2x.png"
               />

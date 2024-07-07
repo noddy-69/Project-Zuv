@@ -4,6 +4,7 @@
   position: relative;
   border-radius: 50%;
   object-fit: cover;
+  justify-content: center;
 }
 .adityaRajKaul,
 .journalist {
@@ -38,7 +39,7 @@
 }
 .speakerAvatarsInner {
   flex-direction: row;
-  padding: 0 var(--padding-smi);
+
 }
 .speakerAvatars {
   flex-direction: column;

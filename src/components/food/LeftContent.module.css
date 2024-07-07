@@ -126,15 +126,29 @@
     font-size: var(--font-size-26xl);
     line-height: 64px;
   }
+  .contentRectIcon {
+    height: 400px;
+  }
 }
 @media screen and (max-width: 750px) {
   .leftContent {
     gap: var(--gap-2xl);
+  }
+  .contentRectIcon {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contentRectIcon {
+    height: 250px;
   }
 }
 @media screen and (max-width: 450px) {
   .titleHere {
     font-size: var(--font-size-15xl);
     line-height: 48px;
+  }
+  .contentRectIcon {
+    height: 200px;
   }
 }

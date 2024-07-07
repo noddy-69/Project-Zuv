@@ -55,6 +55,9 @@
   font-size: var(--font-size-17xl);
   color: var(--black);
   font-family: var(--font-inter);
+  max-width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 @media screen and (max-width: 1200px) {
   .dishCardsIcon {

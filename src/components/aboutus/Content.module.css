@@ -141,8 +141,8 @@
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
-  min-width: 298px;
-  min-height: 474px;
+  width: 298px;
+  height: 474px;
 }
 .progressBarIcon,
 .progressBarIcon1,
@@ -157,8 +157,8 @@
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
-  min-width: 298px;
-  min-height: 474px;
+  width: 298px;
+  height: 474px;
 }
 .progressBars {
   display: flex;
@@ -206,6 +206,12 @@
   .missionVision {
     gap: var(--gap-36xl);
   }
+  .progressBarIcon {
+    height: 400px;
+  }
+  .progressBarIcon1 {
+    height: 400px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .ourMission {
@@ -236,7 +242,7 @@
     gap: var(--gap-13xl);
   }
 }
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 750px) {
   .ourMissionParent,
   .ourVisionParent {
     min-width: 100%;
@@ -248,6 +254,26 @@
   .missionVision {
     gap: var(--gap-8xl);
   }
+  .missionDividerIcon {
+    height: 300px;
+  }
+  .visionDividerIcon {
+    height: 300px;
+  }
+  .progressBarIcon {
+    height: 300px;
+  }
+  .progressBarIcon1 {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .progressBarIcon {
+    height: 300px;
+  }
+  .progressBarIcon1 {
+    height: 300px;
+  }
 }
 @media screen and (max-width: 450px) {
   .ourGoal,
@@ -255,5 +281,17 @@
   .ourVision {
     font-size: var(--font-size-15xl);
     line-height: 48px;
+  }
+  .missionDividerIcon {
+    height: 200px;
+  }
+  .visionDividerIcon {
+    height: 200px;
+  }
+  .progressBarIcon {
+    height: 200px;
+  }
+  .progressBarIcon1 {
+    height: 200px;
   }
 }

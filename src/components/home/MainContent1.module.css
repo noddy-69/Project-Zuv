@@ -46,7 +46,7 @@
   justify-content: flex-start;
 }
 .readMoreLink {
-  width: 180px;
+  width: 200px;
   border-radius: var(--br-xs);
   background-color: var(--secondary-color);
   flex-direction: row;

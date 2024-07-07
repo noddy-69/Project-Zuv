@@ -14,20 +14,9 @@ const FrameComponent1 = ({ className = "" }) => {
                 className={styles.image9Icon}
                 loading="lazy"
                 alt=""
-                src="/image-9@2x.png"
+                src="/image-12@2x.png"
               />
-              <div className={styles.imageCaption}>
-                <img
-                  className={styles.cameraButtonIcon}
-                  alt=""
-                  src="/camera-button@2x.png"
-                />
-                <img
-                  className={styles.image12Icon}
-                  alt=""
-                  src="/image-12@2x.png"
-                />
-              </div>
+              
             </div>
             <div className={styles.instrumentDetails}>
               <div className={styles.santoor}>Santoor</div>
@@ -38,11 +27,7 @@ const FrameComponent1 = ({ className = "" }) => {
           </div>
           <div className={styles.galleryItems1}>
             <div className={styles.avatar}>
-              <img
-                className={styles.avatarChild}
-                alt=""
-                src="/rectangle-187848@2x.png"
-              />
+              
               <img
                 className={styles.image10Icon}
                 loading="lazy"
@@ -73,11 +58,7 @@ const FrameComponent1 = ({ className = "" }) => {
           </div>
           <div className={styles.galleryItems3}>
             <div className={styles.rectangleGroup}>
-              <img
-                className={styles.frameItem}
-                alt=""
-                src="/rectangle-187848@2x.png"
-              />
+              
               <img
                 className={styles.image11Icon}
                 loading="lazy"

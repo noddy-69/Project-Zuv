@@ -150,6 +150,9 @@
     padding-bottom: var(--padding-32xl);
     box-sizing: border-box;
   }
+  .taleRectIcon {
+    height: 400px;
+  }
 }
 @media screen and (max-width: 750px) {
   .commonTaleParent,
@@ -162,6 +165,14 @@
   .innerContent {
     gap: var(--gap-11xl);
   }
+  .taleRectIcon {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .taleRectIcon {
+    height: 250px;
+  }
 }
 @media screen and (max-width: 450px) {
   .whereDidIt {
@@ -171,5 +182,8 @@
   .innerContentWrapper {
     padding-bottom: 33px;
     box-sizing: border-box;
+  }
+  .taleRectIcon {
+    height: 200px;
   }
 }

@@ -1,5 +1,5 @@
 .frameChild {
-  width: 1440px;
+  width: 100%;
   height: 396px;
   position: relative;
   object-fit: cover;
@@ -18,6 +18,7 @@
   left: 0;
   background-color: rgba(50, 50, 50, 0.79);
   z-index: 1;
+  justify-content: center;
 }
 .futurePlans {
   margin: 0;
@@ -72,6 +73,7 @@
   font-size: var(--font-size-37xl);
   color: var(--white);
   font-family: var(--font-open-sans);
+  margin-bottom: 80px;
 }
 .music {
   width: 100%;
@@ -81,36 +83,102 @@
   line-height: normal;
   letter-spacing: normal;
 }
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1400px) {
+  .rectangleParent {
+    padding-left: 155px;
+    padding-right: 150px;
+    box-sizing: border-box;
+  }
   .futurePlans {
     font-size: var(--font-size-26xl);
     line-height: 64px;
   }
+  .frameChild {
+    height: 300px;
+  }
 }
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 1000px) {
+  .futurePlans {
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .excitingNewsZuv {
+    font-size: 18px;
+    font-weight: 100;
+  }
+  .frameChild {
+    height: 200px;
+  }
   .rectangleParent {
-    padding-left: 185px;
-    padding-right: 180px;
+    padding-left: 105px;
+    padding-right: 100px;
+    padding-top: 75px;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
     box-sizing: border-box;
   }
   .music {
     gap: var(--gap-41xl);
   }
+  .frameChild {
+    height: 100px;
+  }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
+  .frameChild {
+    height: 100px;
+  }
   .futurePlans {
-    font-size: var(--font-size-15xl);
-    line-height: 48px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 60px;
   }
   .excitingNewsZuv {
-    font-size: var(--font-size-lgi);
-    line-height: 29px;
+    font-size: 15px;
+    font-weight: 100;
   }
   .rectangleParent {
-    padding: var(--padding-54xl) var(--padding-xl);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     box-sizing: border-box;
+    gap: 0px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    gap: 0px;
+    margin-bottom: 40px;
   }
   .music {
     gap: var(--gap-11xl);
+  }
+  .futurePlans {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 60px;
+  }
+  .excitingNewsZuv {
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 30px;
+  }
+  .frameChild {
+    height: 100px;
   }
 }

@@ -60,8 +60,6 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: var(--padding-81xl) var(--padding-xl) var(--padding-81xl)
-    var(--padding-43xl);
   box-sizing: border-box;
   background-size: cover;
   background-repeat: no-repeat;
@@ -158,6 +156,9 @@
     padding-bottom: var(--padding-32xl);
     box-sizing: border-box;
   }
+  .storyCardContent {
+    height: 300px;
+  }
 }
 @media screen and (max-width: 450px) {
   .stories {
@@ -167,5 +168,8 @@
   .text {
     font-size: var(--font-size-10xl);
     line-height: 36px;
+  }
+  .storyCardContent {
+    height: 200px;
   }
 }

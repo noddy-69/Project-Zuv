@@ -16,11 +16,15 @@ const Nav = ({ className = "" }) => {
         />
       </div>
 
+      <div className={styles.donationButton1}>
+        <a className={styles.donateNow1}>Donate Now</a>
+      </div>
+
       <div className={styles.phone}>
       <ul className={styles.menu1}>
             <li><a href="/">Home</a></li>
             <li className={styles.dropdown1}>
-                <a href="#">Contents
+                <a href="#"><img src="/bars-solid.svg"></img>
                 </a>
                 <ul className={styles.dropdownmenu1}>
                     <li><a href="/event"> Exhibition</a></li>

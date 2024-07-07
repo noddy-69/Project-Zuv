@@ -234,6 +234,8 @@
   text-align: left;
   font-size: var(--font-size-xl);
   font-family: var(--font-inter);
+  padding-left: 20px;
+  padding-left: 20px;
 }
 .speakersContent {
   width: 814px;
@@ -275,7 +277,7 @@
   flex: 1;
   background-color: var(--color-papayawhip);
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   padding: var(--padding-83xl) var(--padding-133xl) var(--padding-84xl)
     var(--padding-89xl);
   gap: var(--gap-59xl);
@@ -313,6 +315,9 @@
     padding-bottom: var(--padding-32xl);
     box-sizing: border-box;
   }
+  .editionBackgroundIcon {
+    height: 400px;
+  }
 }
 @media screen and (max-width: 750px) {
   .editionImage {
@@ -344,6 +349,14 @@
       var(--padding-35xl);
     box-sizing: border-box;
   }
+  .editionBackgroundIcon {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .editionBackgroundIcon {
+    height: 250px;
+  }
 }
 @media screen and (max-width: 450px) {
   .editionOne {
@@ -374,5 +387,8 @@
   .editionContentWrapper {
     padding-bottom: var(--padding-14xl);
     box-sizing: border-box;
+  }
+  .editionBackgroundIcon {
+    height: 200px;
   }
 }

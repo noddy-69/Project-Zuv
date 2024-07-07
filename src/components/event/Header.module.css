@@ -69,15 +69,36 @@
   }
   .originOfKashmirParent {
     padding-left: 20px;
+    padding-right: 20px;
+  }
+  .header {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .originOfKashmir {
+    font-size: var(--font-size-5xl);
+    line-height: 40px;
+  }
+  .exploringTheAncient {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+  .header {
+    height: 300px;
+    padding-bottom: 30px;
   }
 }
 @media screen and (max-width: 450px) {
   .originOfKashmir {
+    font-weight: 400;
     font-size: var(--font-size-3xl);
-    line-height: 48px;
+    line-height: 30px;
   }
   .exploringTheAncient {
     font-size: var(--font-size-sm);
-    line-height: 29px;
+  }
+  .header {
+    height: 200px;
   }
 }
