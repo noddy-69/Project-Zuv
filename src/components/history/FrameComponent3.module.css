@@ -27,7 +27,7 @@
   width: 604px;
   font-size: inherit;
   line-height: 80px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
   display: inline-block;
 }
@@ -85,7 +85,7 @@
   max-width: 100%;
 }
 .frameWrapper {
-  width: 1012px;
+  width: 100%;
   flex-direction: row;
   justify-content: center;
 }

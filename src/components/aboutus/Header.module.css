@@ -26,7 +26,7 @@
 .originOfKashmir {
   font-size: inherit;
   line-height: 80px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
 }
 .exploringTheAncient {
@@ -52,6 +52,7 @@
 }
 .header {
   height: 500px;
+  width: 100%;
   flex: 1;
   justify-content: flex-end;
   padding: var(--padding-146xl) 0 var(--padding-41xl);
@@ -68,16 +69,35 @@
     line-height: 64px;
   }
   .originOfKashmirParent {
-    padding-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .header {
+    height: 400px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .originOfKashmir {
+    font-size: var(--font-size-15xl);
+    line-height: 40px;
+  }
+  .header {
+    height: 300px;
+    padding-bottom: 30px;
   }
 }
 @media screen and (max-width: 450px) {
   .originOfKashmir {
-    font-size: var(--font-size-3xl);
-    line-height: 48px;
+    font-size: var(--font-size-5xl);
+    line-height: 30px;
   }
   .exploringTheAncient {
     font-size: var(--font-size-sm);
-    line-height: 29px;
+    line-height: 25px;
+  }
+  .header {
+    height: 200px;
+    padding-bottom: 20px;
   }
 }

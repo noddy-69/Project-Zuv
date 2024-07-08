@@ -12,7 +12,7 @@
   position: relative;
   font-size: inherit;
   line-height: 48px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
   display: inline-block;
 }
@@ -58,6 +58,7 @@
   max-width: 100%;
   padding-left: 15%;
   padding-right: 15%;
+  align-items: center;
 }
 @media screen and (max-width: 1200px) {
   .dishCardsIcon {

@@ -5,9 +5,21 @@
   position: relative;
   font-size: inherit;
   line-height: 80px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
   display: inline-block;
+}
+.sufiyanaMousiqui {
+  font-weight: 700;
+}
+.chakri {
+  font-weight: 700;
+}
+.rouf {
+  font-weight: 700;
+}
+.bhandPather {
+  font-weight: 700;
 }
 .sufiyanaMousiqui,
 .thisClassicalMusic {
@@ -84,7 +96,6 @@
 .musicList,
 .savedBy {
   flex: 1;
-  max-width: 100%;
   min-width: 299px;
 }
 .musicList {
@@ -95,7 +106,7 @@
   gap: var(--gap-13xl);
 }
 .savedBy {
-  height: 616px;
+  height: 600px;
   position: relative;
   border-radius: var(--br-xs);
   overflow: hidden;
@@ -138,7 +149,7 @@
 }
 @media screen and (max-width: 1050px) {
   .traditionalPerformingArts {
-    font-size: var(--font-size-26xl);
+    font-size: var(--font-size-37xl);
     line-height: 64px;
   }
   .musicStyles {
@@ -149,6 +160,12 @@
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 850px) {
+  .savedBy {
+    height: 350px;
+    max-width: 280px;
+  }
+}
 @media screen and (max-width: 750px) {
   .musicStyles {
     gap: var(--gap-xl);
@@ -156,11 +173,16 @@
   .traditionalPerformingArtsOfParent {
     gap: var(--gap-2xl);
   }
+  .traditionalPerformingArts {
+    font-size: var(--font-size-26xl);
+  }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 515px) {
   .traditionalPerformingArts {
     font-size: var(--font-size-15xl);
     line-height: 48px;
+    height: 120px;
+    margin-bottom: 40px;
   }
   .bhandPather,
   .chakri,

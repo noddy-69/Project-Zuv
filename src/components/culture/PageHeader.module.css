@@ -12,7 +12,6 @@
 }
 .overlay {
   background-color: var(--color-darkslategray);
-  z-index: 1;
 }
 .img {
   margin: 0 !important;
@@ -26,7 +25,7 @@
 .originOfKashmir {
   font-size: inherit;
   line-height: 80px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
 }
 .exploringTheAncient {
@@ -97,14 +96,42 @@
     font-size: var(--font-size-26xl);
     line-height: 64px;
   }
+  .header {
+    height: 400px;
+  }
+  .originOfKashmirParent {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .headerTitle {
+    padding-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 @media screen and (max-width: 750px) {
   .pageHeader {
-    padding-bottom: var(--padding-59xl);
+    padding-bottom: 0;
     box-sizing: border-box;
   }
   .headerTitle {
     padding-left: 20px;
+  }
+  .originOfKashmir {
+    font-size: var(--font-size-10xl);
+    line-height: 40px; 
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .exploringTheAncient {
+    font-size: var(--font-size-xl);
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .header {
+    height: 300px;
+    padding-bottom: 30px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -119,5 +146,15 @@
   .aboutZuv {
     font-size: var(--font-size-15xl);
     line-height: 48px;
+  }
+  .header {
+    height: 200px;
+    padding-bottom: 20px;
+  }
+  .pageHeader {
+    height: 300px;
+  }
+  .headerTitle {
+    gap: 0px;
   }
 }

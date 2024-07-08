@@ -4,7 +4,7 @@
   position: relative;
   font-size: inherit;
   line-height: 42px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
   display: inline-block;
   max-width: 100%;
@@ -54,8 +54,8 @@
   max-width: 100%;
 }
 .groupIcon {
-  height: 55.1px;
-  width: 60.6px;
+  height: 100%;
+  width: 100%;
   position: relative;
   flex-shrink: 0;
 }
@@ -146,6 +146,14 @@
     padding-left: var(--padding-16xl);
     padding-right: var(--padding-12xl);
     box-sizing: border-box;
+  }
+  .frameParent {
+    width: 100px;
+    gap: 0;
+    margin-left: 20px;
+  }
+  .groupIcon {
+    width: 40px;
   }
 }
 @media screen and (max-width: 450px) {

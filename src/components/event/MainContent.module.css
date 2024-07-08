@@ -4,7 +4,7 @@
   position: relative;
   font-size: inherit;
   line-height: 72px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
 }
 .zuvIsA {
@@ -61,7 +61,7 @@
   width: 562px;
   font-size: inherit;
   line-height: 72px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
   display: inline-block;
 }
@@ -148,6 +148,7 @@
 .whatIsTheEventParent {
   flex-direction: column;
   gap: var(--gap-17xl);
+  margin-top: 20px;
 }
 .contentWrapper,
 .mainContent,
@@ -160,7 +161,7 @@
   width: 1040px;
   flex-direction: column;
   justify-content: flex-start;
-  gap: var(--gap-101xl);
+  gap: 100px;
 }
 .mainContent {
   align-self: stretch;

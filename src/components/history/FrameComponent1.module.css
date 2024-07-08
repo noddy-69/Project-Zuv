@@ -12,7 +12,7 @@
   position: relative;
   font-size: inherit;
   line-height: 80px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
   display: inline-block;
   max-width: 100%;
@@ -51,7 +51,7 @@
 }
 .geologistsAgreeThatContainer {
   align-self: stretch;
-  height: 456px;
+  height: 100%;
   position: relative;
   line-height: 24px;
   display: inline-block;
@@ -75,11 +75,11 @@
   max-height: 100%;
   object-fit: cover;
   max-width: 100%;
-  z-index: 1;
 }
 .geologyContent {
   width: 1010px;
   display: flex;
+  position: relative;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
@@ -116,9 +116,6 @@
   .scientificObservancesAbout {
     font-size: var(--font-size-26xl);
     line-height: 64px;
-  }
-  .geologyContentChild {
-    flex: 1;
   }
   .geologyContent {
     flex-wrap: wrap;
@@ -157,5 +154,8 @@
     padding-top: var(--padding-23xl);
     padding-bottom: var(--padding-23xl);
     box-sizing: border-box;
+  }
+  .geologyContentChild {
+    width: 300px;
   }
 }

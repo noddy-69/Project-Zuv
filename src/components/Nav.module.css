@@ -12,21 +12,21 @@
   background-color: var(--primary-color);
 }
 .projectZuvIcon {
+  margin-top: 10px;
   align-self: stretch;
-  height: 30px;
-  position: absolute;
+  height: 100%;
+  position: relative;
   max-width: 100%;
   overflow: hidden;
   flex-shrink: 0;
   z-index: 1;
 }
 .projectZuvWrapper {
-  margin-top: 30px;
   width: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 0 0 var(--padding-4xs-2);
   box-sizing: border-box;
 }

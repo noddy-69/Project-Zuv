@@ -16,20 +16,17 @@ const Nav = ({ className = "" }) => {
         />
       </div>
 
-      <div className={styles.donationButton1}>
-        <a className={styles.donateNow1}>Donate Now</a>
-      </div>
 
       <div className={styles.phone}>
       <ul className={styles.menu1}>
-            <li><a href="/">Home</a></li>
             <li className={styles.dropdown1}>
-                <a href="#"><img src="/bars-solid.svg"></img>
+                <a href="#"><img className={styles.bars} src="/bars-solid.svg"></img>
                 </a>
                 <ul className={styles.dropdownmenu1}>
+                    <li><a href="/">Home</a></li>
                     <li><a href="/event"> Exhibition</a></li>
                     <li className={styles.dropdown1}>
-                        <a href="#"> History&Origin</a>
+                        <a href="#"><img className={styles.caret} src="/caret-left-solid.svg"></img> History&Origin</a>
                         <ul className={styles.dropdownmenu1}>
                         <li><a href="/origin">Origin</a></li>
                         <li><a href="/oldest-site-in-kashmir">Oldest Site</a></li>
@@ -37,14 +34,14 @@ const Nav = ({ className = "" }) => {
                         </ul>
                     </li>
                     <li className={styles.dropdown1}>
-                        <a href="#"> Food</a>
+                        <a href="#"><img className={styles.caret} src="/caret-left-solid.svg"></img> Food</a>
                         <ul className={styles.dropdownmenu1}>
                         <li><a href="/food-history">History</a></li>
                         <li><a href="/kashmiri-pandit-cuisine">Kashmiri Pandit Cuisine</a></li>
                         </ul>
                     </li>
                     <li className={styles.dropdown1}>
-                        <a href="#"> Culture</a>
+                        <a href="#"><img className={styles.caret} src="/caret-left-solid.svg"></img> Culture</a>
                         <ul className={styles.dropdownmenu1}>
                         <li><a href="/festival">Festivals</a></li>
                         <li><a href="/music">Music</a></li>

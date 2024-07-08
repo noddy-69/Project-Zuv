@@ -44,11 +44,13 @@ const FrameComponent1 = ({ className = "" }) => {
             </div>
           </div>
           <div className={styles.galleryItems2}>
-            <img
-              className={styles.galleryItemsChild}
-              alt=""
-              src="/rectangle-187848@2x.png"
-            />
+            <div className={styles.avatar}>
+              <img
+                className={styles.galleryItemsChild}
+                alt=""
+                src="/rectangle-187848@2x.png"
+              />
+            </div>
             <div className={styles.noetParent}>
               <div className={styles.noet}>Noet</div>
               <div className={styles.aTypeOf}>

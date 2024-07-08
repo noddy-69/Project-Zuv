@@ -4,7 +4,7 @@
   position: relative;
   font-size: inherit;
   line-height: 80px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
   display: inline-block;
   max-width: 100%;
@@ -25,7 +25,7 @@
   position: relative;
   font-size: inherit;
   line-height: 48px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
   display: inline-block;
 }
@@ -67,13 +67,15 @@
   max-width: 100%;
   padding-left: 15%;
   padding-right: 15%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .kahwah {
   width: 192px;
   position: relative;
   font-size: inherit;
   line-height: 48px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
   display: inline-block;
 }
@@ -132,7 +134,7 @@
   position: relative;
   font-size: inherit;
   line-height: 48px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
   display: inline-block;
 }
@@ -188,13 +190,15 @@
   max-width: 100%;
   padding-left: 15%;
   padding-right: 15%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .katlam {
   width: 283px;
   position: relative;
   font-size: inherit;
   line-height: 48px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
   display: inline-block;
 }
@@ -244,6 +248,8 @@
   max-width: 100%;
   padding-left: 15%;
   padding-right: 15%;
+  padding-top: 40px;
+  padding-bottom: 40px;
   box-sizing: border-box;
   gap: 40px;
 }

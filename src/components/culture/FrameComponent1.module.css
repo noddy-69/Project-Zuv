@@ -16,17 +16,17 @@
 }
 .kashmiriInstruments {
   margin: 0;
-  width: 657px;
+  width: fit-content;
   font-size: inherit;
   line-height: 80px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
   display: inline-block;
 }
 .image9Icon {
-  height: 458px;
+  height: 100%;
   border-radius: var(--br-xs);
-  max-width: 100%;
+  width: 460px;
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
@@ -69,7 +69,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   
   box-sizing: border-box;
   position: relative;
@@ -81,6 +81,18 @@
   position: relative;
   line-height: 24px;
 }
+.santoor {
+  font-weight: 700;
+}
+.rabab {
+  font-weight: 700;
+}
+.noet {
+  font-weight: 700;
+}
+.sarangi {
+  font-weight: 700;
+}
 .aHammeredDulcimer {
   font-size: var(--font-size-base);
   font-family: var(--font-inter);
@@ -90,7 +102,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .instrumentDetails {
   align-self: stretch;
@@ -99,9 +111,7 @@
 .galleryItems {
   width: 458px;
   margin: 0 !important;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   gap: var(--gap-13xl);
   max-width: 100%;
 }
@@ -117,15 +127,15 @@
 .avatar,
 .image10Icon {
   overflow: hidden;
-  max-width: 100%;
 }
 .image10Icon {
   margin-top: -2px;
-  height: 462px;
-  flex: 1;
+  width: 460px;
+  height: 100%;
   position: relative;
   object-fit: cover;
   z-index: 1;
+  border-radius: var(--br-xs);
 }
 .avatar {
   align-self: stretch;
@@ -133,8 +143,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
-  background-image: url(/public/rectangle-187848@2x.png);
+  justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -163,9 +172,7 @@
 .galleryItems1 {
   width: 458px;
   margin: 0 !important;
-  position: absolute;
-  top: 0;
-  left: 542px;
+  position: relative;
   gap: var(--gap-13xl);
   max-width: 100%;
 }
@@ -176,9 +183,9 @@
   position: relative;
 }
 .galleryItemsChild {
-  height: 458px;
+  height: 100%;
   border-radius: var(--br-xs);
-  max-width: 100%;
+  width: 460px;
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
@@ -205,9 +212,7 @@
 .galleryItems2 {
   width: 458px;
   margin: 0 !important;
-  position: absolute;
-  top: 634px;
-  left: 0;
+  position: relative;
   gap: var(--gap-13xl);
   max-width: 100%;
 }
@@ -225,22 +230,18 @@
   display: none;
 }
 .image11Icon {
-  top: calc(50% - 398px);
-  left: calc(50% - 233px);
-  width: 466px;
-  height: 699px;
+  position: relative;
+  width: 460px;
+  height: 100%;
+  border-radius: var(--br-xs);
 }
 .rectangleGroup {
-  align-self: stretch;
-  height: 458px;
+  align-self: center;
+  height: 650px;
   position: relative;
   border-radius: var(--br-xs);
   overflow: hidden;
-  flex-shrink: 0;
-  background-image: url(/public/rectangle-187848@2x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+  justify-content: center;
 }
 .aBowedShortNecked,
 .sarangi {
@@ -266,9 +267,7 @@
 .galleryItems3 {
   width: 458px;
   margin: 0 !important;
-  position: absolute;
-  top: 634px;
-  left: 542px;
+  position: relative;
   gap: var(--gap-13xl);
 }
 .aboutUsInner,
@@ -280,18 +279,15 @@
   max-width: 100%;
 }
 .instrumentGallery {
-  align-self: stretch;
-  height: 1188px;
+  width: 100%;
+  height: 100%;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   position: relative;
   gap: 56px 80px;
-  z-index: 1;
   font-size: var(--font-size-xl);
   justify-content: center;
-  
-  
 }
 .aboutUsInner,
 .rectangleParent {
@@ -341,6 +337,21 @@
     gap: var(--gap-2xl);
     padding: var(--padding-23xl) var(--padding-91xl) var(--padding-26xl);
     box-sizing: border-box;
+  }
+  .image9Icon {
+    width: 350px;
+  }
+  .image10Icon {
+    width: 350px;
+  }
+  .galleryItemsChild {
+    width: 350px;
+  }
+  .image11Icon {
+    width: 350px;
+  }
+  .rectangleGroup{
+    height: 480px;
   }
 }
 @media screen and (max-width: 450px) {

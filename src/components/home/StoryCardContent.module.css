@@ -11,6 +11,9 @@
   line-height: 42px;
   font-weight: 400;
   font-family: inherit;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
 }
 .loremIpsumDolor1 {
   width: 443px;
@@ -54,7 +57,7 @@
 }
 .storyCardContent,
 .storyLink {
-  width: 232px;
+  width: 240px;
   flex-direction: row;
   font-size: var(--font-size-lg);
   color: var(--color-gray-100);

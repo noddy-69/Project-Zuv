@@ -8,6 +8,7 @@
   font-family: inherit;
   display: inline-block;
   max-width: 100%;
+  font-weight: 700;
 }
 .image7Icon {
   width: 305px;
@@ -128,6 +129,14 @@
     padding-left: var(--padding-16xl);
     padding-right: var(--padding-12xl);
     box-sizing: border-box;
+  }
+  .goalContent {
+    width: 100px;
+    gap: 0;
+    margin-left: 20px;
+  }
+  .groupIcon {
+    width: 40px;
   }
 }
 @media screen and (max-width: 1000px) {

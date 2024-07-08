@@ -10,6 +10,7 @@
 .journalist {
   position: relative;
   line-height: 24px;
+  justify-content: center;
 }
 .adityaRajKaul {
   font-weight: 600;
@@ -35,7 +36,8 @@
 .speakerAvatarsInner {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
+  text-align: center;
 }
 .speakerAvatarsInner {
   flex-direction: row;

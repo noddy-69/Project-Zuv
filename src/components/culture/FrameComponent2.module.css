@@ -4,7 +4,7 @@
   position: relative;
   font-size: inherit;
   line-height: 80px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
   display: inline-block;
   max-width: 100%;
@@ -41,7 +41,7 @@
   position: relative;
   font-size: inherit;
   line-height: 32px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
 }
 .festivalTypeRows {
@@ -155,7 +155,7 @@
   position: relative;
   font-size: inherit;
   line-height: 32px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: inherit;
 }
 .seasonalFestivalsWrapper {
@@ -214,6 +214,7 @@
   flex: 1;
   position: relative;
   line-height: 32px;
+  font-weight: 700px;
 }
 .religiousFestivalsWrapper {
   width: 234px;
