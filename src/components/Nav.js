@@ -8,12 +8,7 @@ const Nav = ({ className = "" }) => {
     <header className={[styles.nav, className].join(" ")}>
       <div className={styles.contentBackground} />
       <div className={styles.projectZuvWrapper}>
-        <img
-          className={styles.projectZuvIcon}
-          loading="lazy"
-          alt=""
-          src="/project-zuv.svg"
-        />
+        Project Zuv
       </div>
 
 
@@ -96,6 +91,11 @@ const Nav = ({ className = "" }) => {
                   <a href="/origin">Origin</a>
                   <a href="/oldest-site-in-kashmir">Oldest Site</a>
                   <a href="/kashmir-the-name">History of Name</a>
+                  <img
+                      className={styles.dropdish}
+                      alt=""
+                      src="/dish.png"
+                    />
               </div>
           </div>
 
@@ -131,6 +131,11 @@ const Nav = ({ className = "" }) => {
               <h4 class={styles.dropheading}>Culture</h4>
                   <a href="/festival">Festivals</a>
                   <a href="/music">Music</a>
+                  <img
+                      className={styles.dropdish}
+                      alt=""
+                      src="/dish.png"
+                    />
               </div>
           </div>
 

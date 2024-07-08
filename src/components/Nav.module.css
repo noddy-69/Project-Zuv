@@ -22,12 +22,14 @@
   z-index: 1;
 }
 .projectZuvWrapper {
-  width: 80px;
+  font-weight: 800;
+  font-size: 30px;
+  z-index: 1;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 0 var(--padding-4xs-2);
   box-sizing: border-box;
 }
 .home {
@@ -227,6 +229,10 @@
   font-family: var(--font-inter);
   justify-content: space-between;
 }
+.bars {
+  height: 20px;
+  margin-top: 10px;
+}
 
 
 
@@ -258,7 +264,7 @@
   justify-content: flex-end;
   position: absolute;
   right: 10px;
-  bottom: 15px;
+  bottom: 10px;
   gap: 10px;
 }
 
@@ -276,7 +282,7 @@
     gap: var(--gap-xl);
   }
   .projectZuvIcon{
-    height:15px;
+    height:30px;
     justify-content: flex-start;
   }
   .donationButton{
@@ -310,11 +316,20 @@
     display: flex;
     justify-content: flex-end;
   }
+  .projectZuvWrapper {
+    font-weight: 800;
+    font-size: 20px;
+    z-index: 1;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
   .nav {
     padding: 20px;
-    gap: 0;
   }
-
 }
 @media screen and (max-width: 450px) {
   .donationButton1{
@@ -421,6 +436,7 @@
   max-width: 250px;
   max-height: 1750px;
   display: flex;
+  justify-self: flex-end;
   align-items: flex-end;
   margin: 20px;
 }
