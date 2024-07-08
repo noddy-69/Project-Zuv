@@ -328,7 +328,7 @@
     box-sizing: border-box;
   }
   .nav {
-    padding: 20px;
+    padding-left: 0px;
   }
 }
 @media screen and (max-width: 450px) {
