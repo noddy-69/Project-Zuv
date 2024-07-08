@@ -21,7 +21,7 @@ const Nav = ({ className = "" }) => {
                     <li><a href="/">Home</a></li>
                     <li><a href="/event"> Exhibition</a></li>
                     <li className={styles.dropdown1}>
-                        <a href="#"><img className={styles.caret} src="/caret-left-solid.svg"></img> History&Origin</a>
+                        <a href="#"><img className={styles.caret} src="/caret-left-solid.svg"></img> History & Origin</a>
                         <ul className={styles.dropdownmenu1}>
                         <li><a href="/origin">Origin</a></li>
                         <li><a href="/oldest-site-in-kashmir">Oldest Site</a></li>
@@ -79,7 +79,7 @@ const Nav = ({ className = "" }) => {
           
 
           <div class={styles.dropdown}>
-            <button class={styles.select}>History&Origin
+            <button class={styles.select}>History & Origin
             <img
               className={styles.systemactionarrowDropDownIcon}
               alt=""
