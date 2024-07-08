@@ -94,10 +94,10 @@ const FrameComponent6 = ({ className = "" }) => {
                 adityaRajKaul="Aditya Raj Kaul"
                 journalist="Journalist"
               />
-              <SpeakerTwo
-                speakerTwoAvatar="/ellipse-7@2x.png"
-                namrataWakhloo="Namrata Wakhloo"
-                authorKashmiriTravelBlogg={`Author & Kashmiri travel blogger`}
+              <SpeakerAvatars
+                ellipse6="/ellipse-7@2x.png"
+                adityaRajKaul="Namrata Wakhloo"
+                journalist="Author & Kashmiri travel blogger"
               />
             </div>
           </div>
@@ -114,11 +114,11 @@ const FrameComponent6 = ({ className = "" }) => {
               adityaRajKaul="Vinayak Razdan"
               journalist="SearchKashmir"
             />
-            <SpeakerTwo
-              speakerTwoAvatar="/ellipse-10@2x.png"
-              namrataWakhloo="Nalini Moti Sadhu"
-              authorKashmiriTravelBlogg="Entrepreneur – Maatamal"
-            />
+            <SpeakerAvatars
+                ellipse6="/ellipse-10@2x.png"
+                adityaRajKaul="Nalini Moti Sadhu"
+                journalist="Entrepreneur – Maatamal"
+              />
           </div>
         </div>
       </div>

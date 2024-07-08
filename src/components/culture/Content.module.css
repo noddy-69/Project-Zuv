@@ -5,8 +5,7 @@
   position: relative;
   font-size: inherit;
   line-height: 80px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
   display: inline-block;
 }
 .sufiyanaMousiqui {
@@ -145,7 +144,7 @@
   text-align: center;
   font-size: var(--font-size-37xl);
   color: var(--black);
-  font-family: var(--font-open-sans);
+  font-family: 'Mona-Sans';
 }
 @media screen and (max-width: 1050px) {
   .traditionalPerformingArts {

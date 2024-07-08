@@ -47,7 +47,7 @@
   font-size: inherit;
   line-height: 80px;
   font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
   display: inline-block;
   z-index: 2;
   font-weight: 700;
@@ -88,7 +88,7 @@
   font-size: inherit;
   line-height: 80px;
   font-weight: 400;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
   font-weight: 700;
 }
 .m {
@@ -184,6 +184,7 @@
   width: 1102px;
   flex-direction: column;
   gap: var(--gap-21xl);
+  font-family: 'Mona-Sans';
 }
 .home,
 .impactContent,
@@ -201,8 +202,6 @@
   text-align: center;
   font-size: var(--font-size-37xl);
   color: var(--black);
-  font-family: var(--font-open-sans);
-  font-weight: 700;
 }
 .home {
   width: 100%;

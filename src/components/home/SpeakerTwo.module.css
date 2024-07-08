@@ -1,28 +1,30 @@
 .speakerTwoAvatar {
   height: 172px;
-  width: 172px;
+  width: 100%;
   position: relative;
   border-radius: 50%;
   object-fit: cover;
+  justify-content: center;
+  align-items: center;
 }
 .speakerTwoImage {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
 }
 .namrataWakhloo {
   position: relative;
   line-height: 24px;
   font-weight: 600;
+  align-items: center;
+  justify-content: center;
 }
 .speakerTwoName {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
 }
 .authorKashmiri {
   align-self: stretch;
@@ -35,15 +37,15 @@
 .speakerTwoDetails {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .speakerTwoDetails {
   align-self: stretch;
   gap: var(--gap-7xs);
 }
 .speakerTwo {
-  width: 189px;
+  width: 100;
   gap: var(--gap-5xl);
   text-align: left;
   font-size: var(--font-size-xl);

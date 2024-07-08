@@ -4,8 +4,7 @@
   position: relative;
   font-size: inherit;
   line-height: 80px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
   display: inline-block;
   max-width: 100%;
 }
@@ -25,8 +24,7 @@
   position: relative;
   font-size: inherit;
   line-height: 48px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
   display: inline-block;
 }
 .dumAlooIs {
@@ -75,8 +73,7 @@
   position: relative;
   font-size: inherit;
   line-height: 48px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
   display: inline-block;
 }
 .blankLine,
@@ -134,8 +131,7 @@
   position: relative;
   font-size: inherit;
   line-height: 48px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
   display: inline-block;
 }
 .blankLine3,
@@ -198,8 +194,7 @@
   position: relative;
   font-size: inherit;
   line-height: 48px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
   display: inline-block;
 }
 .blankLine4,

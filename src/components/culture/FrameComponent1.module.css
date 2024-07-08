@@ -19,8 +19,7 @@
   width: fit-content;
   font-size: inherit;
   line-height: 80px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
   display: inline-block;
 }
 .image9Icon {
@@ -237,7 +236,7 @@
 }
 .rectangleGroup {
   align-self: center;
-  height: 650px;
+  height: 460px;
   position: relative;
   border-radius: var(--br-xs);
   overflow: hidden;
@@ -309,7 +308,7 @@
   text-align: left;
   font-size: var(--font-size-37xl);
   color: var(--black);
-  font-family: var(--font-open-sans);
+  font-family: 'Mona-Sans';
 }
 @media screen and (max-width: 1200px) {
   .rectangleParent {
@@ -351,7 +350,7 @@
     width: 350px;
   }
   .rectangleGroup{
-    height: 480px;
+    height: 350px;
   }
 }
 @media screen and (max-width: 450px) {

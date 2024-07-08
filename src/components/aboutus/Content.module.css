@@ -196,7 +196,7 @@
   text-align: left;
   font-size: var(--font-size-37xl);
   color: var(--black);
-  font-family: var(--font-open-sans);
+  font-family: 'Mona-Sans';
 }
 @media screen and (max-width: 1050px) {
   .missionContent,

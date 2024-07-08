@@ -26,8 +26,7 @@
 .originOfKashmir {
   font-size: inherit;
   line-height: 80px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
 }
 .exploringTheAncient {
   font-size: var(--font-size-5xl);

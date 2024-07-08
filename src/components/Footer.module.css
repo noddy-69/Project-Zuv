@@ -20,7 +20,7 @@
   font-size: var(--font-size-base);
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: var(--font-open-sans);
+  font-family: 'Mona-Sans';
 }
 .oneImpressio2,
 .oneImpressio3,
@@ -102,7 +102,7 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
   font-size: var(--font-size-base);
-  font-family: var(--font-open-sans);
+  font-family: 'Mona-Sans';
 }
 .oneImpressio6 {
   position: relative;
@@ -134,7 +134,7 @@
   flex-direction: column;
   justify-content: flex-start;
   font-size: var(--font-size-base);
-  font-family: var(--font-open-sans);
+  font-family: 'Mona-Sans';
 }
 .footer {
   width: 100%;

@@ -4,8 +4,7 @@
   position: relative;
   font-size: inherit;
   line-height: 80px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
   display: inline-block;
   max-width: 100%;
 }
@@ -41,8 +40,7 @@
   position: relative;
   font-size: inherit;
   line-height: 32px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
 }
 .festivalTypeRows {
   width: 196px;
@@ -155,8 +153,7 @@
   position: relative;
   font-size: inherit;
   line-height: 32px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
 }
 .seasonalFestivalsWrapper {
   width: 238px;
@@ -214,7 +211,6 @@
   flex: 1;
   position: relative;
   line-height: 32px;
-  font-weight: 700px;
 }
 .religiousFestivalsWrapper {
   width: 234px;
@@ -225,7 +221,7 @@
   padding: 0 0 var(--padding-5xs);
   box-sizing: border-box;
   font-size: var(--font-size-5xl);
-  font-family: var(--font-open-sans);
+  font-family: 'Mona-Sans';
 }
 .frameInner {
   width: 24px;

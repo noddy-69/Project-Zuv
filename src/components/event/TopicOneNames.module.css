@@ -41,7 +41,7 @@
   text-align: left;
   font-size: var(--font-size-xl);
   color: var(--black);
-  font-family: var(--font-open-sans);
+  font-family: 'Mona-Sans';
 }
 @media screen and (max-width: 750px) {
   .topicOneNames {

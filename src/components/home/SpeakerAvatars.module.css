@@ -14,42 +14,45 @@
 }
 .adityaRajKaul {
   font-weight: 600;
+  justify-content: center;
 }
 .journalist {
-  display: inline-block;
-  min-width: 74px;
+  display: flex;
+  width: 100%;
 }
 .journalistWrapper {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-16xl);
+  align-items: center;
+  justify-content: center;
   font-size: var(--font-size-base);
 }
 .adityaRajKaulParent {
+  width: 100%;
   flex-direction: column;
   gap: var(--gap-7xs);
+  text-align: center;
 }
 .adityaRajKaulParent,
 .speakerAvatars,
 .speakerAvatarsInner {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   text-align: center;
 }
 .speakerAvatarsInner {
   flex-direction: row;
-
+  width: 100%;
 }
 .speakerAvatars {
   flex-direction: column;
   gap: var(--gap-5xl);
-  text-align: left;
+  text-align: center;
   font-size: var(--font-size-xl);
   color: var(--black);
   font-family: var(--font-inter);
+  justify-content: center;
 }
 @media screen and (max-width: 450px) {
   .adityaRajKaul {

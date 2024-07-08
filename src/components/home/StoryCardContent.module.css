@@ -10,7 +10,7 @@
   font-size: inherit;
   line-height: 42px;
   font-weight: 400;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
   display: flex;
   align-items: center;
   font-weight: 700;
@@ -71,7 +71,7 @@
   text-align: left;
   font-size: var(--font-size-17xl);
   color: var(--black);
-  font-family: var(--font-open-sans);
+  font-family: 'Mona-Sans';
 }
 @media screen and (max-width: 1050px) {
   .storyCardContent {

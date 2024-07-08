@@ -4,8 +4,7 @@
   position: relative;
   font-size: inherit;
   line-height: 80px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
   display: inline-block;
   max-width: 100%;
   margin-top: 20px;
@@ -27,8 +26,7 @@
   position: relative;
   font-size: inherit;
   line-height: 42px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
 }
 .blankLine,
 .vitastaTheRiver,
@@ -56,8 +54,7 @@
   position: relative;
   font-size: inherit;
   line-height: 42px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
   display: inline-block;
   max-width: 100%;
 }
@@ -95,8 +92,7 @@
   position: relative;
   font-size: inherit;
   line-height: 42px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
 }
 .herath,
 .herathIsOne,

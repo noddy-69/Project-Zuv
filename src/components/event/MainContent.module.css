@@ -4,8 +4,7 @@
   position: relative;
   font-size: inherit;
   line-height: 72px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
 }
 .zuvIsA {
   width: 480px;
@@ -61,8 +60,7 @@
   width: 562px;
   font-size: inherit;
   line-height: 72px;
-  font-weight: 700;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
   display: inline-block;
 }
 .eventSeparatorIcon {
