@@ -11,16 +11,16 @@ const FrameComponent = ({ className = "" }) => {
         </h1>
         <div className={styles.image}>
           <Image1
-            image="/ellipse-5@2x.png"
+            image="/Ellipse 5.png"
             ghulamHassanSofi="Ghulam Hassan Sofi"
           />
           <Image1
-            image="/ellipse-6@2x.png"
+            image="/Ellipse 6.png"
             ghulamHassanSofi="Vijay Kumar Malla"
           />
-          <Image1 image="/ellipse-7@2x.png" ghulamHassanSofi="Shameem Dev" />
-          <Image1 image="/ellipse-9@2x.png" ghulamHassanSofi="Kailash Mehra" />
-          <Image1 image="/ellipse-10@2x.png" ghulamHassanSofi="Raj Begum" />
+          <Image1 image="/Ellipse 7.png" ghulamHassanSofi="Shameem Dev" />
+          <Image1 image="/Ellipse 9.png" ghulamHassanSofi="Kailash Mehra" />
+          <Image1 image="/Ellipse 10.png" ghulamHassanSofi="Raj Begum" />
         </div>
       </div>
     </section>
