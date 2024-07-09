@@ -93,7 +93,8 @@
   background-color: var(--offset-1);
   flex-direction: column;
   justify-content: flex-start;
-  padding: var(--padding-64xl) var(--padding-181xl) var(--padding-80xl);
+  padding-top: var(--padding-64xl);
+  padding-bottom: var(--padding-80xl);;  
   box-sizing: border-box;
   gap: var(--gap-41xl);
 }
@@ -131,6 +132,7 @@
   color: var(--black);
   font-family: var(--font-inter);
 }
+
 @media screen and (max-width: 1200px) {
   .somePhotosOfSiteParent {
     flex-wrap: wrap;
@@ -154,8 +156,6 @@
 @media screen and (max-width: 750px) {
   .rectangleParent {
     gap: var(--gap-11xl);
-    padding-left: var(--padding-81xl);
-    padding-right: var(--padding-81xl);
     box-sizing: border-box;
   }
   .photoContainerWrapper {
@@ -170,7 +170,29 @@
   }
   .rectangleParent {
     gap: var(--gap-mini);
-    padding: var(--padding-16xl) var(--padding-xl) var(--padding-23xl);
+    padding-top: var(--padding-16xl); 
+    padding-bottom: var(--padding-23xl);
     box-sizing: border-box;
   }
+}
+
+
+.custom-prev-icon,
+.custom-next-icon {
+  font-size: 2rem;
+  color: #007bff;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.custom-prev-icon:hover,
+.custom-next-icon:hover {
+  color: #0056b3;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
 }

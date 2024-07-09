@@ -48,24 +48,6 @@ const Nav = ({ className = "" }) => {
         </ul>
         </div>
 
-{/* <div class={styles.listphone}>
-                  <a href="#">
-                  <button class={styles.listphoneselect}>Food
-                  <img
-                    className={styles.systemactionarrowDropDownIcon}
-                    alt=""
-                    src="/24systemactionarrow-drop-down.svg"
-                  />
-                  </button>
-                    <div class={styles.listphonecontent}>
-                        <a href="#">History&Origin</a>
-                        <a href="#">Food</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                    History&Origin
-                  </a>
-                </div> */}
-
 
       <div className={styles.pageContent}>
         <div className={styles.dropdownMenu}>
@@ -87,15 +69,19 @@ const Nav = ({ className = "" }) => {
             />
             </button>
               <div class={styles.content}>
-              <h4 class={styles.dropheading}>History & Origin</h4>
-                  <a href="/origin">Origin</a>
-                  <a href="/oldest-site-in-kashmir">Oldest Site</a>
-                  <a href="/kashmir-the-name">History of Name</a>
+                <div class={styles.items}>
+                  <h4 class={styles.dropheading}>History & Origin</h4>
+                    <a href="/origin">Origin</a>
+                    <a href="/oldest-site-in-kashmir">Oldest Site</a>
+                    <a href="/kashmir-the-name">History of Name</a>
+                </div>
+                <div class={styles.items1}>
                   <img
-                      className={styles.dropdish}
-                      alt=""
-                      src="/dish.png"
-                    />
+                        className={styles.dropdish}
+                        alt=""
+                        src="/dish.png"
+                      />
+                </div>
               </div>
           </div>
 
@@ -108,14 +94,18 @@ const Nav = ({ className = "" }) => {
             />
             </button>
               <div class={styles.content}>
-                <h4 class={styles.dropheading}>Food</h4>
-                  <a href="/food-history">History</a>
-                  <a href="/kashmiri-pandit-cuisine">Kashmiri Pandit Cuisine</a>
+                <div class={styles.items}>
+                  <h4 class={styles.dropheading}>Food</h4>
+                    <a href="/food-history">History</a>
+                    <a href="/kashmiri-pandit-cuisine">Kashmiri Pandit Cuisine</a>
+                </div>
+                <div class={styles.items1}>
                   <img
-                      className={styles.dropdish}
-                      alt=""
-                      src="/dish.png"
-                    />
+                    className={styles.dropdish}
+                    alt=""
+                    src="/dish.png"
+                  />
+                </div>
               </div>
           </div>
 
@@ -128,14 +118,18 @@ const Nav = ({ className = "" }) => {
             />
             </button>
             <div class={styles.content}>
-              <h4 class={styles.dropheading}>Culture</h4>
+              <div class={styles.items}>
+                <h4 class={styles.dropheading}>Culture</h4>
                   <a href="/festival">Festivals</a>
                   <a href="/music">Music</a>
-                  <img
-                      className={styles.dropdish}
-                      alt=""
-                      src="/dish.png"
-                    />
+              </div>
+              <div class={styles.items1}>
+                <img
+                  className={styles.dropdish}
+                  alt=""
+                  src="/dish.png"
+                />
+              </div>
               </div>
           </div>
 
