@@ -1,6 +1,5 @@
 import MainContent1 from "../components/home/MainContent1";
 import FrameComponent7 from "../components/home/FrameComponent7";
-import FrameComponent6 from "../components/home/FrameComponent6";
 import DonationCall from "../components/home/DonationCall";
 import styles from "./Home.module.css";
 
@@ -13,7 +12,7 @@ const Home = () => {
           <img
             className={styles.frameChild}
             alt=""
-            src="/rectangle-187791@2x.png"
+            src="/Rectangle 187791.png"
           />
           <div className={styles.heroImage} />
           <h1 className={styles.letsPreserveTheContainer}>
@@ -35,23 +34,25 @@ const Home = () => {
       <MainContent1 />
       <section className={styles.impactContentWrapper}>
         <div className={styles.impactContent}>
-          <h1 className={styles.measuringOurImpact}>Measuring Our Impact</h1>
           <div className={styles.impactMetrics}>
             <div className={styles.metricItems}>
               <div className={styles.metricValues}>
-                <div className={styles.m}>1M+</div>
+                <div className={styles.m}>7th Exodus of Kashmiri</div>
                 <h3 className={styles.childrenFedYearly}>
-                  Children fed yearly
+                  Pandits in the Valley
                 </h3>
               </div>
               <div className={styles.metricValues1}>
-                <div className={styles.k}>50K+</div>
-                <h3 className={styles.sponsoreYearly}>Sponsore yearly</h3>
+                <div className={styles.k}>600,000 displaced?</div>
+                <h3 className={styles.sponsoreYearly}>
+                  52,000? 100,000? The tragedy is no one has been able to
+                  account for the actual number
+                </h3>
               </div>
               <div className={styles.metricValues2}>
-                <div className={styles.div}>20+</div>
+                <div className={styles.div}>400 people killed?</div>
                 <h3 className={styles.countriesSupported}>
-                  Countries supported
+                  850? 200? Only 30 FIRs registered for the killings of Kashmiri Pandits in the Valley
                 </h3>
               </div>
             </div>
@@ -59,7 +60,6 @@ const Home = () => {
         </div>
       </section>
       <FrameComponent7 />
-      <FrameComponent6 />
       <DonationCall />
     </div>
   );

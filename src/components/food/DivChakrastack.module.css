@@ -1,10 +1,10 @@
 .roth {
-  width: 283px;
+  width: max-content;
   position: relative;
   font-size: inherit;
   line-height: 48px;
   font-family: 'Mona-Sans';
-  display: inline-block;
+  display: flex;
 }
 .blankLine,
 .roth,
@@ -30,13 +30,16 @@
   min-width: 333px;
   max-width: 100%;
 }
-.divChakrastackChild {
+.divChakrastackChild, .divChakrastackChild1 {
   width: 440px;
   position: relative;
   border-radius: var(--br-base);
   max-height: 100%;
   object-fit: cover;
   max-width: 100%;
+}
+.divChakrastackChild1 {
+  display: none;
 }
 .divChakrastack {
   align-self: stretch;
@@ -63,6 +66,17 @@
   }
   .divChakrastack {
     flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .divChakrastackChild {
+    display: none;
+  }
+  .divChakrastackChild1 {
+    display: flex;
+  }
+  .frontend {
+    align-items: center;
   }
 }
 @media screen and (max-width: 1050px) {

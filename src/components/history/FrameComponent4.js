@@ -10,13 +10,9 @@ const FrameComponent4 = ({ className = "" }) => {
         </div>
         <div className={styles.theNilamataPuranaMentionsAParent}>
           <div className={styles.theNilamataPurana}>
-            The Nilamata Purana mentions as many as 65 festivals that Kashmiris
-            used to celebrate. Kashmiri Pandits rely on the Nech Patr (Kashmiri
-            Almanac) to know about the festival days. The Nech Patr is an
-            extremely important part of every Kashmiri household. Every house
-            has at least one person who becomes an expert in reading the almanac
-            because even today, birthdays are celebrated as per the Kashmiri
-            calendar.
+            The Neolithic site of Burzahom in present day Srinagar, Kashmir,
+            sheds light on the human habitation patterns from the Neolithic to
+            Megalithic period (3000 BCE-1000 BCE).
           </div>
           <div className={styles.rectangleWrapper}>
             <img
@@ -27,13 +23,17 @@ const FrameComponent4 = ({ className = "" }) => {
             />
           </div>
           <div className={styles.theNilamataPurana1}>
-            The Nilamata Purana mentions as many as 65 festivals that Kashmiris
-            used to celebrate. Kashmiri Pandits rely on the Nech Patr (Kashmiri
-            Almanac) to know about the festival days. The Nech Patr is an
-            extremely important part of every Kashmiri household. Every house
-            has at least one person who becomes an expert in reading the almanac
-            because even today, birthdays are celebrated as per the Kashmiri
-            calendar.
+            <p>Burzahom means ‘place of birch’ in Kashmiri. Along with this
+            excavations on the site also clue us in on how the birch tree must
+            have been common in this area during the Stone Age. The site at
+            Burzahom was discovered in 1935 by H. De Terra and T.T. Paterson of
+            the Yale-Cambridge expedition.</p>
+            There are numerous Neolithic burial
+            sites in Burzahom. Discoveries like knitting tools, cotton, and wool
+            serve as evidence of Kashmir's rich history of textile trade.
+            Artifacts found such as pendants, beads, and terracotta bangles
+            indicate ancient Kashmir's trade connections with regions now part
+            of present-day Pakistan and China.
           </div>
         </div>
       </div>

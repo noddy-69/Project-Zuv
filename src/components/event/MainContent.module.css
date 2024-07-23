@@ -58,7 +58,7 @@
 .whatIsThe {
   margin: 0;
   width: 562px;
-  font-size: inherit;
+  font-size: 56px;
   line-height: 72px;
   font-family: 'Mona-Sans';
   display: inline-block;
@@ -68,6 +68,9 @@
   border-radius: var(--br-base);
   max-height: 100%;
   object-fit: cover;
+}
+.heading {
+  max-width: 460px;
 }
 .asAPart,
 .iWillHave {

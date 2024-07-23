@@ -7,11 +7,17 @@ const DivChakrastack = ({
   rothIsAFriedSweetBreadTyp,
   rothIsUsedAsAnOfferingDur,
   rectangle187794,
+  rectangle1877941,
 }) => {
   return (
     <div className={[styles.divChakrastack, className].join(" ")}>
       <div className={styles.frontend}>
         <h1 className={styles.roth}>{rOTH}</h1>
+        <img
+          className={styles.divChakrastackChild1}
+          alt=""
+          src={rectangle1877941}
+        />
         <div className={styles.rothIsAContainer}>
           <p className={styles.rothIsA}>{rothIsAFriedSweetBreadTyp}</p>
           <p className={styles.blankLine}>&nbsp;</p>
@@ -33,6 +39,7 @@ DivChakrastack.propTypes = {
   rothIsAFriedSweetBreadTyp: PropTypes.string,
   rothIsUsedAsAnOfferingDur: PropTypes.string,
   rectangle187794: PropTypes.string,
+  rectangle1877941: PropTypes.string,
 };
 
 export default DivChakrastack;

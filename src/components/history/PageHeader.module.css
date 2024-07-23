@@ -11,7 +11,7 @@
   left: 0;
 }
 .overlay {
-  background-color: var(--overlay);
+  background-color: #007BFF2B;
   z-index: 1;
 }
 .img {

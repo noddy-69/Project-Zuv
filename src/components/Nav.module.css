@@ -372,7 +372,7 @@
 }
 
 .select {
-  background-color: #5d3b2f;
+  background-color: var(--primary-color);
   color: white;
   padding: 10px 20px;
   border: none;

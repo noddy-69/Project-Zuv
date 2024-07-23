@@ -4,6 +4,7 @@ import styles from "./DishItems.module.css";
 const DishItems = ({
   className = "",
   rectangle187794,
+  rectangle1877941,
   mONJI,
   kohlrabiIsACombinationOfG,
   muchLikeHaakMonjCanAlsoBe,
@@ -13,6 +14,7 @@ const DishItems = ({
       <img className={styles.dishItemsChild} alt="" src={rectangle187794} />
       <div className={styles.monjiParent}>
         <h1 className={styles.monji}>{mONJI}</h1>
+        <img className={styles.dishItemsChild1} alt="" src={rectangle1877941} />
         <div className={styles.kohlrabiIsAContainer}>
           <p className={styles.kohlrabiIsA}>{kohlrabiIsACombinationOfG}</p>
           <p className={styles.blankLine}>&nbsp;</p>
@@ -26,6 +28,7 @@ const DishItems = ({
 DishItems.propTypes = {
   className: PropTypes.string,
   rectangle187794: PropTypes.string,
+  rectangle1877941: PropTypes.string,
   mONJI: PropTypes.string,
   kohlrabiIsACombinationOfG: PropTypes.string,
   muchLikeHaakMonjCanAlsoBe: PropTypes.string,

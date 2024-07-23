@@ -1,6 +1,6 @@
 .kanngucch {
   margin: 0;
-  width: 276px;
+  width: max-content;
   position: relative;
   font-size: inherit;
   line-height: 48px;
@@ -33,7 +33,7 @@
   min-width: 333px;
   max-width: 100%;
 }
-.frameChild {
+.frameChild, .frameChild1 {
   width: 440px;
   position: relative;
   border-radius: var(--br-base);
@@ -41,12 +41,15 @@
   object-fit: cover;
   max-width: 100%;
 }
+.frameChild1 {
+  display: none;
+}
 .frameParent {
   align-self: stretch;
   background-color: var(--offset-1);
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   box-sizing: border-box;
   gap: 40px;
@@ -66,6 +69,20 @@
   }
   .frameParent {
     flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .frameChild {
+    display: none;
+  }
+  .frameChild1 {
+    display: flex;
+  }
+  .kanngucchParent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media screen and (max-width: 1050px) {

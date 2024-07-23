@@ -7,23 +7,11 @@ const MainContent1 = ({ className = "" }) => {
       <div className={styles.contentBlockParent}>
         <div className={styles.contentBlock}>
           <div className={styles.contentItem}>
-            <h1 className={styles.loremIpsumDolorContainer}>
-              <p className={styles.loremIpsum}>Lorem Ipsum</p>
-              <p className={styles.dolorSit}>Dolor Sit</p>
-            </h1>
             <div className={styles.loremIpsumDolor}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Welcome to Zuv, a project dedicated to preserving the essence of Kashmir—its culture, heritage, and soul. In the heart of every displaced Kashmiri, lies an unyielding desire to reconnect with their roots— echoing that sentiment "Zuv," meaning "soul" or "my beloved," embodies their deep connection to their homeland. Zuv aims to document and amplify Kashmir's often overlooked culture, heritage, and history, creating a space for Kashmiris worldwide to reconnect with their roots.
             </div>
             <div className={styles.readMoreLink}>
-              <div className={styles.readMoreButton}>
-                <img
-                  className={styles.fi2077502Icon}
-                  alt=""
-                  src="/fi-2077502.svg"
-                />
-              </div>
-              <b className={styles.knowMore}>Know more</b>
+              <b className={styles.knowMore}>About Us</b>
             </div>
           </div>
         </div>
@@ -31,7 +19,7 @@ const MainContent1 = ({ className = "" }) => {
           className={styles.contentPlaceholderIcon}
           loading="lazy"
           alt=""
-          src="/frame-67.svg"
+          src="/image 2.png"
         />
       </div>
     </section>

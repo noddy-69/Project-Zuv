@@ -7,7 +7,7 @@ const KashmiriFoodHistory = () => {
   return (
     <div className={styles.kashmiriFoodHistory}>
       <FrameComponent
-        imgHolder="/img-holder3@2x.png"
+        imgHolder="/food.svg"
         originOfKashmir="Kashmiri Food History"
         exploringTheAncientRootsC="In many cultures from this subcontinent, rice is a staple. Similarly, since the puranic era rice or “batta” has been an important food for the people."
       />

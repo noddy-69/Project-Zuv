@@ -14,19 +14,19 @@ const FrameComponent2 = ({ className = "" }) => {
           <div className={styles.inThisEraOfDigitalAdvance}>
             <div className={styles.topicOneNamesParent}>
               <TopicOneNames
-                innerTopicOneNames="/frame-1261153540@2x.png"
+                innerTopicOneNames="/1.png"
                 kashmiriPanditsAWayOfLife="Kashmiri Pandits – A way of life. Can we preserve it?"
                 whatIWantToDiscussHereIsT="What I want to discuss here is the difference between mainland Hindu society and Kashmiri Pandits. Also, the rich cultural and historical heritage. What is being done and what all can be done to not only preserve it digitally/physically but also, how to pass it on to the next generation."
               />
               <TopicOneNames
-                innerTopicOneNames="/frame-1261153540-1@2x.png"
+                innerTopicOneNames="/2.png"
                 kashmiriPanditsAWayOfLife="Kashmiri Food – How it has changed and how did the exodus multiply the change"
                 whatIWantToDiscussHereIsT="Food is integral to any culture and Kashmiri Pandit food was and continues to be unique. But with every culture, there is erosion with time, in our case what impact did exodus have on our food habits and cooking. Have we reclaimed some of it and what can we do to make sure we continue eating and cooking the food of our ancestors."
                 propFlex="1"
                 propMinWidth="304px"
               />
               <TopicOneNames
-                innerTopicOneNames="/frame-1261153540-2@2x.png"
+                innerTopicOneNames="/3.png"
                 kashmiriPanditsAWayOfLife="1990! – How were Kashmiri Pandits so blind sighted?"
                 whatIWantToDiscussHereIsT="How was life before 1990 in Kashmir. How is it that Kashmiri Pandits could not see what was happening around them that they were caught so off guard. What signs were ignored by the community and what could have been done. How will the community ever reconcile with what happened to them."
                 propFlex="1"

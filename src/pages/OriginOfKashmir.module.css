@@ -20,17 +20,19 @@
   min-width: 325px;
 }
 .oneOfThe {
-  width: 460px;
   line-height: 24px;
   display: inline-block;
   flex-shrink: 0;
-  min-width: 460px;
+  max-width: 550px;
+}
+p {
+  margin-bottom: 20px;
 }
 .legendContent {
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-start;
-  gap: var(--gap-61xl);
+  gap: 0px;
   font-size: var(--font-size-base);
 }
 .legendContent,
@@ -41,10 +43,10 @@
   max-width: 100%;
 }
 .theHinduLegendParent {
-  width: 1040px;
+  width: 1200px;
   flex-direction: column;
   justify-content: flex-start;
-  gap: var(--gap-23xl);
+  gap: 150px;
 }
 .originOfKashmirInner {
   align-self: stretch;
@@ -68,6 +70,10 @@
   justify-content: flex-start;
   line-height: normal;
   letter-spacing: normal;
+}
+.heading {
+ font-size: 56px;
+ max-width: 460px;
 }
 @media screen and (max-width: 1050px) {
   .theHinduLegend {

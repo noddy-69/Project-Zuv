@@ -1,4 +1,4 @@
-.emailIcon {
+.emailIcon, .emailIcon1 {
   width: 440px;
   position: relative;
   border-radius: var(--br-base);
@@ -6,9 +6,12 @@
   object-fit: cover;
   max-width: 100%;
 }
+.emailIcon1 {
+  display: none;
+}
 .sheerChai {
   margin: 0;
-  width: 248px;
+  width: max-content;
   position: relative;
   font-size: inherit;
   line-height: 48px;
@@ -58,6 +61,20 @@
   }
   .dishItems {
     flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .emailIcon {
+    display: none;
+  }
+  .emailIcon1 {
+    display: flex;
+  }
+  .inputFieldrqmlabq {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 1050px) {

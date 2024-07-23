@@ -12,7 +12,7 @@ const KashmiriPanditCuisine = () => {
     <div className={styles.kashmiriPanditCuisine}>
       
       <FrameComponent
-        imgHolder="/img-holder@2x.png"
+        imgHolder="/food.svg"
         originOfKashmir="Kashmiri Pandit Cuisine "
         exploringTheAncientRootsC="Exploring the Rich Flavors and Traditions of Kashmiri Cuisine"
       />
@@ -26,6 +26,7 @@ const KashmiriPanditCuisine = () => {
           <div className={styles.divCsslnsa}>
             <FooterCssvnknw
               dishCards="/rectangle-187794@2x.png"
+              dishCards1="/rectangle-187794@2x.png"
               rOGANJOSH="ROGANJOSH"
               roganJoshIsATypeOfCurryDi="Rogan josh is a type of curry distinguished by its thick, flavorful red sauce and tender meat. “Rogan” means clarified butter or oil in Persian, or “red” in Hindi, and “josh” refers to passion – fiery or hot – so this dish is all about cooking in an oil-based curry with intense heat."
               itIsAVeryFittingDishToCon="It is a very fitting dish to consume in Kashmir as it is loaded with fat and oil, therefore it keeps the body warm in cold climates such as the one in Kashmir."
@@ -34,6 +35,11 @@ const KashmiriPanditCuisine = () => {
             <div className={styles.icon}>
               <div className={styles.dumAlooParent}>
                 <h1 className={styles.dumAloo}>DUM ALOO</h1>
+                <img
+                  className={styles.pgpgpgIcon1}
+                  alt=""
+                  src="/rectangle-187794-1@2x.png"
+                />
                 <div className={styles.dumAlooIs}>
                   Dum Aloo is a potato-based curry dish. Dum means to be
                   slow-cooked, and aloo is potato. It is a part of the
@@ -49,6 +55,7 @@ const KashmiriPanditCuisine = () => {
             </div>
             <FooterCssvnknw
               dishCards="/rectangle-187794-2@2x.png"
+              dishCards1="/rectangle-187794-2@2x.png"
               rOGANJOSH="NADRU"
               roganJoshIsATypeOfCurryDi="Nadru gained popularity in Kashmir around the 15th century when the ruler, Badshah Ghiyas-ud-Din Zain-ul-Abidin, encountered the lotus plant during a shikara ride on the Gul Sar, now known as the Gill Sar, a lake on the outskirts of Srinagar."
               itIsAVeryFittingDishToCon="Nadru, a porous and fibrous lake vegetable, grew to become an irreplaceable ingredient in a traditional Kashmiri kitchen. From everyday meals to festivals, Nadru’s earthy and rich texture allowed it to be very versatile and used in multiple ways during cooking"
@@ -59,16 +66,23 @@ const KashmiriPanditCuisine = () => {
               popularlyKnownAsMorelMush="Popularly known as 'Morel Mushrooms' all across the world and Morchella Esculenta scientifically, 'Gucchi Mushrooms' is a variety of wild mushrooms found in the forests of Jammu and Kashmir."
               storiesHaveComeUpAboutHow="Stories have come up about how they are sown by thunder and lightning, or grow best in areas that have suffered forest fire, but there is essentially no alternative to looking carefully for their well-camouflaged caps. "
               inKashmiriCookingTheyAreD="In Kashmiri cooking, they are diced and then tossed gently with mild spices to retain the natural flavour and earthy aroma. They are most commonly used in pulaos."
-              rectangle187794="/rectangle-187794@2x.png"
+              rectangle187794="/Rectangle 187794.svg"
+              rectangle1877941="/Rectangle 187794.svg"
             />
             <DishItems1
               email="/rectangle-187794-4@2x.png"
+              email1="/rectangle-187794-4@2x.png"
               sHEERCHAI="SHEER CHAI"
               noonChaiOrPinkTeaTheTradi="Noon chai, or pink tea, the traditional Kashmiri tea is believed to have come to Kashmir from Turkestan. Kahwa, another popular drink of Kashmir, is believed to have come to this region through the Spice Route. This tea is said to have originated in the 2nd century AD during the rule of the Kushan Empire."
             />
             <div className={styles.message}>
               <div className={styles.kahwahParent}>
                 <h1 className={styles.kahwah}>KAHWAH</h1>
+                <img
+                  className={styles.icon11}
+                  alt=""
+                  src="/rectangle-187794-5@2x.png"
+                />
                 <div className={styles.theKashmiriKahwahContainer}>
                   <p className={styles.theKashmiriKahwah}>
                     The Kashmiri kahwah is made by boiling green tea leaves with
@@ -76,7 +90,7 @@ const KashmiriPanditCuisine = () => {
                     roses. It is generally served with sugar or honey and
                     crushed nuts, usually almonds or walnuts. Some varieties are
                     made as a herbal infusion only—without the green tea
-                    leaves. 
+                    leaves.
                   </p>
                   <p className={styles.blankLine}>&nbsp;</p>
                   <p className={styles.traditionallyKahwahIs}>
@@ -112,6 +126,7 @@ const KashmiriPanditCuisine = () => {
             </div>
             <FooterCssvnknw
               dishCards="/rectangle-187794-6@2x.png"
+              dishCards1="/rectangle-187794-6@2x.png"
               rOGANJOSH="NADUR MONJI"
               roganJoshIsATypeOfCurryDi="Nadur monji or nadir monji is a fried snack (fritter) prepared from lotus stem and gram flour. Originating in Kashmir, it is found across South Asia."
               itIsAVeryFittingDishToCon="The main ingredients used are lotus stem, rice flour, salt, and kashmiri red chilli powder. "
@@ -120,6 +135,11 @@ const KashmiriPanditCuisine = () => {
             <div className={styles.set}>
               <div className={styles.divCsseoey}>
                 <h1 className={styles.yakhni}>YAKHNI</h1>
+                <img
+                  className={styles.divCssqlraIcon1}
+                  alt=""
+                  src="/rectangle-187794-7@2x.png"
+                />
                 <div className={styles.yakhniCameToContainer}>
                   <p className={styles.yakhniCameTo}>
                     Yakhni came to be known in Kashmir during Akbar's rule.
@@ -145,6 +165,7 @@ const KashmiriPanditCuisine = () => {
             </div>
             <DishItems
               rectangle187794="/rectangle-187794-8@2x.png"
+              rectangle1877941="/rectangle-187794-8@2x.png"
               mONJI="MONJI"
               kohlrabiIsACombinationOfG="Kohlrabi is a combination of German words kohl meaning cabbage and rabi meaning turnip, although native to Europe, is a celebrated vegetable in the Kashmiri cuisine in India. This stew-like preparation of kohlrabi using Kashmiri culinary style is simple yet delicious. "
               muchLikeHaakMonjCanAlsoBe="Much like haak, monj  can also be considered a staple food for Kashmiris"
@@ -152,6 +173,11 @@ const KashmiriPanditCuisine = () => {
             <div className={styles.dishItems}>
               <div className={styles.katlamParent}>
                 <h1 className={styles.katlam}>KATLAM</h1>
+                <img
+                  className={styles.dishItemsChild1}
+                  alt=""
+                  src="/rectangle-187794-9@2x.png"
+                />
                 <div className={styles.katlamIsOneContainer}>
                   <p className={styles.katlamIsOne}>
                     Katlam is one of the many breads found at a kandru (kashmiri
@@ -172,6 +198,7 @@ const KashmiriPanditCuisine = () => {
             </div>
             <DishItems
               rectangle187794="/rectangle-187794-10@2x.png"
+              rectangle1877941="/rectangle-187794-10@2x.png"
               mONJI="TEILVUR"
               kohlrabiIsACombinationOfG="Teilvur is what would be considered a Kashmiri bagel."
               muchLikeHaakMonjCanAlsoBe="Smaller than a traditional bagel, but retaining the basic form and ingredients, a teilvur is a perfect food for breakfast or as a snack. Can be consumed with various condiments."
@@ -181,9 +208,11 @@ const KashmiriPanditCuisine = () => {
               rothIsAFriedSweetBreadTyp="Roth is a fried sweet bread typically known for its cooking during the Kashmiri festival of Pann."
               rothIsUsedAsAnOfferingDur="Roth is used as an offering during the festival. Roth can also be consumed apart from that and is found at kandrus too. However the kandru roth is fancier due to its bigger size and the usage of dry fruits."
               rectangle187794="/rectangle-187794-11@2x.png"
+              rectangle1877941="/rectangle-187794-11@2x.png"
             />
             <DishItems
               rectangle187794="/rectangle-187794-12@2x.png"
+              rectangle1877941="/rectangle-187794-12@2x.png"
               mONJI="HOAGAAD"
               kohlrabiIsACombinationOfG="The name Hogaad comes from ho- from hoakh – dry, and gaad – fish."
               muchLikeHaakMonjCanAlsoBe="Hogaad are tiny dried fish cooked with vegetables to increase nutrient content or simply cooked with oil and spices and served as a side dish. "
@@ -192,10 +221,12 @@ const KashmiriPanditCuisine = () => {
               rOTH="KABARGAH"
               rothIsAFriedSweetBreadTyp="Kabargah are fatty ribs boiled and cooked in milk and spice till tender and then dipped in curd marinate, and fried in pure ghee."
               rothIsUsedAsAnOfferingDur="They are served as a starter or a snack, usually at family gatherings or events. "
-              rectangle187794="/rectangle-187794-13@2x.png"
+              rectangle187794="/Rectangle 187794 (1).svg"
+              rectangle1877941="/Rectangle 187794 (1).svg"
             />
             <DishItems1
               email="/rectangle-187794-14@2x.png"
+              email1="/rectangle-187794-14@2x.png"
               sHEERCHAI="MEISH-KRUR"
               noonChaiOrPinkTeaTheTradi="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
             />
@@ -204,7 +235,8 @@ const KashmiriPanditCuisine = () => {
               popularlyKnownAsMorelMush="Gogji Nadru is a dish made combining two separate vegetables that have their own independent dishes."
               storiesHaveComeUpAboutHow="The sweetness of the Gogji adds to the earthiness of the Nadru, making a whole unique dish loved by many! Taste’s best with dahi (curd) and rice.  "
               inKashmiriCookingTheyAreD={" "}
-              rectangle187794="/rectangle-187794-15@2x.png"
+              rectangle187794="/Rectangle 187794 (2).svg"
+              rectangle1877941="/Rectangle 187794 (2).svg"
             />
           </div>
         </section>

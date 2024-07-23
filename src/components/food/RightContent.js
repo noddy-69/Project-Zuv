@@ -29,7 +29,7 @@ const RightContent = ({ className = "" }) => {
                   src="/group.svg"
                 />
               </div>
-              <img className={styles.groupIcon1} alt="" src="/group-1.svg" />
+              <img className={styles.groupIcon1} alt="" src="/hand.svg" />
             </div>
           </div>
         </div>

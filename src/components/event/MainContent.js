@@ -23,17 +23,14 @@ const MainContent = ({ className = "" }) => {
             className={styles.separatorIcon}
             loading="lazy"
             alt=""
-            src="/rectangle-187794-16@2x.png"
+            src="/zuv.png"
           />
         </div>
         <div className={styles.whatIsTheEventParent}>
-          <h1 className={styles.whatIsThe}>What is the event?</h1>
           <div className={styles.eventContent}>
-            <img
-              className={styles.eventSeparatorIcon}
-              alt=""
-              src="/rectangle-187794-17@2x.png"
-            />
+          <div className={styles.heading}>
+          <h1 className={styles.whatIsThe}>What is the event?</h1>
+          </div>
             <div className={styles.eventDescription}>
               <div className={styles.asAPart}>
                 As a part of Project Zuv, I am hosting an event which would

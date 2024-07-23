@@ -15,7 +15,7 @@ const KashmirTheName = () => {
         <div className={styles.innerContent}>
           <div className={styles.innerContentInner}>
             <div className={styles.whereDidItComeFromParent}>
-              <h1 className={styles.whereDidIt}>Where did it come from?</h1>
+              <h1 className={styles.whereDidIt}>How Kashmir Got its Name</h1>
               <div className={styles.contacts}>
                 <div className={styles.commonTaleParent}>
                   <div className={styles.commonTale}>
@@ -40,7 +40,7 @@ const KashmirTheName = () => {
                     className={styles.taleRectIcon}
                     loading="lazy"
                     alt=""
-                    src="/rectangle-1878361@2x.png"
+                    src="/name.png"
                   />
                 </div>
                 <div className={styles.scholarTaleParent}>

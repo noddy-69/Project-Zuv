@@ -73,6 +73,29 @@
   color: var(--black);
   font-family: 'Mona-Sans';
 }
+.knowMore {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 99px;
+}
+.readMoreLink {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.readMoreLink {
+  width: max-content;
+  border-radius: var(--br-xs);
+  background-color: var(--secondary-color);
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-lg);
+}
 @media screen and (max-width: 1050px) {
   .storyCardContent {
     flex: 1;

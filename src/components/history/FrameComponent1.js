@@ -55,12 +55,14 @@ const FrameComponent1 = ({ className = "" }) => {
               </p>
             </div>
           </div>
-          <img
-            className={styles.geologyContentChild}
-            loading="lazy"
-            alt=""
-            src="/rectangle-187817@2x.png"
-          />
+          <div className={styles.image}>
+            <img
+              className={styles.geologyContentChild}
+              loading="lazy"
+              alt=""
+              src="/rectangle-187817@2x.png"
+            />
+          </div>
         </div>
       </div>
     </section>

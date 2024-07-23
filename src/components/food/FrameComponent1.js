@@ -8,11 +8,13 @@ const FrameComponent1 = ({
   storiesHaveComeUpAboutHow,
   inKashmiriCookingTheyAreD,
   rectangle187794,
+  rectangle1877941,
 }) => {
   return (
     <div className={[styles.frameParent, className].join(" ")}>
       <div className={styles.kanngucchParent}>
         <h1 className={styles.kanngucch}>{kANNGUCCH}</h1>
+        <img className={styles.frameChild1} alt="" src={rectangle1877941} />
         <div className={styles.popularlyKnownAsContainer}>
           <p className={styles.popularlyKnownAs}>{popularlyKnownAsMorelMush}</p>
           <p className={styles.blankLine}>&nbsp;</p>
@@ -35,6 +37,7 @@ FrameComponent1.propTypes = {
   storiesHaveComeUpAboutHow: PropTypes.string,
   inKashmiriCookingTheyAreD: PropTypes.string,
   rectangle187794: PropTypes.string,
+  rectangle1877941: PropTypes.string,
 };
 
 export default FrameComponent1;

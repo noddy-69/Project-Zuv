@@ -4,9 +4,6 @@ import styles from "./LeftContent.module.css";
 const LeftContent = ({ className = "" }) => {
   return (
     <div className={[styles.leftContent, className].join(" ")}>
-      <div className={styles.titleHereWrapper}>
-        <h1 className={styles.titleHere}>Title here</h1>
-      </div>
       <div className={styles.contentParagraph}>
         <div className={styles.riceCulture}>
           <div className={styles.inManyCultures}>

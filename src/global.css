@@ -24,12 +24,12 @@ body {
 
   /* Colors */
   --white: #fff;
-  --primary-color: #5d3b2f;
+  --primary-color: #145ECC;
   --offset-2: #f1f2f4;
   --secondary-color: #ffbb5c;
   --black: #222520;
   --offset-21: #faf7f0;
-  --offset-1: #fef0d8;
+  --offset-1: #E2F1FF;
   --overlay: rgba(60, 60, 60, 0.65);
 
   /* Gaps */

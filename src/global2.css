@@ -43,15 +43,15 @@ body {
   --white: #fff;
   --black-2: #5a5a5a;
   --color-dimgray-100: #5c3b39;
-  --primary-color: #5d3b2f;
+  --primary-color: #145ECC;
   --offset-2: #f1f2f4;
   --secondary-color: #ffbb5c;
   --color-gray-100: #4c2619;
   --black: #222520;
   --color-papayawhip: #fef0d8;
   --color-black: #000;
-  --color-darkslategray-100: rgba(60, 60, 60, 0.65);
-  --offset-21: #faf7f0;
+  --color-darkslategray-100: #007BFF2B;
+  --offset-21: #E2F1FF;
 
   /* Gaps */
   --gap-xl: 20px;

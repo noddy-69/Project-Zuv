@@ -4,6 +4,7 @@ import styles from "./FooterCssvnknw.module.css";
 const FooterCssvnknw = ({
   className = "",
   dishCards,
+  dishCards1,
   rOGANJOSH,
   roganJoshIsATypeOfCurryDi,
   itIsAVeryFittingDishToCon,
@@ -19,6 +20,12 @@ const FooterCssvnknw = ({
       />
       <div className={styles.georgeChristeas}>
         <h1 className={styles.roganjosh}>{rOGANJOSH}</h1>
+        <img
+          className={styles.dishCardsIcon1}
+          loading="lazy"
+          alt=""
+          src={dishCards1}
+        />
         <div className={styles.roganJoshIsContainer}>
           <p className={styles.roganJoshIs}>{roganJoshIsATypeOfCurryDi}</p>
           <p className={styles.blankLine}>&nbsp;</p>
@@ -34,6 +41,7 @@ const FooterCssvnknw = ({
 FooterCssvnknw.propTypes = {
   className: PropTypes.string,
   dishCards: PropTypes.string,
+  dishCards1: PropTypes.string,
   rOGANJOSH: PropTypes.string,
   roganJoshIsATypeOfCurryDi: PropTypes.string,
   itIsAVeryFittingDishToCon: PropTypes.string,

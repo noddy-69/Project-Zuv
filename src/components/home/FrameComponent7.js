@@ -1,4 +1,5 @@
 import StoryCardContent from "./StoryCardContent";
+import StoryCardContent1 from "./StoryCardContent1";
 import PropTypes from "prop-types";
 import styles from "./FrameComponent7.module.css";
 
@@ -15,17 +16,17 @@ const FrameComponent7 = ({ className = "" }) => {
               className={styles.storyCardContent}
               loading="lazy"
               alt=""
-              src="/rectangle-187785@2x.png"
+              src="/sun.png"
             />
             <StoryCardContent />
           </div>
           <div className={styles.storyCards1}>
-            <StoryCardContent />
+            <StoryCardContent1 />
             <div className={styles.rectangleParent}>
               <img
                 className={styles.storyCardContent}
                 alt=""
-                src="/rectangle-187785@2x.png"
+                src="/donation.png"
               />
               <div className={styles.text} />
             </div>

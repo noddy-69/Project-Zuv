@@ -1,4 +1,4 @@
-.dishItemsChild {
+.dishItemsChild, .dishItemsChild1 {
   width: 440px;
   position: relative;
   border-radius: var(--br-base);
@@ -6,13 +6,18 @@
   object-fit: cover;
   max-width: 100%;
 }
+.dishItemsChild1 {
+  display: none;
+}
 .monji {
   width: 283px;
   position: relative;
   font-size: inherit;
   line-height: 48px;
   font-family: 'Mona-Sans';
-  display: inline-block;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .blankLine,
 .kohlrabiIsA,
@@ -36,7 +41,7 @@
 .monjiParent {
   flex: 1;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   padding: var(--padding-xs) 0 0;
   gap: var(--gap-xs);
   min-width: 333px;
@@ -63,6 +68,21 @@
   }
   .dishItems {
     flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .dishItemsChild {
+    display: none;
+  }
+  .dishItemsChild1 {
+    display: flex;
+  }
+  .monji {
+    align-items: center;
+    justify-content: center;
+  }
+  .monjiParent {
+    align-items: center;
   }
 }
 @media screen and (max-width: 1050px) {

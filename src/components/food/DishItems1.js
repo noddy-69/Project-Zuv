@@ -4,6 +4,7 @@ import styles from "./DishItems1.module.css";
 const DishItems1 = ({
   className = "",
   email,
+  email1,
   sHEERCHAI,
   noonChaiOrPinkTeaTheTradi,
 }) => {
@@ -12,6 +13,7 @@ const DishItems1 = ({
       <img className={styles.emailIcon} alt="" src={email} />
       <div className={styles.inputFieldrqmlabq}>
         <h1 className={styles.sheerChai}>{sHEERCHAI}</h1>
+        <img className={styles.emailIcon1} alt="" src={email1} />
         <div className={styles.noonChaiOr}>{noonChaiOrPinkTeaTheTradi}</div>
       </div>
     </div>
@@ -21,6 +23,7 @@ const DishItems1 = ({
 DishItems1.propTypes = {
   className: PropTypes.string,
   email: PropTypes.string,
+  email1: PropTypes.string,
   sHEERCHAI: PropTypes.string,
   noonChaiOrPinkTeaTheTradi: PropTypes.string,
 };

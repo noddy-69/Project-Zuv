@@ -27,7 +27,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(180.64deg, rgba(76, 38, 25, 0), #4c2619);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0), #007BFF);
   z-index: 1;
 }
 .letsPreserveThe {
@@ -65,7 +65,7 @@
   justify-content: center;
   padding: var(--padding-41xl) var(--padding-xl);
   position: relative;
-  background-image: url(/public/rectangle-187791@2x.png);
+  background-image: url(/public/Rectangle\ 187791.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -92,10 +92,11 @@
   font-weight: 700;
 }
 .m {
-  width: 138px;
+  width: 220px;
   position: relative;
-  line-height: 100px;
   display: inline-block;
+  margin-bottom: 20px;
+  text-align: left;
 }
 .childrenFedYearly {
   margin: 0;
@@ -105,20 +106,21 @@
   line-height: 28px;
   font-weight: 500;
   font-family: var(--font-inter);
-  text-align: center;
+  text-align: left;
 }
 .metricValues {
-  width: 240px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .k {
-  width: 193px;
+  max-width: 220px;
   position: relative;
-  line-height: 100px;
   display: inline-block;
+  margin-bottom: 20px;
+  text-align: left;
 }
 .sponsoreYearly {
   margin: 0;
@@ -128,20 +130,21 @@
   line-height: 28px;
   font-weight: 500;
   font-family: var(--font-inter);
-  text-align: center;
+  text-align: left;
 }
 .metricValues1 {
-  width: 240px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .div {
-  width: 138px;
+  width: 220px;
   position: relative;
-  line-height: 100px;
   display: inline-block;
+  margin-bottom: 20px;
+  text-align: left;
 }
 .countriesSupported {
   margin: 0;
@@ -150,26 +153,27 @@
   line-height: 28px;
   font-weight: 500;
   font-family: var(--font-inter);
-  text-align: center;
+  text-align: left;
 }
 .metricItems,
 .metricValues2 {
+  max-width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 .metricItems {
   flex: 1;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 100%;
-  gap: var(--gap-xl);
+  max-width: 1500px;
+  gap: 100px;
 }
 .impactContent,
 .impactMetrics {
   justify-content: flex-start;
-  max-width: 100%;
+  max-width: 1500px;
 }
 .impactMetrics {
   align-self: stretch;
@@ -178,10 +182,10 @@
   align-items: flex-start;
   padding: 0 71px;
   box-sizing: border-box;
-  font-size: var(--font-size-45xl);
+  font-size: 36px;
 }
 .impactContent {
-  width: 1102px;
+  max-width: 1500px;
   flex-direction: column;
   gap: var(--gap-21xl);
   font-family: 'Mona-Sans';
@@ -196,12 +200,14 @@
   align-self: stretch;
   flex-direction: row;
   justify-content: center;
-  padding: 0 var(--padding-xl) var(--padding-101xl);
+  padding: 60px var(--padding-xl) 60px;
   box-sizing: border-box;
   max-width: 100%;
   text-align: center;
   font-size: var(--font-size-37xl);
   color: var(--black);
+  background-color: #EFF7FF;
+  margin-bottom: 100px;
 }
 .home {
   width: 100%;
@@ -239,6 +245,21 @@
   .letsPreserveTheContainer {
     font-size: 40px;
   }
+  .m, .childrenFedYearly, .k, .sponsoreYearly, .div, .countriesSupported {
+    text-align: center;
+  }
+  .metricValues, .metricValues1, .metricValues2 {
+    align-items: center;
+  }
+  .m {
+    width: 100%;
+  }
+  .k {
+    width: 100%;
+  }
+  .div {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 750px) {
   .mainHeading {
@@ -248,12 +269,6 @@
   .letsPreserveTheContainer,
   .measuringOurImpact {
     line-height: 64px;
-  }
-  .div,
-  .k,
-  .m {
-    font-size: var(--font-size-32xl);
-    line-height: 80px;
   }
   .impactContent {
     gap: var(--gap-xl);
@@ -284,28 +299,31 @@
     line-height: 48px;
   }
   .m {
-    font-size: var(--font-size-19xl);
-    line-height: 60px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
   }
   .childrenFedYearly {
-    font-size: var(--font-size-lgi);
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 20px;
   }
   .k {
-    font-size: var(--font-size-19xl);
-    line-height: 60px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
   }
   .sponsoreYearly {
-    font-size: var(--font-size-lgi);
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 20px;
   }
   .div {
-    font-size: var(--font-size-19xl);
-    line-height: 60px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
   }
   .countriesSupported {
-    font-size: var(--font-size-lgi);
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 20px;
   }
   .impactContentWrapper {
     padding-bottom: var(--padding-59xl);
@@ -319,5 +337,11 @@
   }
   .letsPreserveTheContainer {
     font-size: 20px;
+  }
+  .metricItems {
+    gap: 40px;
+  }
+  .impactMetrics {
+    padding: 0px;
   }
 }

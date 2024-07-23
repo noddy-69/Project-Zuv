@@ -159,6 +159,11 @@
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 600px) {
+  .footer {
+    display: none;
+  }
+}
 @media screen and (max-width: 450px) {
   .contactBackgrounds {
     flex-wrap: wrap;

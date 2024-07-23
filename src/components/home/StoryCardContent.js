@@ -5,26 +5,17 @@ const StoryCardContent = ({ className = "" }) => {
   return (
     <div className={[styles.storyCardContent, className].join(" ")}>
       <div className={styles.storyDescription}>
-        <h1 className={styles.loremIpsumDolor}>Lorem ipsum dolor sit amet.</h1>
+        <h1 className={styles.loremIpsumDolor}>Edition One - Project Zuv</h1>
         <div className={styles.loremIpsumDolor1}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-          lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod
-          malesuada. Nullam ac urna eu felis dapibus condimentum sit amet a
-          augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum
-          fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit
-          mauris egestas quam.
+          As a part of Project Zuv, I am hosting an event which would include
+          discussions on Kashmir, its culture, and its people. Through these
+          discussions I want to open the gates to our past, our present and what
+          the future has in store for us. These conversations would be in a
+          one-on-one format, lasting 45-60 minutes.
         </div>
       </div>
-      <div className={styles.storyLink}>
-        <b className={styles.exploreOurFocus}>Explore our focus issues</b>
-        <div className={styles.chevronRightWrapper}>
-          <img
-            className={styles.chevronRightIcon}
-            loading="lazy"
-            alt=""
-            src="/chevronright.svg"
-          />
-        </div>
+      <div className={styles.readMoreLink}>
+        <b className={styles.knowMore}>Read More</b>
       </div>
     </div>
   );

@@ -65,14 +65,13 @@
 }
 .rectangleParent {
   flex: 1;
-  background-color: var(--color-papayawhip);
+  background-color: #E2F1FF;
   justify-content: center;
   padding: var(--padding-101xl) var(--padding-xl);
 }
 .eventInner {
   align-self: stretch;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-101xl);
   text-align: center;
   font-size: var(--font-size-37xl);
   color: var(--black);
