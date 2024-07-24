@@ -27,7 +27,7 @@
   align-self: stretch;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   gap: var(--gap-base);
   max-width: 100%;
@@ -48,7 +48,7 @@
 .storyCardContent,
 .storyLink {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
 }
 .chevronRightWrapper {
@@ -96,9 +96,23 @@
   text-align: center;
   font-size: var(--font-size-lg);
 }
+.rectangleParent {
+  display: none;
+}
 @media screen and (max-width: 1050px) {
   .storyCardContent {
     flex: 1;
+  }
+}
+@media screen and (max-width: 859px) {
+  .rectangleParent {
+    display: flex;
+  }
+  .loremIpsumDolor {
+    align-self: center;
+  }
+  .readMoreLink {
+    width: 443px;
   }
 }
 @media screen and (max-width: 750px) {
@@ -114,5 +128,8 @@
   .loremIpsumDolor {
     font-size: var(--font-size-3xl);
     line-height: 25px;
+  }
+  .readMoreLink {
+    width: 100%;
   }
 }

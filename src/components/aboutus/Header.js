@@ -6,7 +6,6 @@ const Header = ({
   className = "",
   imgHolder,
   originOfKashmir,
-  exploringTheAncientRootsC,
   propFlex,
   propWidth,
 }) => {
@@ -30,9 +29,6 @@ const Header = ({
       </div>
       <div className={styles.originOfKashmirParent}>
         <h1 className={styles.originOfKashmir}>{originOfKashmir}</h1>
-        <h3 className={styles.exploringTheAncient}>
-          {exploringTheAncientRootsC}
-        </h3>
       </div>
     </div>
   );
@@ -42,7 +38,6 @@ Header.propTypes = {
   className: PropTypes.string,
   imgHolder: PropTypes.string,
   originOfKashmir: PropTypes.string,
-  exploringTheAncientRootsC: PropTypes.string,
 
   /** Style props */
   propFlex: PropTypes.any,

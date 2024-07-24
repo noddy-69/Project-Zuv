@@ -137,6 +137,14 @@
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 859px) {
+  .storyCardContent {
+    display: none;
+  }
+  .rectangleParent {
+    display: none;
+  }
+}
 @media screen and (max-width: 750px) {
   .stories {
     font-size: var(--font-size-26xl);

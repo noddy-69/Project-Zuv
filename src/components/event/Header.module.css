@@ -90,13 +90,15 @@
 }
 @media screen and (max-width: 450px) {
   .originOfKashmir {
-    font-size: var(--font-size-5xl);
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 20px;
   }
   .exploringTheAncient {
     font-size: var(--font-size-sm);
+    line-height: 25px;
   }
   .header {
-    height: 200px;
+    height: 266x;
+    padding-bottom: 10px;
   }
 }

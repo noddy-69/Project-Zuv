@@ -50,7 +50,7 @@
   min-width: 411px;
   max-width: 100%;
 }
-.founderPhotoIcon {
+.founderPhotoIcon, .founderPhotoIcon1 {
   align-self: stretch;
   flex: 1;
   position: relative;
@@ -60,6 +60,9 @@
   max-height: 100%;
   object-fit: cover;
   z-index: 1;
+}
+.founderPhotoIcon1 {
+  display: none;
 }
 .founderImage,
 .musicInner,
@@ -126,6 +129,20 @@
     line-height: 64px;
   }
 }
+@media screen and (max-width: 952px) {
+  .founderPhotoIcon1 {
+    display: flex;
+  }
+  .founderPhotoIcon {
+    display: none;
+  }
+  .ourFounderParent {
+    align-items: center;
+  }
+  .founderImage {
+    display: none;
+  }
+}
 @media screen and (max-width: 950px) {
   .founderPhotoIcon {
     width: 350px;
@@ -145,7 +162,7 @@
 }
 @media screen and (max-width: 450px) {
   .ourFounder {
-    font-size: var(--font-size-15xl);
+    font-size: 28px;
     line-height: 48px;
   }
   .rectangleParent {

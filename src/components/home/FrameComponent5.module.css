@@ -146,9 +146,22 @@
     flex-wrap: wrap;
   }
 }
+@media screen and (max-width: 934px) {
+  .donateButton {
+    position: absolute;
+    bottom: 180px;
+  }
+  .goalContentWrapper {
+    margin-left: 170px;
+  }
+}
 @media screen and (max-width: 450px) {
   .wantToMake {
     font-size: var(--font-size-3xl);
     line-height: 25px;
+  }
+  .donateButton {
+    position: absolute;
+    bottom: 140px;
   }
 }

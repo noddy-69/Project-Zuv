@@ -97,24 +97,29 @@
   }
   .header {
     height: 400px;
+    padding-bottom: 20px;
   }
   .originOfKashmir {
-    font-size: var(--font-size-3xl);
-    line-height: 20px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .originOfKashmir {
-    font-size: var(--font-size-5xl);
+    font-size: 34px;
     line-height: 20px;
   }
   .exploringTheAncient {
-    font-size: var(--font-size-sm);
-    line-height: 29px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .originOfKashmir {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .exploringTheAncient {
+    font-size: 14px;
+    line-height: 20px;
   }
   .header {
-    height: 200px;
-    padding: var(--padding-xl) 0 var(--padding-xl);
+    height: 266px;
+    padding: 10px 0 10px;
   }
   .titleContainer {
     padding-left: 20px;

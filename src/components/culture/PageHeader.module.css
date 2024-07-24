@@ -135,19 +135,19 @@
 }
 @media screen and (max-width: 450px) {
   .originOfKashmir {
-    font-size: var(--font-size-3xl);
-    line-height: 48px;
+    font-size: 28px;
+    line-height: 28px;
   }
   .exploringTheAncient {
-    font-size: var(--font-size-sm);
-    line-height: 29px;
+    font-size: 14px;
+    line-height: 20px;
   }
   .aboutZuv {
     font-size: var(--font-size-15xl);
     line-height: 48px;
   }
   .header {
-    height: 200px;
+    height: 266px;
     padding-bottom: 20px;
   }
   .pageHeader {

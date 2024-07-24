@@ -1,6 +1,8 @@
 import { useMemo } from "react";
 import PropTypes from "prop-types";
 import styles from "./FrameComponent5.module.css";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
 
 const FrameComponent5 = ({
   className = "",
@@ -8,6 +10,17 @@ const FrameComponent5 = ({
   propAlignSelf,
   propWidth,
 }) => {
+  // const MySwal = withReactContent(Swal);
+
+  // MySwal.fire({
+  //   title: (
+  //     <iframe width="420" height="315"
+  //     src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+  //     </iframe>
+  //   ),
+  //   width: 600
+  // });
+
   const frameDivStyle = useMemo(() => {
     return {
       alignSelf: propAlignSelf,

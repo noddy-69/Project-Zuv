@@ -10,17 +10,12 @@ const PageHeader = ({ className = "" }) => {
             className={styles.imgHolderIcon}
             loading="lazy"
             alt=""
-            src="/img-holder4@2x.png"
+            src="/music.svg"
           />
-          <div className={styles.overlay} />
+       
         </div>
         <div className={styles.headerTitle}>
-          <h1 className={styles.originOfKashmir}>About Us</h1>
-          <h3 className={styles.exploringTheAncient}>
-            In many cultures from this subcontinent, rice is a staple.
-            Similarly, since the puranic era rice or “batta” has been an
-            important food for the people.
-          </h3>
+          <h1 className={styles.originOfKashmir}>Music in Kashmir</h1>
         </div>
       </div>
       <div className={styles.aboutZuvWrapper}>

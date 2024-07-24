@@ -7,9 +7,8 @@ const Layout = ({ className = "" }) => {
     <section className={[styles.layout, className].join(" ")}>
       <div className={styles.header}>
         <Header
-          imgHolder="/img-holder4@2x.png"
+          imgHolder="/Rectangle 187791.png"
           originOfKashmir="About Us"
-          exploringTheAncientRootsC="In many cultures from this subcontinent, rice is a staple. Similarly, since the puranic era rice or “batta” has been an important food for the people."
           propFlex="unset"
           propWidth="100%"
         />

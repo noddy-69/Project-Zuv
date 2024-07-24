@@ -27,7 +27,7 @@
   font-size: inherit;
   line-height: 32px;
   font-weight: 400;
-  font-family: inherit;
+  font-family: 'Mona-Sans';
   display: inline-block;
 }
 .linkTitles {
@@ -131,6 +131,14 @@
     padding-top: var(--padding-xl);
     padding-bottom: var(--padding-2xl);
     box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 770px) {
+  .readMore {
+    width: 443px;
+  }
+  .linkButtons {
+    padding: 0px;
   }
 }
 @media screen and (max-width: 450px) {

@@ -46,12 +46,6 @@ const Content = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <img
-            className={styles.savedBy}
-            loading="lazy"
-            alt=""
-            src="/rectangle-187785@2x.png"
-          />
         </div>
       </div>
     </section>

@@ -231,7 +231,6 @@
 }
 .bars {
   height: 20px;
-  margin-top: 10px;
 }
 
 
@@ -260,11 +259,11 @@
   position: relative;
   display: none;
   height: 100%;
-  align-items: flex-end; /* Center content vertically */
-  justify-content: flex-end;
+  align-items: center; /* Center content vertically */
+  justify-content: center;
   position: absolute;
   right: 10px;
-  bottom: 10px;
+  bottom: 0px;
   gap: 10px;
 }
 
@@ -485,14 +484,11 @@ body {
 
 .menu1 > li > a {
   color: white;
-  padding: 10px 20px;
+  padding: 10px 15px;
   text-decoration: none;
   display: block;
   border-radius: 8px; /* Add rounded corners */
-}
-
-.menu1 > li > a:hover {
-  background-color: #ffb74d; /* Background color change on hover */
+  background-color: #ffb74d;
 }
 
 /* Dropdown menu styles */
@@ -553,4 +549,5 @@ body {
 .menu1 > li > .dropdownmenu1 {
   border-radius: 8px;
 }
+
 

@@ -10,9 +10,6 @@ const Festival = () => {
       <PageHeader1 />
       <section className={styles.body}>
         <div className={styles.bodyContent}>
-          <div className={styles.titleHereWrapper}>
-            <h1 className={styles.titleHere}>Title here</h1>
-          </div>
           <div className={styles.theNilamataPuranaContainer}>
             <p className={styles.theNilamataPurana}>
               The Nilamata Purana (nīlamata purāṇa) mentions as many as 65

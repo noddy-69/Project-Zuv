@@ -26,7 +26,7 @@ const FrameComponent2 = ({ className = "" }) => {
                   <img
                     className={styles.socialFestivalColumnsChild}
                     alt=""
-                    src="/group-1261156898.svg"
+                    src="/star.svg"
                   />
                 </div>
                 <div className={styles.pann}>Pann</div>
@@ -40,7 +40,7 @@ const FrameComponent2 = ({ className = "" }) => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/group-1261156898.svg"
+                    src="/star.svg"
                   />
                 </div>
                 <div className={styles.goraTrai}>Gora-Trai</div>
@@ -51,7 +51,7 @@ const FrameComponent2 = ({ className = "" }) => {
                 <img
                   className={styles.religiousFestivalColumnsChild}
                   alt=""
-                  src="/group-1261156898.svg"
+                  src="/star.svg"
                 />
               </div>
               <div className={styles.zangtry}>Zangtry</div>
@@ -71,7 +71,7 @@ const FrameComponent2 = ({ className = "" }) => {
                 <img
                   className={styles.frameItem}
                   alt=""
-                  src="/group-1261156898.svg"
+                  src="/star.svg"
                 />
               </div>
               <div className={styles.navSheen}>Nav Sheen</div>
@@ -89,7 +89,7 @@ const FrameComponent2 = ({ className = "" }) => {
                   <img
                     className={styles.frameInner}
                     alt=""
-                    src="/group-1261156898.svg"
+                    src="/star.svg"
                   />
                 </div>
                 <div className={styles.jeyeshtAshtami}>Jeyesht Ashtami</div>
@@ -99,7 +99,7 @@ const FrameComponent2 = ({ className = "" }) => {
                   <img
                     className={styles.groupIcon}
                     alt=""
-                    src="/group-1261156898.svg"
+                    src="/star.svg"
                   />
                 </div>
                 <div className={styles.shravanaPunim}>Shravana Punim</div>
@@ -109,7 +109,7 @@ const FrameComponent2 = ({ className = "" }) => {
                   <img
                     className={styles.frameChild1}
                     alt=""
-                    src="/group-1261156898.svg"
+                    src="/star.svg"
                   />
                 </div>
                 <div className={styles.zarmaSatam}>Zarma Satam</div>
@@ -119,7 +119,7 @@ const FrameComponent2 = ({ className = "" }) => {
                   <img
                     className={styles.frameChild2}
                     alt=""
-                    src="/group-1261156898.svg"
+                    src="/star.svg"
                   />
                 </div>
                 <div className={styles.kawPunim}>Kaw Punim</div>
@@ -130,7 +130,7 @@ const FrameComponent2 = ({ className = "" }) => {
                 <img
                   className={styles.frameChild3}
                   alt=""
-                  src="/group-1261156898.svg"
+                  src="/star.svg"
                 />
               </div>
               <div className={styles.herathShivratri}>Herath (Shivratri)</div>

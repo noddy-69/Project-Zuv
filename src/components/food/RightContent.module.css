@@ -155,6 +155,15 @@
     width: 40px;
   }
 }
+@media screen and (max-width: 934px) {
+  .donateButton {
+    position: absolute;
+    bottom: 205px;
+  }
+  .donationImage {
+    margin-left: 170px;
+  }
+}
 @media screen and (max-width: 450px) {
   .wantToMake {
     font-size: var(--font-size-3xl);
@@ -163,5 +172,12 @@
   .rightContent {
     padding-bottom: var(--padding-59xl);
     box-sizing: border-box;
+  }
+  .donateButton {
+    position: absolute;
+    bottom: 170px;
+  }
+  .donationImage {
+    margin-left: 170px;
   }
 }

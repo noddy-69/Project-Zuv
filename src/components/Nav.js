@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import styles from "./Nav.module.css";
 
 const Nav = ({ className = "" }) => {
+
   return (
     <header className={[styles.nav, className].join(" ")}>
       <div className={styles.contentBackground} />
@@ -15,7 +16,7 @@ const Nav = ({ className = "" }) => {
       <div className={styles.phone}>
       <ul className={styles.menu1}>
             <li className={styles.dropdown1}>
-                <a href="#"><img className={styles.bars} src="/bars-solid.svg"></img>
+                <a className={styles.ham} href="#"><img className={styles.bars} src="/bars-solid.svg"></img>
                 </a>
                 <ul className={styles.dropdownmenu1}>
                     <li><a href="/">Home</a></li>
@@ -144,7 +145,7 @@ const Nav = ({ className = "" }) => {
       <div className={styles.donationButton}>
         <a className={styles.donateNow}>Donate Now</a>
       </div>
-
+      
       
     </header>
   );

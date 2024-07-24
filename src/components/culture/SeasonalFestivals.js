@@ -24,7 +24,7 @@ const SeasonalFestivals = ({
           <img
             className={styles.frameChild}
             alt=""
-            src="/group-1261156898.svg"
+            src="/star.svg"
           />
         </div>
         <div className={styles.gaadBatta}>{gaadBatta}</div>
@@ -34,7 +34,7 @@ const SeasonalFestivals = ({
           <img
             className={styles.frameItem}
             alt=""
-            src="/group-1261156898.svg"
+            src="/star.svg"
           />
         </div>
         <div className={styles.khechriAmavasya}>{khechriAmavasya}</div>

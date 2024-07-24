@@ -8,6 +8,14 @@ const FrameComponent4 = ({ className = "" }) => {
         <div className={styles.frameChild} />
         <div className={styles.ourFounderParent}>
           <h1 className={styles.ourFounder}>Our Founder</h1>
+          <div className={styles.founderImage1}>
+            <img
+              className={styles.founderPhotoIcon1}
+              loading="lazy"
+              alt=""
+              src="/kashvi.png"
+            />
+          </div>
           <div className={styles.kashviKaulIsContainer}>
             <p className={styles.kashviKaulIsTheVisionaryB}>
               <span className={styles.kashviKaul}>Kashvi Kaul</span>
@@ -35,7 +43,7 @@ const FrameComponent4 = ({ className = "" }) => {
             className={styles.founderPhotoIcon}
             loading="lazy"
             alt=""
-            src="/rectangle-187845@2x.png"
+            src="/kashvi.png"
           />
         </div>
       </div>

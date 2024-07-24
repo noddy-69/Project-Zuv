@@ -141,9 +141,30 @@
     width: 40px;
   }
 }
+@media screen and (max-width: 934px) {
+  .donationAction {
+    position: absolute;
+    bottom: 150px;
+  }
+  .donationImage {
+    margin-left: 170px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .donationAction {
+    position: absolute;
+    bottom: 120px;
+  }
+  .donationImage {
+    margin-left: 170px;
+  }
+}
 @media screen and (max-width: 450px) {
   .wantToMake {
     font-size: var(--font-size-3xl);
     line-height: 25px;
+  }
+  .wantToMakeADifferenceParent {
+    padding: 42px 26px 42px 26px;
   }
 }

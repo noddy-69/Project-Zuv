@@ -8,6 +8,14 @@ const StoryCardContent1 = ({ className = "" }) => {
         <h1 className={styles.loremIpsumDolor}>
           Play your Part and Donate Now!
         </h1>
+        <div className={styles.rectangleParent}>
+          <img
+            className={styles.storyCardContent}
+            alt=""
+            src="/donation.png"
+          />
+          <div className={styles.text} />
+        </div>
         <div className={styles.loremIpsumDolor1}>
           34 years since the migration, many Kashmiris have settled within their
           new lives in areas far away from home. However, not everyone in the

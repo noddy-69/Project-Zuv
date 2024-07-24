@@ -48,7 +48,7 @@ const FrameComponent1 = ({ className = "" }) => {
               <img
                 className={styles.galleryItemsChild}
                 alt=""
-                src="/rectangle-187848@2x.png"
+                src="/pot.png"
               />
             </div>
             <div className={styles.noetParent}>

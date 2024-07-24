@@ -61,7 +61,7 @@
 }
 .rectangleParent {
   flex: 1;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
   padding: var(--padding-41xl) var(--padding-xl);
   position: relative;
@@ -109,7 +109,7 @@
   text-align: left;
 }
 .metricValues {
-  max-width: 100%;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -133,7 +133,7 @@
   text-align: left;
 }
 .metricValues1 {
-  max-width: 100%;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -157,7 +157,7 @@
 }
 .metricItems,
 .metricValues2 {
-  max-width: 100%;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -275,7 +275,7 @@
   }
   .rectangleParent {
     height: 300px;
-    padding-bottom: 30px;
+    padding-top: 30px;
   }
   .letsPreserveTheContainer {
     font-size: 30px;
@@ -287,8 +287,11 @@
     line-height: 36px;
   }
   .letsPreserveTheContainer {
-    font-size: var(--font-size-15xl);
-    line-height: 48px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .letsPreserveThe {
+    display: block;
   }
   .homeInner {
     padding-bottom: var(--padding-32xl);
@@ -330,13 +333,10 @@
     box-sizing: border-box;
   }
   .rectangleParent {
-    height: 200px;
-    padding-bottom: 20px;
+    height: 266px;
+    padding-top: 30px;
     padding-left: 10px;
     padding-right: 10px;
-  }
-  .letsPreserveTheContainer {
-    font-size: 20px;
   }
   .metricItems {
     gap: 40px;

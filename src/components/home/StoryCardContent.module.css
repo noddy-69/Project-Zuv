@@ -27,7 +27,7 @@
   align-self: stretch;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   gap: var(--gap-base);
   max-width: 100%;
@@ -46,6 +46,7 @@
 }
 .chevronRightWrapper,
 .storyCardContent,
+.storyCardContent1,
 .storyLink {
   display: flex;
   align-items: flex-start;
@@ -56,13 +57,14 @@
   padding: var(--padding-9xs) 0 0;
 }
 .storyCardContent,
+.storyCardContent1,
 .storyLink {
   width: 240px;
   flex-direction: row;
   font-size: var(--font-size-lg);
   color: var(--color-gray-100);
 }
-.storyCardContent {
+.storyCardContent, .storyCardContent1 {
   width: 454px;
   flex-direction: column;
   gap: var(--gap-5xl);
@@ -72,6 +74,9 @@
   font-size: var(--font-size-17xl);
   color: var(--black);
   font-family: 'Mona-Sans';
+}
+.storyCardContent1 {
+  display: none;
 }
 .knowMore {
   flex: 1;
@@ -97,8 +102,24 @@
   font-size: var(--font-size-lg);
 }
 @media screen and (max-width: 1050px) {
-  .storyCardContent {
+  .storyCardContent, .storyCardContent1 {
     flex: 1;
+  }
+}
+@media screen and (max-width: 859px) {
+  .storyCardContent1 {
+    width: 1;
+    display: flex;
+    align-items: center;
+  }
+  .storyCardContent {
+    align-items: center;
+  }
+  .loremIpsumDolor {
+    align-self: center;
+  }
+  .readMoreLink {
+    width: 443px;
   }
 }
 @media screen and (max-width: 750px) {
@@ -106,7 +127,7 @@
     font-size: var(--font-size-10xl);
     line-height: 34px;
   }
-  .storyCardContent {
+  .storyCardContent, .storyCardContent1 {
     min-width: 100%;
   }
 }
@@ -114,5 +135,8 @@
   .loremIpsumDolor {
     font-size: var(--font-size-3xl);
     line-height: 25px;
+  }
+  .readMoreLink {
+    width: 100%;
   }
 }

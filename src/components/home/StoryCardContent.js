@@ -6,6 +6,14 @@ const StoryCardContent = ({ className = "" }) => {
     <div className={[styles.storyCardContent, className].join(" ")}>
       <div className={styles.storyDescription}>
         <h1 className={styles.loremIpsumDolor}>Edition One - Project Zuv</h1>
+        <div className={styles.storyCards}>
+          <img
+            className={styles.storyCardContent1}
+            loading="lazy"
+            alt=""
+            src="/sun.png"
+          />
+        </div>
         <div className={styles.loremIpsumDolor1}>
           As a part of Project Zuv, I am hosting an event which would include
           discussions on Kashmir, its culture, and its people. Through these
