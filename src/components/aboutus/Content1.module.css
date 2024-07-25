@@ -72,13 +72,12 @@
   font-family: var(--font-inter);
 }
 .ourVisionParent {
-  width: 443px;
+  width: 220px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-base);
-  min-width: 443px;
   max-width: 100%;
 }
 .visionDividerIcon {
@@ -101,11 +100,11 @@
 }
 .visionContent {
   flex: 1;
-  gap: var(--gap-41xl);
+  gap: 200px;
 }
 .visionContentWrapper {
   align-self: stretch;
-  padding: 0 var(--padding-7xs) 0 var(--padding-3xs);
+  padding: 0 200px 0 200px;
   box-sizing: border-box;
 }
 .ourGoal {
@@ -182,7 +181,7 @@
   max-width: 100%;
 }
 .missionVision {
-  width: 1020px;
+  width: 100%;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-91xl);
@@ -202,9 +201,14 @@
   align-items: center;
   align-self: center;
 }
-.frameWrapper {
-  display: flex;
-  align-items: center;
+@media screen and (max-width: 1300px) {
+  .visionContentWrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .visionContent {
+    gap: 100px;
+  }
 }
 @media screen and (max-width: 1050px) {
   .missionContent,
@@ -290,6 +294,13 @@
   .progressBarIcon1 {
     height: 300px;
   }
+  .visionContentWrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .missionVision {
+    margin-bottom: 50px;
+  }
 }
 @media screen and (max-width: 450px) {
   .ourGoal,
@@ -313,4 +324,13 @@
   .ourVisionParent {
     margin-top: 40px;
   }
+  .visionContentWrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.frameWrapper {
+  position: relative;
+  overflow: hidden;
 }

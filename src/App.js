@@ -1,6 +1,6 @@
 import { Navbar, Nav, NavDropdown, Container, Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   Routes,
   Route,
