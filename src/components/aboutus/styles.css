@@ -22,11 +22,10 @@
   }
   
   .swiper-slide {
+    border-radius: 20px;
     text-align: center;
     font-size: 18px;
     background: #fff;
-  
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,15 +43,14 @@
     margin-left: -10%;
     margin-right: -10%;
     width: 120%;
-    overflow: visible; /* Ensure overflow is visible for partial slides */
+    overflow: visible;
   }
   
   .swiper-slide {
-    /* Optional: Add custom styling for slides */
     background-color: #fff;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    width: auto; /* Ensure the width is auto to allow partial visibility */
+    width: auto;
   }
 
   @media screen and (max-width: 1300px) {
@@ -60,17 +58,19 @@
         height: 300px;
       }
   }
+
   @media screen and (max-width: 600px) {
     .swiper {
-        height: 250px;
+        height: 300px;
       }
-  }
-  @media screen and (max-width: 450px) {
-    .swiper {
-        height: 120px;
-      }
-    .swiper-slide img {
+    .swiper-slide img, .swiper-slide {
     border-radius: 10px;
+    }
+    .mySwiper {
+      margin-left: -85%;
+      margin-right: -30%;
+      width: 215%;
+      overflow: visible; /* Ensure overflow is visible for partial slides */
     }
   }
   

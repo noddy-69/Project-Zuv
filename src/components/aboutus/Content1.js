@@ -52,9 +52,15 @@ const Content1 = ({ className = "" }) => {
             768: {
               spaceBetween: 40,
             },
+            450: {
+              centeredSlides: false,
+            },
+            0: {
+              centeredSlides: true,
+            },
           }}
           loop={true}
-          centeredSlides={false}
+          
           modules={[Autoplay]}
           className="mySwiper"
         >

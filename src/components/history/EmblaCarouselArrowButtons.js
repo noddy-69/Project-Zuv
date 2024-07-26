@@ -49,6 +49,12 @@ export const PrevButton = (props) => {
         alt=""
         src="/fi-54476.svg"
       />
+      <img
+        className="nav_button1"
+        loading="lazy"
+        alt=""
+        src="/fi-544761-1.svg"
+      />
       {children}
     </button>
   )
@@ -65,6 +71,12 @@ export const NextButton = (props) => {
     >
       <img
         className="nav_button"
+        loading="lazy"
+        alt=""
+        src="/fi-544761.svg"
+      />
+      <img
+        className="nav_button1"
         loading="lazy"
         alt=""
         src="/fi-54476-1.svg"

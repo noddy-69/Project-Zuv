@@ -12,12 +12,13 @@
 }
 .ourFounder {
   margin: 0;
-  width: 348px;
+  width: max-content;
   font-size: inherit;
   line-height: 80px;
   font-family: 'Mona-Sans';
   display: inline-block;
   z-index: 1;
+  text-align: left;
 }
 .kashviKaul {
   font-weight: 600;
@@ -141,6 +142,9 @@
   }
   .founderImage {
     display: none;
+  }
+  .ourFounder {
+    text-align: center;
   }
 }
 @media screen and (max-width: 950px) {
