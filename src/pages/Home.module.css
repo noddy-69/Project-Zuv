@@ -63,7 +63,7 @@
   flex: 1;
   align-items: flex-start;
   justify-content: center;
-  padding: var(--padding-41xl) var(--padding-xl);
+  padding: 100px var(--padding-xl);
   position: relative;
   background-image: url(/public/Rectangle\ 187791.png);
   background-size: cover;
