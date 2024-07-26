@@ -9,6 +9,12 @@ const MainContent = ({ className = "" }) => {
           <div className={styles.aboutProject}>
             <div className={styles.aboutTheProjectParent}>
               <h1 className={styles.aboutTheProject}>About the Project</h1>
+              <img
+              className={styles.separatorIcon1}
+              loading="lazy"
+              alt=""
+              src="/zuv.png"
+            />
               <div className={styles.zuvIsA}>
                 Zuv is a project born out of a passion for preserving the
                 essence of Kashmir - its culture, its heritage, and its soul. 

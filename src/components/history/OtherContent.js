@@ -1,4 +1,5 @@
 import GroupComponent from "./GroupComponent";
+import GroupComponent1 from "./GroupComponent1";
 import FrameComponent from "./FrameComponent";
 import PropTypes from "prop-types";
 import styles from "./OtherContent.module.css";
@@ -17,7 +18,7 @@ const OtherContent = ({ className = "" }) => {
               originOfTheNameOfKashmir="Origin of the name of Kashmir"
               theMostCommonTaleIsThatKa="The most common tale is that Kashmir or Kasmira is called so because of Sage Kashyap— Kashyap-pur, Kash-yap-mar —"
             />
-            <GroupComponent
+            <GroupComponent1
               linkBackgrounds="/rectangle-187817-2@2x.png"
               originOfTheNameOfKashmir="Oldest site in Kashmir"
               theMostCommonTaleIsThatKa="The Neolithic site of Burzahom in present day Srinagar, Kashmir, sheds light on the human habitation patterns from the Neolithic to Megalithic period (3000 BCE-1000 BCE)"

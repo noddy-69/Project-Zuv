@@ -83,4 +83,8 @@
     padding-bottom: var(--padding-66xl);
     box-sizing: border-box;
   }
+  .theNilamataPuranaContainer {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }

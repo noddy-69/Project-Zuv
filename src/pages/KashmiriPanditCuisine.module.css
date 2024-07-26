@@ -4,7 +4,7 @@
   position: relative;
   font-size: inherit;
   line-height: 80px;
-  font-family: 'Mona-Sans';
+  font-family: "Mona-Sans";
   display: inline-block;
   max-width: 100%;
 }
@@ -24,7 +24,7 @@
   position: relative;
   font-size: inherit;
   line-height: 48px;
-  font-family: 'Mona-Sans';
+  font-family: "Mona-Sans";
   display: inline-block;
 }
 .dumAlooIs {
@@ -45,7 +45,8 @@
   min-width: 333px;
   max-width: 100%;
 }
-.pgpgpgIcon,.pgpgpgIcon1 {
+.pgpgpgIcon,
+.pgpgpgIcon1 {
   width: 440px;
   position: relative;
   border-radius: var(--br-base);
@@ -76,7 +77,7 @@
   position: relative;
   font-size: inherit;
   line-height: 48px;
-  font-family: 'Mona-Sans';
+  font-family: "Mona-Sans";
   display: inline-block;
 }
 .blankLine,
@@ -107,7 +108,8 @@
   min-width: 333px;
   max-width: 100%;
 }
-.icon1, .icon11 {
+.icon1,
+.icon11 {
   width: 440px;
   position: relative;
   border-radius: var(--br-base);
@@ -137,7 +139,7 @@
   position: relative;
   font-size: inherit;
   line-height: 48px;
-  font-family: 'Mona-Sans';
+  font-family: "Mona-Sans";
   display: inline-block;
 }
 .blankLine3,
@@ -172,7 +174,8 @@
   min-width: 333px;
   max-width: 100%;
 }
-.divCssqlraIcon, .divCssqlraIcon1 {
+.divCssqlraIcon,
+.divCssqlraIcon1 {
   width: 440px;
   position: relative;
   border-radius: var(--br-base);
@@ -203,7 +206,7 @@
   position: relative;
   font-size: inherit;
   line-height: 48px;
-  font-family: 'Mona-Sans';
+  font-family: "Mona-Sans";
   display: inline-block;
 }
 .blankLine4,
@@ -235,7 +238,8 @@
   min-width: 333px;
   max-width: 100%;
 }
-.dishItemsChild, .dishItemsChild1 {
+.dishItemsChild,
+.dishItemsChild1 {
   width: 440px;
   position: relative;
   border-radius: var(--br-base);
@@ -422,8 +426,27 @@
 }
 @media screen and (max-width: 450px) {
   .kashmiriPanditCuisine1 {
-    font-size: 28px;
-    line-height: 26px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .dumAloo,
+  .kahwah,
+  .yakhni,
+  .katlam {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .dumAlooIs,
+  .theKashmiriKahwah,
+  .traditionallyKahwahIs,
+  .whileItsExact,
+  .theWordKahwah,
+  .yakhniCameTo,
+  .yakhnisCanBeMeatBasedSuch,
+  .katlamIsOne,
+  .itIsAFlakyRoundPattyLik {
+    font-size: 14px;
+    line-height: 20px;
   }
   .dumAloo {
     font-size: var(--font-size-3xl);

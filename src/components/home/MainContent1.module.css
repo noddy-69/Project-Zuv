@@ -38,6 +38,7 @@
   line-height: 24px;
   display: inline-block;
   min-width: 99px;
+  font-size: 18px;
 }
 .contentBlock,
 .contentItem,
@@ -45,6 +46,14 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  text-decoration: none;
+  color: black;
 }
 .readMoreLink {
   width: max-content;
@@ -62,12 +71,12 @@
   flex-direction: column;
 }
 .contentItem {
+  margin-top: -18px;
   align-self: stretch;
   gap: var(--gap-lg);
 }
 .contentBlock {
   width: 398px;
-  padding: var(--padding-base) 0 0;
   box-sizing: border-box;
   min-width: 398px;
   max-width: 100%;
@@ -157,7 +166,17 @@
   .new {
     height: 250px;
   }
-  .readMoreLink {
+  .readMoreLink, .link {
     width: 100%;
+  }
+  .loremIpsumDolor {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .knowMore {
+    font-size: 16px;
+  }
+  .contentItem {
+    margin-top: 0px;
   }
 }

@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
-import styles from "./GroupComponent.module.css";
+import styles from "./GroupComponent1.module.css";
 
-const GroupComponent = ({
+const GroupComponent1 = ({
   className = "",
   linkBackgrounds,
   originOfTheNameOfKashmir,
@@ -26,7 +26,7 @@ const GroupComponent = ({
             </div>
           </div>
           <div className={styles.linkButtons}>
-          <a className={styles.link} href="/kashmir-the-name">
+          <a className={styles.link} href="/oldest-site-in-kashmir">
             <div className={styles.linkActions}>
               <b className={styles.readMore}>Read more</b>
             </div>
@@ -38,11 +38,11 @@ const GroupComponent = ({
   );
 };
 
-GroupComponent.propTypes = {
+GroupComponent1.propTypes = {
   className: PropTypes.string,
   linkBackgrounds: PropTypes.string,
   originOfTheNameOfKashmir: PropTypes.string,
   theMostCommonTaleIsThatKa: PropTypes.string,
 };
 
-export default GroupComponent;
+export default GroupComponent1;

@@ -1,6 +1,6 @@
 .whereDidIt {
   margin: 0;
-  width: 742px;
+  width: max-content;
   position: relative;
   font-size: inherit;
   line-height: 80px;
@@ -175,8 +175,12 @@
 }
 @media screen and (max-width: 450px) {
   .whereDidIt {
-    font-size: var(--font-size-15xl);
-    line-height: 48px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .contacts {
+    font-size: 14px;
+    line-height: 20px;
   }
   .innerContentWrapper {
     padding-bottom: 33px;

@@ -12,7 +12,7 @@ body {
   /* font sizes */
   --font-size-base: 16px;
   --font-size-sm: 14px;
-  --font-size-lg: 18px;
+  --font-size-lg: 16px;
   --font-size-17xl: 36px;
   --font-size-3xl: 22px;
   --font-size-10xl: 29px;
@@ -26,7 +26,7 @@ body {
   --white: #fff;
   --primary-color: #145ECC;
   --offset-2: #f1f2f4;
-  --secondary-color: #ffbb5c;
+  --secondary-color: #FFC107;
   --black: #222520;
   --offset-21: #faf7f0;
   --offset-1: #E2F1FF;

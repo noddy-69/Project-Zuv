@@ -54,4 +54,8 @@
     font-size: var(--font-size-base);
     line-height: 22px;
   }
+  .whatIWant {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }

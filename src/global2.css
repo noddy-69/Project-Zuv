@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Mona-Sans';
-  src: url('./fonts/Mona-Sans-Bold.ttf') format('truetype');
+  src: url('./fonts/Mona-Sans-BoldWide.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -24,7 +24,7 @@ body {
   /* font sizes */
   --font-size-base: 16px;
   --font-size-sm: 14px;
-  --font-size-lg: 18px;
+  --font-size-lg: 16px;
   --font-size-17xl: 36px;
   --font-size-3xl: 22px;
   --font-size-10xl: 29px;
@@ -45,7 +45,7 @@ body {
   --color-dimgray-100: #5c3b39;
   --primary-color: #145ECC;
   --offset-2: #f1f2f4;
-  --secondary-color: #ffbb5c;
+  --secondary-color: #FFC107;
   --color-gray-100: #4c2619;
   --black: #222520;
   --color-papayawhip: #fef0d8;

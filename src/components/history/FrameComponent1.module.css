@@ -154,8 +154,8 @@
 }
 @media screen and (max-width: 450px) {
   .scientificObservancesAbout {
-    font-size: var(--font-size-15xl);
-    line-height: 48px;
+    font-size: 24px;
+    line-height: 32px;
   }
   .rectangleParent {
     padding-top: var(--padding-23xl);
@@ -164,5 +164,9 @@
   }
   .geologyContentChild {
     width: 300px;
+  }
+  .geologistsAgreeThatTheVallWrapper {
+    font-size: 14px;
+    line-height: 20px;
   }
 }

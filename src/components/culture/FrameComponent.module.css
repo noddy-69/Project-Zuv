@@ -1,7 +1,7 @@
 .profoundKashmiriSingers {
   margin: 0;
   align-self: stretch;
-  height: 160px;
+  height: max-content;
   position: relative;
   font-size: inherit;
   line-height: 80px;
@@ -75,13 +75,13 @@
     box-sizing: border-box;
   }
   .singersTitle {
-    gap: var(--gap-mini);
+    gap: 40px;
   }
 }
 @media screen and (max-width: 600px) {
   .profoundKashmiriSingers {
-    font-size: var(--font-size-15xl);
-    line-height: 48px;
+    font-size: 24px;
+    line-height: 32px;
   }
   .image {
     gap: var(--gap-lg);

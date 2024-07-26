@@ -150,4 +150,8 @@
   .contentRectIcon {
     height: 200px;
   }
+  .contentParagraph {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }

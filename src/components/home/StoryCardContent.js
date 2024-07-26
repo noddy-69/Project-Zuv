@@ -22,9 +22,11 @@ const StoryCardContent = ({ className = "" }) => {
           one-on-one format, lasting 45-60 minutes.
         </div>
       </div>
+      <a className={styles.link} href="/event">
       <div className={styles.readMoreLink}>
         <b className={styles.knowMore}>Read More</b>
       </div>
+      </a>
     </div>
   );
 };

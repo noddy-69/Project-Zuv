@@ -100,8 +100,12 @@
 }
 @media screen and (max-width: 450px) {
   .kanngucch {
-    font-size: var(--font-size-3xl);
-    line-height: 29px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .popularlyKnownAs, .storiesHaveCome, .inKashmiriCooking {
+    font-size: 20px;
+    line-height: 28px;
   }
   .frameParent {
     padding-left: var(--padding-xl);

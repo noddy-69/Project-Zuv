@@ -25,6 +25,7 @@
   align-self: stretch;
 }
 .donateNow {
+  font-size: 18px;
   flex: 1;
 }
 .donationAction,
@@ -34,7 +35,7 @@
   justify-content: flex-start;
 }
 .donationAction {
-  width: 156px;
+  width: max-content;
   border-radius: var(--br-xs);
   background-color: var(--secondary-color);
   overflow: hidden;
@@ -161,10 +162,17 @@
 }
 @media screen and (max-width: 450px) {
   .wantToMake {
-    font-size: var(--font-size-3xl);
-    line-height: 25px;
+    font-size: 24px;
+    line-height: 32px;
   }
   .wantToMakeADifferenceParent {
     padding: 42px 26px 42px 26px;
+  }
+  .withOurDonation {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .donateNow {
+    font-size: 16px;
   }
 }

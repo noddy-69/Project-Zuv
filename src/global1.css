@@ -22,7 +22,7 @@ body {
   --font-size-xl: 20px;
   --font-size-5xl: 24px;
   --font-size-lgi: 19px;
-  --font-size-lg: 18px;
+  --font-size-lg: 16px;
 
   /* Colors */
   --white: #fff;
@@ -30,7 +30,7 @@ body {
   --black: #222520;
   --offset-1: #E2F1FF;
   --color-darkslategray: #007BFF2B;
-  --secondary-color: #ffbb5c;
+  --secondary-color: #FFC107;
 
   /* Gaps */
   --gap-xl: 20px;

@@ -48,7 +48,7 @@
 .storyCardContent,
 .storyLink {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
 }
 .chevronRightWrapper {
@@ -79,6 +79,7 @@
   line-height: 24px;
   display: inline-block;
   min-width: 99px;
+  font-size: 18px;
 }
 .readMoreLink {
   display: flex;
@@ -109,10 +110,13 @@
     display: flex;
   }
   .loremIpsumDolor {
-    align-self: center;
+    align-self: flex-start;
   }
   .readMoreLink {
     width: 443px;
+  }
+  .storyCardContent {
+  align-items: center;
   }
 }
 @media screen and (max-width: 750px) {
@@ -126,10 +130,19 @@
 }
 @media screen and (max-width: 450px) {
   .loremIpsumDolor {
-    font-size: var(--font-size-3xl);
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 24px;
+    width: 220px;
+    height: 60px;
+  }
+  .loremIpsumDolor1 {
+    font-size: 14px;
+    line-height: 20px;
   }
   .readMoreLink {
     width: 100%;
+  }
+  .knowMore {
+    font-size: 16px;
   }
 }

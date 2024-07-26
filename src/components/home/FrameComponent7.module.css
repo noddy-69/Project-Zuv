@@ -171,8 +171,8 @@
 }
 @media screen and (max-width: 450px) {
   .stories {
-    font-size: var(--font-size-15xl);
-    line-height: 48px;
+    font-size: 24px;
+    line-height: 24px;
   }
   .text {
     font-size: var(--font-size-10xl);
@@ -180,5 +180,11 @@
   }
   .storyCardContent {
     height: 200px;
+  }
+  .storiesContent {
+    gap: 20px;
+  }
+  .storyItems {
+    gap: 40px;
   }
 }

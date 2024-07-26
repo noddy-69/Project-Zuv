@@ -12,7 +12,7 @@
   position: relative;
   font-size: inherit;
   line-height: 80px;
-  font-family: 'Mona-Sans';
+  font-family: "Mona-Sans";
   display: inline-block;
   max-width: 100%;
   z-index: 1;
@@ -32,7 +32,7 @@
   position: relative;
   font-size: inherit;
   line-height: 42px;
-  font-family: 'Mona-Sans';
+  font-family: "Mona-Sans";
 }
 .blankLine,
 .blankLine1,
@@ -68,7 +68,7 @@
   position: relative;
   font-size: inherit;
   line-height: 42px;
-  font-family: 'Mona-Sans';
+  font-family: "Mona-Sans";
 }
 .asPerThe,
 .blankLine10,
@@ -110,7 +110,7 @@
   position: relative;
   font-size: inherit;
   line-height: 42px;
-  font-family: 'Mona-Sans';
+  font-family: "Mona-Sans";
 }
 .blankLine11,
 .blankLine12,
@@ -123,7 +123,7 @@
 .roth {
   font-size: var(--font-size-9xl);
   line-height: 48px;
-  font-family: 'Mona-Sans';
+  font-family: "Mona-Sans";
 }
 .cleaningOfThe {
   line-height: 36px;
@@ -199,7 +199,7 @@
   position: relative;
   font-size: inherit;
   line-height: 42px;
-  font-family: 'Mona-Sans';
+  font-family: "Mona-Sans";
 }
 .blankLine19,
 .goraTraiOrGauri,
@@ -230,7 +230,7 @@
   position: relative;
   font-size: inherit;
   line-height: 42px;
-  font-family: 'Mona-Sans';
+  font-family: "Mona-Sans";
 }
 .blankLine20,
 .celebrationOfThis,
@@ -333,19 +333,37 @@
 }
 @media screen and (max-width: 450px) {
   .socialFestivals {
-    font-size: var(--font-size-15xl);
-    line-height: 48px;
+    font-size: 24px;
+    line-height: 32px;
   }
   .gdaBatt,
   .goraTrai,
   .khechriAmavasyaKhechmaavas,
   .pann,
   .zangtry {
-    font-size: var(--font-size-3xl);
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .roth {
+    font-size: 17px;
+    line-height: 22px;
   }
   .socialFestivalDetails {
     padding-bottom: var(--padding-2xl);
     box-sizing: border-box;
+  }
+  .kashmiriPanditsBelieveContainer,
+  .khechriMavasOrContainer,
+  .cleaningOfTheKitchenAndUt,
+  .aKalashOr,
+  .onceTheKalash,
+  .raytaManzRayta,
+  .theStoryOf,
+  .goraTraiOrGauri,
+  .inKashmiriThis,
+  .celebrationOfThis,
+  .onThisDay {
+    font-size: 14px;
+    line-height: 20px;
   }
 }

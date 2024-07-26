@@ -27,7 +27,7 @@
 }
 @media screen and (max-width: 450px) {
   .ghulamHassanSofi {
-    font-size: var(--font-size-base);
-    line-height: 19px;
+    font-size: 14px;
+    line-height: 20px;
   }
 }

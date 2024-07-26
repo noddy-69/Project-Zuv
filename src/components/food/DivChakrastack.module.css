@@ -95,11 +95,15 @@
 }
 @media screen and (max-width: 450px) {
   .roth {
-    font-size: var(--font-size-3xl);
-    line-height: 29px;
+    font-size: 20px;
+    line-height: 28px;
   }
   .divChakrastack {
     padding: var(--padding-20xl) var(--padding-xl);
     box-sizing: border-box;
+  }
+  .rothIsA, .rothIsUsed {
+    font-size: 14px;
+    line-height: 20px;
   }
 }

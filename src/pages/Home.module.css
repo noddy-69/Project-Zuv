@@ -92,7 +92,7 @@
   font-weight: 700;
 }
 .m {
-  width: 220px;
+  width: 250px;
   position: relative;
   display: inline-block;
   margin-bottom: 20px;
@@ -116,7 +116,7 @@
   justify-content: flex-start;
 }
 .k {
-  max-width: 220px;
+  max-width: 250px;
   position: relative;
   display: inline-block;
   margin-bottom: 20px;
@@ -140,7 +140,7 @@
   justify-content: flex-start;
 }
 .div {
-  width: 220px;
+  width: 250px;
   position: relative;
   display: inline-block;
   margin-bottom: 20px;
@@ -287,8 +287,8 @@
     line-height: 36px;
   }
   .letsPreserveTheContainer {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 28px;
   }
   .letsPreserveThe {
     display: block;
@@ -329,8 +329,8 @@
     line-height: 20px;
   }
   .impactContentWrapper {
-    padding-bottom: var(--padding-59xl);
     box-sizing: border-box;
+    margin-bottom: 80px;
   }
   .rectangleParent {
     height: 266px;

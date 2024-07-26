@@ -84,11 +84,20 @@
   line-height: 24px;
   display: inline-block;
   min-width: 99px;
+  font-size: 18px;
 }
 .readMoreLink {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  text-decoration: none;
+  color: black;
 }
 .readMoreLink {
   width: max-content;
@@ -116,7 +125,7 @@
     align-items: center;
   }
   .loremIpsumDolor {
-    align-self: center;
+    align-self: flex-start;
   }
   .readMoreLink {
     width: 443px;
@@ -133,10 +142,18 @@
 }
 @media screen and (max-width: 450px) {
   .loremIpsumDolor {
-    font-size: var(--font-size-3xl);
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 24px;
+    height: 60px;
   }
-  .readMoreLink {
+  .loremIpsumDolor1 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .readMoreLink, .link {
     width: 100%;
+  }
+  .knowMore {
+    font-size: 16px;
   }
 }

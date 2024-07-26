@@ -53,16 +53,16 @@ const Nav = ({ className = "" }) => {
       <div className={styles.pageContent}>
         <div className={styles.dropdownMenu}>
         <button class={styles.select}>
-          <a href="/">Home</a>
+          <a href="/">HOME</a>
         </button>
 
         <button class={styles.select}>
-          <a href="/event">Exhibition</a>
+          <a href="/event">EXHIBITION</a>
         </button>
           
 
           <div class={styles.dropdown}>
-            <button class={styles.select}>History & Origin
+            <button class={styles.select}>HISTORY & ORIGIN
             <img
               className={styles.systemactionarrowDropDownIcon}
               alt=""
@@ -87,7 +87,7 @@ const Nav = ({ className = "" }) => {
           </div>
 
           <div class={styles.dropdown}>
-            <button class={styles.select}>Food
+            <button class={styles.select}>FOOD
             <img
               className={styles.systemactionarrowDropDownIcon}
               alt=""
@@ -111,7 +111,7 @@ const Nav = ({ className = "" }) => {
           </div>
 
           <div class={styles.dropdown}>
-            <button class={styles.select}>Culture
+            <button class={styles.select}>CULTURE
             <img
               className={styles.systemactionarrowDropDownIcon}
               alt=""
@@ -135,7 +135,7 @@ const Nav = ({ className = "" }) => {
           </div>
 
           <button class={styles.select}>
-            <a href="/about-us">About</a>
+            <a href="/about-us">ABOUT</a>
           </button>
 
           

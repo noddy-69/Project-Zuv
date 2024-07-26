@@ -413,48 +413,44 @@
 }
 @media screen and (max-width: 450px) {
   .kashmiriFestivals {
-    font-size: var(--font-size-15xl);
-    line-height: 48px;
+    font-size: 24px;
+    line-height: 32px;
   }
-  .socialFestivals {
-    font-size: var(--font-size-lgi);
-    line-height: 26px;
+  .accordingToKashmiri {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .socialFestivals, .seasonalFestivals, .religiousFestivals1 {
+    font-size: 20px;
+    line-height: 24px;
   }
   .goraTrai,
   .pann,
   .zangtry {
-    font-size: var(--font-size-base);
-    line-height: 26px;
+    font-size: 14px;
+    line-height: 20px;
   }
   .festivalTypeColumns {
     padding-top: var(--padding-2xl);
     padding-bottom: var(--padding-6xl);
     box-sizing: border-box;
   }
-  .navSheen,
-  .seasonalFestivals {
-    font-size: var(--font-size-lgi);
-    line-height: 26px;
-  }
   .navSheen {
-    font-size: var(--font-size-base);
+    font-size: 14px;
+    line-height: 20px;
   }
   .festivalTypeColumns1 {
     padding-top: var(--padding-2xl);
     padding-bottom: var(--padding-69xl);
     box-sizing: border-box;
   }
-  .religiousFestivals1 {
-    font-size: var(--font-size-lgi);
-    line-height: 26px;
-  }
   .herathShivratri,
   .jeyeshtAshtami,
   .kawPunim,
   .shravanaPunim,
   .zarmaSatam {
-    font-size: var(--font-size-base);
-    line-height: 26px;
+    font-size: 14px;
+    line-height: 20px;
   }
   .festivalTypeColumns2 {
     padding-top: var(--padding-2xl);

@@ -32,7 +32,7 @@ p {
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-start;
-  gap: 0px;
+  gap: 60px;
   font-size: var(--font-size-base);
 }
 .legendContent,
@@ -108,10 +108,14 @@ p {
 }
 @media screen and (max-width: 450px) {
   .theHinduLegend {
-    font-size: var(--font-size-15xl);
-    line-height: 48px;
+    font-size: 24px;
+    line-height: 32px;
   }
   .contentDividerIcon {
     height: 200px;
+  }
+  .oneOfThe {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
