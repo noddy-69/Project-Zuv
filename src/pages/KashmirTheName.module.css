@@ -175,11 +175,11 @@
 }
 @media screen and (max-width: 450px) {
   .whereDidIt {
-    font-size: 24px;
+    font-size: var(--font-size-5xl);
     line-height: 32px;
   }
   .contacts {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
   .innerContentWrapper {

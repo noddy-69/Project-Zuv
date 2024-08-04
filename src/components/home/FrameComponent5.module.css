@@ -158,7 +158,7 @@
 }
 @media screen and (max-width: 450px) {
   .wantToMake {
-    font-size: 24px;
+    font-size: var(--font-size-5xl);
     line-height: 32px;
   }
   .donateButton {
@@ -166,10 +166,10 @@
     bottom: 140px;
   }
   .withOurDonation {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
   .donateNow {
-    font-size: 16px;
+    font-size: var(--font-size-base);
   }
 }

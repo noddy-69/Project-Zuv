@@ -306,11 +306,11 @@
   .ourGoal,
   .ourMission,
   .ourVision {
-    font-size: 24px;
+    font-size: var(--font-size-5xl);
     line-height: 32px;
   }
   .zuvIsA {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
   .missionDividerIcon {

@@ -110,7 +110,7 @@
 }
 @media screen and (max-width: 450px) {
   .originOfKashmir {
-    font-size: 22px;
+    font-size: var(--font-size-3xl);
     line-height: 28px;
     padding-left: 20px;
     padding-right: 20px;

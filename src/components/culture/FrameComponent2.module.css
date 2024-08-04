@@ -413,21 +413,21 @@
 }
 @media screen and (max-width: 450px) {
   .kashmiriFestivals {
-    font-size: 24px;
+    font-size: var(--font-size-5xl);
     line-height: 32px;
   }
   .accordingToKashmiri {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
   .socialFestivals, .seasonalFestivals, .religiousFestivals1 {
-    font-size: 20px;
+    font-size: var(--font-size-xl);
     line-height: 24px;
   }
   .goraTrai,
   .pann,
   .zangtry {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
   .festivalTypeColumns {
@@ -436,7 +436,7 @@
     box-sizing: border-box;
   }
   .navSheen {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
   .festivalTypeColumns1 {
@@ -449,7 +449,7 @@
   .kawPunim,
   .shravanaPunim,
   .zarmaSatam {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
   .festivalTypeColumns2 {

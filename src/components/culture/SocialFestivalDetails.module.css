@@ -333,7 +333,7 @@
 }
 @media screen and (max-width: 450px) {
   .socialFestivals {
-    font-size: 24px;
+    font-size: var(--font-size-5xl);
     line-height: 32px;
   }
   .gdaBatt,
@@ -341,7 +341,7 @@
   .khechriAmavasyaKhechmaavas,
   .pann,
   .zangtry {
-    font-size: 20px;
+    font-size: var(--font-size-xl);
     line-height: 24px;
   }
   .roth {
@@ -363,7 +363,7 @@
   .inKashmiriThis,
   .celebrationOfThis,
   .onThisDay {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
 }

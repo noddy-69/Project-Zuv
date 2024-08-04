@@ -287,7 +287,7 @@
     line-height: 36px;
   }
   .letsPreserveTheContainer {
-    font-size: 22px;
+    font-size: var(--font-size-3xl);
     line-height: 28px;
   }
   .letsPreserveThe {
@@ -303,29 +303,29 @@
   }
   .m {
     width: 100%;
-    font-size: 20px;
+    font-size: var(--font-size-xl);
     line-height: 24px;
   }
   .childrenFedYearly {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
   .k {
     width: 100%;
-    font-size: 20px;
+    font-size:var(--font-size-xl);
     line-height: 24px;
   }
   .sponsoreYearly {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
   .div {
     width: 100%;
-    font-size: 20px;
+    font-size: var(--font-size-xl);
     line-height: 24px;
   }
   .countriesSupported {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
   .impactContentWrapper {

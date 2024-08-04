@@ -234,21 +234,21 @@
 }
 @media screen and (max-width: 450px) {
   .aboutTheProject {
-    font-size: 24px;
+    font-size: var(--font-size-5xl);
     line-height: 32px;
   }
   .aboutProject {
     min-width: 100%;
   }
   .whatIsThe {
-    font-size: 24px;
+    font-size: var(--font-size-5xl);
     line-height: 32px;
   }
   .eventDescription {
     min-width: 100%;
   }
   .asAPart, .iWillHave, .thWeekOf, .newDelhi {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
 }

@@ -179,7 +179,7 @@
 }
 @media screen and (max-width: 515px) {
   .traditionalPerformingArts {
-    font-size: 24px;
+    font-size: var(--font-size-5xl);
     line-height: 32px;
     height: 100px;
     margin-top: 40px;
@@ -193,7 +193,7 @@
     line-height: 22px;
   }
   .thisClassicalMusic, .aPopularForm, .thisIsA, .thisIsA1 {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
   .musicList {

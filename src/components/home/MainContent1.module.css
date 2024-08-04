@@ -170,11 +170,11 @@
     width: 100%;
   }
   .loremIpsumDolor {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
   .knowMore {
-    font-size: 16px;
+    font-size: var(--font-size-base);
   }
   .contentItem {
     margin-top: 0px;

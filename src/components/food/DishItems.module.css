@@ -101,7 +101,7 @@
 }
 @media screen and (max-width: 450px) {
   .monji {
-    font-size: 20px;
+    font-size: var(--font-size-xl);
     line-height: 28px;
   }
   .dishItems {
@@ -109,7 +109,7 @@
     box-sizing: border-box;
   }
   .kohlrabiIsA, .muchLikeHaak {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
 }

@@ -108,14 +108,14 @@ p {
 }
 @media screen and (max-width: 450px) {
   .theHinduLegend {
-    font-size: 24px;
+    font-size: var(--font-size-5xl);
     line-height: 32px;
   }
   .contentDividerIcon {
     height: 200px;
   }
   .oneOfThe {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
 }

@@ -154,7 +154,7 @@
 }
 @media screen and (max-width: 450px) {
   .scientificObservancesAbout {
-    font-size: 24px;
+    font-size: var(--font-size-5xl);
     line-height: 32px;
     text-align: center;
   }
@@ -167,7 +167,7 @@
     width: 300px;
   }
   .geologistsAgreeThatTheVallWrapper {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
 }

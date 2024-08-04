@@ -60,7 +60,7 @@
 @media screen and (max-width: 450px) {
   .gaadBatta,
   .khechriAmavasya {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
 }

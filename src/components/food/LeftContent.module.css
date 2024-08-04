@@ -151,7 +151,7 @@
     height: 200px;
   }
   .contentParagraph {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     line-height: 20px;
   }
 }
